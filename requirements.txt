@@ -17,6 +17,29 @@ Flask-SQLAlchemy==2.4.0
 Flask-WTF==0.14.2
 Flask-User==1.0.1.5
 
+# Matplotlib Framework
+py~=1.11.0
+colorama~=0.4.4
+pip~=21.2.4
+cryptography~=36.0.1
+Mako~=1.1.6
+blinker~=1.4
+six~=1.16.0
+SQLAlchemy~=1.4.31
+python-dateutil~=2.8.2
+alembic~=1.7.6
+passlib~=1.7.4
+WTForms~=3.0.1
+coverage~=6.3.1
+greenlet~=1.1.2
+pycparser~=2.21
+setuptools~=58.1.0
+bcrypt~=3.2.0
+matplotlib~=3.5.1
+
+# Numpy
+numpy~=1.22.2
+
 # Automated tests
 pytest==3.0.5
 pytest-cov==2.4.0

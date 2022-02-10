@@ -2,20 +2,20 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 0,Star Wars: Episode VII - The Force Awakens (2015),Walt Disney Studios Motion Pictures,16-Dec-15,936662225,1132859475,2069521700,"['Action', 'Adventure', 'Sci-Fi']",2 hr 18 min,PG-13
 1,Avengers: Endgame (2019),Walt Disney Studios Motion Pictures,24-Apr-19,858373000,1939128328,2797501328,"['Action', 'Adventure', 'Drama', 'Sci-Fi']",3 hr 1 min,PG-13
 2,Avatar (2009),Twentieth Century Fox,16-Dec-09,760507625,2086738578,2847246203,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",2 hr 42 min,PG-13
-3,Black Panther (2018),Walt Disney Studios Motion Pictures,NA,700426566,647171407,1347597973,"['Action', 'Adventure', 'Sci-Fi']",2 hr 14 min,NA
-4,Avengers: Infinity War (2018),Walt Disney Studios Motion Pictures,NA,678815482,1369544272,2048359754,"['Action', 'Adventure', 'Sci-Fi']",2 hr 29 min,NA
-5,Spider-Man: No Way Home (2021),Sony Pictures Entertainment (SPE),NA,675813257,868642706,1544455963,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",2 hr 28 min,NA
+3,Black Panther (2018),Walt Disney Studios Motion Pictures,NA,700426566,647171407,1347597973,"['Action', 'Adventure', 'Sci-Fi']",2 hr 14 min,PG-13
+4,Avengers: Infinity War (2018),Walt Disney Studios Motion Pictures,NA,678815482,1369544272,2048359754,"['Action', 'Adventure', 'Sci-Fi']",2 hr 29 min,PG-13
+5,Spider-Man: No Way Home (2021),Sony Pictures Entertainment (SPE),NA,675813257,868642706,1544455963,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",2 hr 28 min,PG-13
 6,Titanic (1997),Paramount Pictures,19-Dec-97,659363944,1542283320,2201647264,"['Drama', 'Romance']",3 hr 14 min,PG-13
 7,Jurassic World (2015),Universal Pictures,10-Jun-15,652385625,1018130819,1670516444,"['Action', 'Adventure', 'Sci-Fi']",2 hr 4 min,PG-13
 8,The Avengers (2012),Walt Disney Studios Motion Pictures,25-Apr-12,623357910,895457605,1518815515,"['Action', 'Adventure', 'Sci-Fi']",2 hr 23 min,PG-13
 9,Star Wars: Episode VIII - The Last Jedi (2017),Walt Disney Studios Motion Pictures,13-Dec-17,620181382,712517448,1332698830,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",2 hr 32 min,PG-13
-10,Incredibles 2 (2018),Walt Disney Studios Motion Pictures,NA,608581744,634507500,1243089244,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Sci-Fi']",1 hr 58 min,NA
+10,Incredibles 2 (2018),Walt Disney Studios Motion Pictures,NA,608581744,634507500,1243089244,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Sci-Fi']",1 hr 58 min,PG
 11,The Lion King (2019),Walt Disney Studios Motion Pictures,11-Jul-19,543638043,1119261396,1662899439,"['Adventure', 'Animation', 'Drama', 'Family', 'Musical']",1 hr 58 min,PG
 12,The Dark Knight (2008),Warner Bros.,16-Jul-08,534858444,471115201,1005973645,"['Action', 'Crime', 'Drama', 'Thriller']",2 hr 32 min,PG-13
 13,Rogue One: A Star Wars Story (2016),Walt Disney Studios Motion Pictures,14-Dec-16,532177324,523880396,1056057720,"['Action', 'Adventure', 'Sci-Fi']",2 hr 13 min,PG-13
 14,Star Wars: Episode IX - The Rise of Skywalker (2019),Walt Disney Studios Motion Pictures,18-Dec-19,515202542,558946737,1074149279,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",2 hr 21 min,PG-13
 15,Beauty and the Beast (2017),Walt Disney Studios Motion Pictures,16-Mar-17,504481165,769095055,1273576220,"['Adventure', 'Family', 'Fantasy', 'Musical', 'Romance']",2 hr 9 min,PG
-16,Finding Dory (2016),Walt Disney Studios Motion Pictures,NA,486295561,542275381,1028570942,"['Adventure', 'Animation', 'Comedy', 'Family']",1 hr 37 min,NA
+16,Finding Dory (2016),Walt Disney Studios Motion Pictures,NA,486295561,542275381,1028570942,"['Adventure', 'Animation', 'Comedy', 'Family']",1 hr 37 min,PG
 17,Frozen II (2019),Walt Disney Studios Motion Pictures,20-Nov-19,477373578,972653355,1450026933,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical']",1 hr 43 min,PG
 18,Star Wars: Episode I - The Phantom Menace (1999),Twentieth Century Fox,19-May-99,474544677,552538030,1027082707,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",2 hr 16 min,PG
 19,Star Wars: Episode IV - A New Hope (1977),Twentieth Century Fox,25-May-77,460998507,195751992,775398007,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",2 hr 1 min,PG
@@ -29,7 +29,7 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 27,Pirates of the Caribbean: Dead Man's Chest (2006),Walt Disney Studios Motion Pictures,6-Jul-06,423315812,642863935,1066179747,"['Action', 'Adventure', 'Fantasy']",2 hr 31 min,PG-13
 28,The Lion King (1994),Walt Disney Studios Motion Pictures,15-Jun-94,422783777,640828028,1063611805,"['Adventure', 'Animation', 'Drama', 'Family', 'Musical']",1 hr 28 min,G
 29,Jurassic World: Fallen Kingdom (2018),Universal Pictures,6-Jun-18,417719760,892746536,1310466296,"['Action', 'Adventure', 'Sci-Fi']",2 hr 8 min,PG-13
-30,Toy Story 3 (2010),Walt Disney Studios Motion Pictures,16-Jun-10,415004880,651965931,1066970811,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 43 min,NA
+30,Toy Story 3 (2010),Walt Disney Studios Motion Pictures,16-Jun-10,415004880,651965931,1066970811,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 43 min,G
 31,Wonder Woman (2017),Warner Bros.,30-May-17,412815408,410009114,822824522,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi', 'War']",2 hr 21 min,PG-13
 32,Iron Man 3 (2013),Walt Disney Studios Motion Pictures,24-Apr-13,409013994,805797258,1214811252,"['Action', 'Adventure', 'Sci-Fi']",2 hr 10 min,PG-13
 33,Captain America: Civil War (2016),Walt Disney Studios Motion Pictures,27-Apr-16,408084349,745253147,1153337496,"['Action', 'Adventure', 'Sci-Fi']",2 hr 27 min,PG-13
@@ -41,8 +41,8 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 39,Frozen (2013),Walt Disney Studios Motion Pictures,22-Nov-13,400953009,880555091,1281508100,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical']",1 hr 42 min,PG
 40,Spider-Man: Far from Home (2019),Sony Pictures Entertainment (SPE),28-Jun-19,390532085,741395911,1131927996,"['Action', 'Adventure', 'Sci-Fi']",2 hr 9 min,PG-13
 41,Guardians of the Galaxy Vol. 2 (2017),Walt Disney Studios Motion Pictures,25-Apr-17,389813101,473942950,863756051,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",2 hr 16 min,PG-13
-42,Harry Potter and the Deathly Hallows: Part 2 (2011),Warner Bros.,NA,381409310,960912354,1342321665,"['Adventure', 'Fantasy', 'Mystery']",2 hr 10 min,NA
-43,Finding Nemo (2003),Walt Disney Studios Motion Pictures,30-May-03,380843261,559509384,940352645,"['Adventure', 'Animation', 'Comedy', 'Family']",1 hr 40 min,NA
+42,Harry Potter and the Deathly Hallows: Part 2 (2011),Warner Bros.,NA,381409310,960912354,1342321665,"['Adventure', 'Fantasy', 'Mystery']",2 hr 10 min,PG-13
+43,Finding Nemo (2003),Walt Disney Studios Motion Pictures,30-May-03,380843261,559509384,940352645,"['Adventure', 'Animation', 'Comedy', 'Family']",1 hr 40 min,G
 44,Star Wars: Episode III - Revenge of the Sith (2005),Twentieth Century Fox,18-May-05,380270577,488119983,868390560,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",2 hr 20 min,PG-13
 45,The Lord of the Rings: The Return of the King (2003),New Line Cinema,17-Dec-03,377845905,768185007,1146030912,"['Action', 'Adventure', 'Drama', 'Fantasy']",3 hr 21 min,PG-13
 46,Spider-Man 2 (2004),Sony Pictures Entertainment (SPE),30-Jun-04,373585825,415390628,788976453,"['Action', 'Adventure', 'Sci-Fi']",2 hr 7 min,PG-13
@@ -57,12 +57,12 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 55,Transformers: Dark of the Moon (2011),DreamWorks,29-Jun-11,352390543,771403536,1123794079,"['Action', 'Adventure', 'Sci-Fi']",2 hr 34 min,PG-13
 56,American Sniper (2014),Warner Bros.,25-Dec-14,350126372,197300000,547426372,"['Action', 'Biography', 'Drama', 'War']",2 hr 13 min,R
 57,The Lord of the Rings: The Two Towers (2002),New Line Cinema,18-Dec-02,342551365,604943730,947495095,"['Action', 'Adventure', 'Drama', 'Fantasy']",2 hr 59 min,PG
-58,Zootopia (2016),Walt Disney Studios Motion Pictures,NA,341268248,682852856,1024121104,"['Adventure', 'Animation', 'Comedy', 'Crime', 'Family', 'Mystery']",1 hr 48 min,NA
+58,Zootopia (2016),Walt Disney Studios Motion Pictures,NA,341268248,682852856,1024121104,"['Adventure', 'Animation', 'Comedy', 'Crime', 'Family', 'Mystery']",1 hr 48 min,PG
 59,The Hunger Games: Mockingjay - Part 1 (2014),Lionsgate,19-Nov-14,337135885,418220826,755356711,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",2 hr 3 min,PG-13
 60,Spider-Man 3 (2007),Sony Pictures Entertainment (SPE),1-May-07,336530303,558453070,894983373,"['Action', 'Adventure', 'Sci-Fi']",2 hr 19 min,PG-13
 61,Minions (2015),Universal Pictures,9-Apr-15,336045770,823398892,1159444662,"['Adventure', 'Animation', 'Comedy', 'Crime', 'Family', 'Sci-Fi']",1 hr 31 min,PG
 62,Joker (2019),Warner Bros.,2-Oct-19,335451311,738968073,1074419384,"['Crime', 'Drama', 'Thriller']",2 hr 2 min,R
-63,Aquaman (2018),Warner Bros.,NA,335061807,813424079,1148485886,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",2 hr 23 min,NA
+63,Aquaman (2018),Warner Bros.,NA,335061807,813424079,1148485886,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",2 hr 23 min,PG-13
 64,Spider-Man: Homecoming (2017),Sony Pictures Entertainment (SPE),5-Jul-17,334201140,545965784,880166924,"['Action', 'Adventure', 'Sci-Fi']",2 hr 13 min,PG-13
 65,Alice in Wonderland (2010),Walt Disney Studios Motion Pictures,3-Mar-10,334191110,691277106,1025468216,"['Adventure', 'Family', 'Fantasy', 'Mystery']",1 hr 48 min,PG
 66,Guardians of the Galaxy (2014),Walt Disney Studios Motion Pictures,30-Jul-14,333718600,439631547,773350147,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",2 hr 1 min,PG-13
@@ -86,11 +86,11 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 84,Independence Day (1996),Twentieth Century Fox,3-Jul-96,306169268,511231623,817400891,"['Action', 'Adventure', 'Sci-Fi']",2 hr 25 min,PG-13
 85,Pirates of the Caribbean: The Curse of the Black Pearl (2003),Walt Disney Studios Motion Pictures,9-Jul-03,305413918,348850097,654264015,"['Action', 'Adventure', 'Fantasy']",2 hr 23 min,PG-13
 86,Skyfall (2012),Sony Pictures Entertainment (SPE),25-Oct-12,304360277,804209222,1108569499,"['Action', 'Adventure', 'Thriller']",2 hr 23 min,PG-13
-87,The Hobbit: An Unexpected Journey (2012),Warner Bros.,NA,303003568,714000000,1017003568,"['Adventure', 'Fantasy']",2 hr 49 min,NA
+87,The Hobbit: An Unexpected Journey (2012),Warner Bros.,NA,303003568,714000000,1017003568,"['Adventure', 'Fantasy']",2 hr 49 min,PG-13
 88,Harry Potter and the Half-Blood Prince (2009),Warner Bros.,15-Jul-09,302305431,632148664,934454096,"['Action', 'Adventure', 'Family', 'Fantasy', 'Mystery']",2 hr 33 min,PG
 89,The Twilight Saga: Eclipse (2010),Summit Entertainment,30-Jun-10,300531751,397959596,698491347,"['Action', 'Adventure', 'Drama', 'Fantasy', 'Romance', 'Thriller']",2 hr 4 min,PG-13
 90,The Twilight Saga: New Moon (2009),Summit Entertainment,18-Nov-09,297816253,413209228,711025481,"['Adventure', 'Drama', 'Fantasy', 'Romance']",2 hr 10 min,PG-13
-91,Harry Potter and the Deathly Hallows: Part 1 (2010),Warner Bros.,NA,296347721,680695761,977043483,"['Adventure', 'Family', 'Fantasy', 'Mystery']",2 hr 26 min,NA
+91,Harry Potter and the Deathly Hallows: Part 1 (2010),Warner Bros.,NA,296347721,680695761,977043483,"['Adventure', 'Family', 'Fantasy', 'Mystery']",2 hr 26 min,PG-13
 92,The Sixth Sense (1999),Walt Disney Studios Motion Pictures,6-Aug-99,293506292,379300140,672806432,"['Drama', 'Mystery', 'Thriller']",1 hr 47 min,PG-13
 93,Up (2009),Walt Disney Studios Motion Pictures,28-May-09,293004164,442094938,735099102,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family']",1 hr 36 min,PG
 94,Star Wars: Episode V - The Empire Strikes Back (1980),Twentieth Century Fox,21-May-80,292753960,190685234,538375067,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",2 hr 4 min,PG
@@ -101,7 +101,7 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 99,Man of Steel (2013),Warner Bros.,12-Jun-13,291045518,377000000,668045518,"['Action', 'Adventure', 'Sci-Fi']",2 hr 23 min,PG-13
 100,"Monsters, Inc. (2001)",Walt Disney Studios Motion Pictures,2-Nov-01,290642256,289065482,579707738,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 32 min,G
 101,Harry Potter and the Goblet of Fire (2005),Warner Bros.,16-Nov-05,290417905,606260335,896678241,"['Adventure', 'Family', 'Fantasy', 'Mystery']",2 hr 37 min,PG-13
-102,Home Alone (1990),Twentieth Century Fox,16-Nov-90,285761243,190923432,476684675,"['Comedy', 'Family']",1 hr 43 min,NA
+102,Home Alone (1990),Twentieth Century Fox,16-Nov-90,285761243,190923432,476684675,"['Comedy', 'Family']",1 hr 43 min,PG
 103,The Hunger Games: Mockingjay - Part 2 (2015),Lionsgate,18-Nov-15,281723902,376620235,658344137,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",2 hr 17 min,PG-13
 104,The Matrix Reloaded (2003),Warner Bros.,15-May-03,281576461,460271476,741847937,"['Action', 'Sci-Fi']",2 hr 18 min,R
 105,The Twilight Saga: Breaking Dawn - Part 1 (2011),Summit Entertainment,16-Nov-11,281287133,430918723,712205856,"['Adventure', 'Drama', 'Fantasy', 'Romance', 'Thriller']",1 hr 57 min,PG-13
@@ -110,35 +110,35 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 108,Gravity (2013),Warner Bros.,3-Oct-13,274092705,449100000,723192705,"['Action', 'Drama', 'Sci-Fi', 'Thriller']",1 hr 31 min,PG-13
 109,The Grinch (2018),Universal Pictures,7-Nov-18,271094731,241474088,512568819,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical']",1 hr 25 min,PG
 110,Sing (2016),Universal Pictures,2-Dec-16,270448425,363759959,634208384,"['Animation', 'Comedy', 'Family', 'Musical']",1 hr 48 min,PG
-111,Monsters University (2013),Walt Disney Studios Motion Pictures,NA,268492764,475066881,743559645,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 44 min,NA
+111,Monsters University (2013),Walt Disney Studios Motion Pictures,NA,268492764,475066881,743559645,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 44 min,G
 112,Shrek (2001),DreamWorks Distribution,16-May-01,267665011,220188309,487853320,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Romance']",1 hr 30 min,PG
 113,Despicable Me 3 (2017),Universal Pictures,14-Jun-17,264624300,770175831,1034800131,"['Adventure', 'Animation', 'Comedy', 'Crime', 'Family', 'Sci-Fi']",1 hr 29 min,PG
 114,Harry Potter and the Chamber of Secrets (2002),Warner Bros.,14-Nov-02,262450136,617152229,879602366,"['Adventure', 'Family', 'Fantasy', 'Mystery']",2 hr 41 min,PG
 115,The Amazing Spider-Man (2012),Sony Pictures Entertainment (SPE),28-Jun-12,262030663,495900000,757930663,"['Action', 'Adventure', 'Sci-Fi']",2 hr 16 min,PG-13
-116,The Incredibles (2004),Walt Disney Studios Motion Pictures,5-Nov-04,261441092,370165961,631607053,"['Action', 'Adventure', 'Animation', 'Family']",1 hr 55 min,NA
-117,Jaws (1975),Universal Pictures,20-Jun-75,260758300,210653000,471411300,"['Adventure', 'Thriller']",2 hr 4 min,NA
+116,The Incredibles (2004),Walt Disney Studios Motion Pictures,5-Nov-04,261441092,370165961,631607053,"['Action', 'Adventure', 'Animation', 'Family']",1 hr 55 min,PG
+117,Jaws (1975),Universal Pictures,20-Jun-75,260758300,210653000,471411300,"['Adventure', 'Thriller']",2 hr 4 min,PG
 118,How the Grinch Stole Christmas (2000),Universal Pictures,17-Nov-00,260465005,85108027,345573032,"['Comedy', 'Family', 'Fantasy']",1 hr 44 min,PG
 119,Captain America: The Winter Soldier (2014),Walt Disney Studios Motion Pictures,26-Mar-14,259766572,454654931,714421503,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",2 hr 16 min,PG-13
-120,The Hobbit: The Desolation of Smaug (2013),Warner Bros.,NA,258366855,700640658,959007513,"['Adventure', 'Fantasy']",2 hr 41 min,NA
+120,The Hobbit: The Desolation of Smaug (2013),Warner Bros.,NA,258366855,700640658,959007513,"['Adventure', 'Fantasy']",2 hr 41 min,PG-13
 121,The Lego Movie (2014),Warner Bros.,6-Feb-14,257760692,210300000,468060692,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 40 min,PG
 122,Star Trek (2009),Paramount Pictures,6-May-09,257730019,127950427,385680446,"['Action', 'Adventure', 'Sci-Fi']",2 hr 7 min,PG-13
 123,I Am Legend (2007),Warner Bros.,12-Dec-07,256393010,329017042,585410052,"['Action', 'Drama', 'Sci-Fi', 'Thriller']",1 hr 41 min,PG-13
 124,The Blind Side (2009),Warner Bros.,20-Nov-09,255959475,53248834,309208309,"['Biography', 'Drama', 'Sport']",2 hr 9 min,PG-13
-125,The Hobbit: The Battle of the Five Armies (2014),Warner Bros.,NA,255119788,707063077,962182865,"['Adventure', 'Fantasy']",2 hr 24 min,NA
+125,The Hobbit: The Battle of the Five Armies (2014),Warner Bros.,NA,255119788,707063077,962182865,"['Adventure', 'Fantasy']",2 hr 24 min,PG-13
 126,The Hangover Part II (2011),Warner Bros.,25-May-11,254464305,332300000,586764305,['Comedy'],1 hr 42 min,R
 127,Despicable Me (2010),Universal Pictures,8-Jul-10,251513985,291600000,543113985,"['Adventure', 'Animation', 'Comedy', 'Crime', 'Family', 'Sci-Fi']",1 hr 35 min,PG
-128,Batman (1989),Warner Bros.,23-Jun-89,251348343,160160000,411508343,"['Action', 'Adventure']",2 hr 6 min,NA
-129,Night at the Museum (2006),Twentieth Century Fox,NA,250863268,323617961,574481229,"['Adventure', 'Comedy', 'Family', 'Fantasy']",1 hr 48 min,NA
+128,Batman (1989),Warner Bros.,23-Jun-89,251348343,160160000,411508343,"['Action', 'Adventure']",2 hr 6 min,PG-13
+129,Night at the Museum (2006),Twentieth Century Fox,NA,250863268,323617961,574481229,"['Adventure', 'Comedy', 'Family', 'Fantasy']",1 hr 48 min,PG
 130,Men in Black (1997),Sony Pictures Entertainment (SPE),2-Jul-97,250690539,338700000,589390539,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",1 hr 38 min,PG-13
 131,Harry Potter and the Prisoner of Azkaban (2004),Warner Bros.,31-May-04,249975996,547385621,797361618,"['Adventure', 'Family', 'Fantasy', 'Mystery']",2 hr 22 min,PG
-132,Moana (2016),Walt Disney Studios Motion Pictures,NA,248757044,395379444,644136488,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical']",1 hr 47 min,NA
+132,Moana (2016),Walt Disney Studios Motion Pictures,NA,248757044,395379444,644136488,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical']",1 hr 47 min,PG
 133,Indiana Jones and the Raiders of the Lost Ark (1981),Paramount Pictures,12-Jun-81,248159971,141766000,389925971,"['Action', 'Adventure']",1 hr 55 min,PG
-134,Toy Story 2 (1999),Walt Disney Studios Motion Pictures,19-Nov-99,245852179,251523202,497375381,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 32 min,NA
+134,Toy Story 2 (1999),Walt Disney Studios Motion Pictures,19-Nov-99,245852179,251523202,497375381,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 32 min,G
 135,Transformers: Age of Extinction (2014),Paramount Pictures,25-Jun-14,245439076,858614996,1104054072,"['Action', 'Adventure', 'Sci-Fi']",2 hr 45 min,PG-13
-136,Cars (2006),Walt Disney Studios Motion Pictures,8-Jun-06,244082982,217908885,461991867,"['Adventure', 'Animation', 'Comedy', 'Family', 'Sport']",1 hr 57 min,NA
-137,Ghostbusters (1984),Columbia Pictures,8-Jun-84,243578797,53000000,296578797,"['Action', 'Comedy', 'Fantasy', 'Sci-Fi']",1 hr 45 min,NA
+136,Cars (2006),Walt Disney Studios Motion Pictures,8-Jun-06,244082982,217908885,461991867,"['Adventure', 'Animation', 'Comedy', 'Family', 'Sport']",1 hr 57 min,G
+137,Ghostbusters (1984),Columbia Pictures,8-Jun-84,243578797,53000000,296578797,"['Action', 'Comedy', 'Fantasy', 'Sci-Fi']",1 hr 45 min,PG
 138,Bruce Almighty (2003),Universal Pictures,23-May-03,242829261,241763613,484592874,"['Comedy', 'Fantasy']",1 hr 41 min,PG-13
-139,Twister (1996),Warner Bros.,10-May-96,241721524,252750000,494471524,"['Action', 'Adventure', 'Thriller']",1 hr 53 min,NA
+139,Twister (1996),Warner Bros.,10-May-96,241721524,252750000,494471524,"['Action', 'Adventure', 'Thriller']",1 hr 53 min,PG-13
 140,My Big Fat Greek Wedding (2002),IFC Films,19-Apr-02,241438208,127305836,368744044,"['Comedy', 'Drama', 'Romance']",1 hr 35 min,PG
 141,Maleficent (2014),Walt Disney Studios Motion Pictures,28-May-14,241410378,517001401,758411779,"['Adventure', 'Family', 'Fantasy', 'Romance']",1 hr 37 min,PG
 142,Pirates of the Caribbean: On Stranger Tides (2011),Walt Disney Studios Motion Pictures,18-May-11,241071802,804642000,1045713802,"['Action', 'Adventure', 'Fantasy']",2 hr 17 min,PG-13
@@ -151,10 +151,10 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 149,Fantastic Beasts and Where to Find Them (2016),Warner Bros.,16-Nov-16,234037575,580006426,814044001,"['Adventure', 'Family', 'Fantasy']",2 hr 12 min,PG-13
 150,X-Men: Days of Future Past (2014),Twentieth Century Fox,21-May-14,233921534,512124166,746045700,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",2 hr 12 min,PG-13
 151,Cast Away (2000),Twentieth Century Fox,22-Dec-00,233632142,196000000,429632142,"['Adventure', 'Drama', 'Romance']",2 hr 23 min,PG-13
-152,The Exorcist (1973),Warner Bros.,NA,232906145,136017945,441306145,['Horror'],2 hr 2 min,NA
+152,The Exorcist (1973),Warner Bros.,NA,232906145,136017945,441306145,['Horror'],2 hr 2 min,R
 153,Doctor Strange (2016),Walt Disney Studios Motion Pictures,25-Oct-16,232641920,445154156,677796076,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",1 hr 55 min,PG-13
 154,The Lost World: Jurassic Park (1997),Universal Pictures,23-May-97,229086679,389552320,618638999,"['Action', 'Adventure', 'Sci-Fi']",2 hr 9 min,PG-13
-155,Justice League (2017),Warner Bros.,NA,229024295,428902692,657926987,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",2 hr,NA
+155,Justice League (2017),Warner Bros.,NA,229024295,428902692,657926987,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",2 hr,PG-13
 156,Star Trek Into Darkness (2013),Paramount Pictures,8-May-13,228778661,238586585,467365246,"['Action', 'Adventure', 'Sci-Fi']",2 hr 12 min,PG-13
 157,The Martian (2015),Twentieth Century Fox,30-Sep-15,228433663,401728785,630162448,"['Adventure', 'Drama', 'Sci-Fi']",2 hr 24 min,PG-13
 158,Signs (2002),Walt Disney Studios Motion Pictures,2-Aug-02,227966634,180281283,408247917,"['Drama', 'Mystery', 'Sci-Fi', 'Thriller']",1 hr 46 min,PG-13
@@ -163,24 +163,24 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 161,Logan (2017),Twentieth Century Fox,1-Mar-17,226277068,392902882,619179950,"['Action', 'Drama', 'Sci-Fi', 'Thriller']",2 hr 17 min,R
 162,Rush Hour 2 (2001),New Line Cinema,3-Aug-01,226164286,121161516,347325802,"['Action', 'Comedy', 'Crime', 'Thriller']",1 hr 30 min,PG-13
 163,The Fate of the Furious (2017),Universal Pictures,12-Apr-17,226008385,1009996733,1236005118,"['Action', 'Crime', 'Thriller']",2 hr 16 min,PG-13
-164,Shang-Chi and the Legend of the Ten Rings (2021),Walt Disney Studios Motion Pictures,NA,224543292,207689718,432233010,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",2 hr 12 min,NA
-165,WALL·E (2008),Walt Disney Studios Motion Pictures,26-Jun-08,223808164,297503726,521311890,"['Adventure', 'Animation', 'Family', 'Sci-Fi']",1 hr 38 min,NA
+164,Shang-Chi and the Legend of the Ten Rings (2021),Walt Disney Studios Motion Pictures,NA,224543292,207689718,432233010,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",2 hr 12 min,PG-13
+165,WALL·E (2008),Walt Disney Studios Motion Pictures,26-Jun-08,223808164,297503726,521311890,"['Adventure', 'Animation', 'Family', 'Sci-Fi']",1 hr 38 min,G
 166,Big Hero 6 (2014),Walt Disney Studios Motion Pictures,25-Oct-14,222527828,435341858,657869686,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Sci-Fi']",1 hr 42 min,PG
 167,Mission: Impossible - Fallout (2018),Paramount Pictures,25-Jul-18,220159104,571498294,791657398,"['Action', 'Adventure', 'Thriller']",2 hr 27 min,PG-13
-168,National Treasure: Book of Secrets (2007),Walt Disney Studios Motion Pictures,NA,219964115,239278134,459242249,"['Action', 'Adventure', 'Mystery', 'Thriller']",2 hr 4 min,NA
+168,National Treasure: Book of Secrets (2007),Walt Disney Studios Motion Pictures,NA,219964115,239278134,459242249,"['Action', 'Adventure', 'Mystery', 'Thriller']",2 hr 4 min,PG
 169,Alvin and the Chipmunks: The Squeakquel (2009),Twentieth Century Fox,21-Dec-09,219614612,223525393,443140005,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Music', 'Musical']",1 hr 28 min,PG
 170,Mrs. Doubtfire (1993),Twentieth Century Fox,24-Nov-93,219195243,222090952,441286195,"['Comedy', 'Drama', 'Family']",2 hr 5 min,PG-13
-171,Beauty and the Beast (1991),Walt Disney Studios Motion Pictures,15-Nov-91,218967620,186043788,424967620,"['Animation', 'Family', 'Fantasy', 'Musical', 'Romance']",1 hr 24 min,NA
+171,Beauty and the Beast (1991),Walt Disney Studios Motion Pictures,15-Nov-91,218967620,186043788,424967620,"['Animation', 'Family', 'Fantasy', 'Musical', 'Romance']",1 hr 24 min,G
 172,Ted (2012),Universal Pictures,29-Jun-12,218815487,330552828,549368315,['Comedy'],1 hr 46 min,R
 173,King Kong (2005),Universal Pictures,14-Dec-05,218080025,338826353,556906378,"['Action', 'Adventure', 'Drama', 'Romance']",3 hr 7 min,PG-13
-174,Ghost (1990),Paramount Pictures,13-Jul-90,217631306,288072251,505703557,"['Drama', 'Fantasy', 'Romance', 'Thriller']",2 hr 7 min,NA
+174,Ghost (1990),Paramount Pictures,13-Jul-90,217631306,288072251,505703557,"['Drama', 'Fantasy', 'Romance', 'Thriller']",2 hr 7 min,PG-13
 175,How to Train Your Dragon (2010),DreamWorks,18-Mar-10,217581231,277298240,494879471,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 38 min,PG
 176,The Da Vinci Code (2006),Sony Pictures Entertainment (SPE),17-May-06,217536138,542470807,760006945,"['Mystery', 'Thriller']",2 hr 29 min,PG-13
-177,Aladdin (1992),Walt Disney Studios Motion Pictures,13-Nov-92,217350219,286700000,504050219,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical', 'Romance']",1 hr 30 min,NA
+177,Aladdin (1992),Walt Disney Studios Motion Pictures,13-Nov-92,217350219,286700000,504050219,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical', 'Romance']",1 hr 30 min,G
 178,Alvin and the Chipmunks (2007),Twentieth Century Fox,12-Dec-07,217326974,148025572,365352546,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Music', 'Musical']",1 hr 32 min,PG
 179,Saving Private Ryan (1998),DreamWorks Distribution,24-Jul-98,217049603,265300000,482349603,"['Drama', 'War']",2 hr 49 min,R
 180,Bohemian Rhapsody (2018),Twentieth Century Fox,26-Oct-18,216668042,694141269,910809311,"['Biography', 'Drama', 'Music']",2 hr 14 min,PG-13
-181,Ant-Man and the Wasp (2018),Walt Disney Studios Motion Pictures,NA,216648740,406025399,622674139,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",1 hr 58 min,NA
+181,Ant-Man and the Wasp (2018),Walt Disney Studios Motion Pictures,NA,216648740,406025399,622674139,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",1 hr 58 min,PG-13
 182,Madagascar 3: Europe's Most Wanted (2012),DreamWorks,6-Jun-12,216391482,530529792,746921274,"['Adventure', 'Animation', 'Comedy', 'Family']",1 hr 35 min,PG
 183,Kung Fu Panda (2008),DreamWorks,5-Jun-08,215434591,416311606,631746197,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 32 min,PG
 184,Mission: Impossible II (2000),Paramount Pictures,24-May-00,215409889,330978219,546388108,"['Action', 'Adventure', 'Thriller']",2 hr 3 min,PG-13
@@ -190,11 +190,11 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 188,Solo: A Star Wars Story (2018),Walt Disney Studios Motion Pictures,23-May-18,213767512,179157295,392924807,"['Action', 'Adventure', 'Sci-Fi']",2 hr 15 min,PG-13
 189,Venom (2018),Sony Pictures Entertainment (SPE),3-Oct-18,213515506,642569645,856085151,"['Action', 'Adventure', 'Sci-Fi']",1 hr 52 min,PG-13
 190,Austin Powers in Goldmember (2002),New Line Cinema,26-Jul-02,213307889,83630912,296938801,"['Action', 'Adventure', 'Comedy', 'Crime']",1 hr 34 min,PG-13
-191,Venom: Let There Be Carnage (2021),Sony Pictures Entertainment (SPE),NA,212638437,288500000,501138437,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",1 hr 37 min,NA
+191,Venom: Let There Be Carnage (2021),Sony Pictures Entertainment (SPE),NA,212638437,288500000,501138437,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",1 hr 37 min,PG-13
 192,It Chapter Two (2019),Warner Bros.,4-Sep-19,211593228,261500000,473093228,"['Drama', 'Fantasy', 'Horror']",2 hr 49 min,R
-193,Back to the Future (1985),Universal Pictures,3-Jul-85,211406762,170500000,381906762,"['Adventure', 'Comedy', 'Sci-Fi']",1 hr 56 min,NA
+193,Back to the Future (1985),Universal Pictures,3-Jul-85,211406762,170500000,381906762,"['Adventure', 'Comedy', 'Sci-Fi']",1 hr 56 min,PG
 194,300 (2006),Warner Bros.,7-Mar-07,210614939,245453242,456068181,"['Action', 'Drama']",1 hr 57 min,R
-195,Coco (2017),Walt Disney Studios Motion Pictures,NA,210460015,597357873,807817888,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Music', 'Mystery']",1 hr 45 min,NA
+195,Coco (2017),Walt Disney Studios Motion Pictures,NA,210460015,597357873,807817888,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Music', 'Mystery']",1 hr 45 min,PG
 196,Fast Five (2011),Universal Pictures,20-Apr-11,209837675,416300000,626137675,"['Action', 'Crime', 'Thriller']",2 hr 10 min,PG-13
 197,Mission: Impossible - Ghost Protocol (2011),Paramount Pictures,14-Dec-11,209397903,485315477,694713380,"['Action', 'Adventure', 'Thriller']",2 hr 12 min,PG-13
 198,Wedding Crashers (2005),New Line Cinema,14-Jul-05,209255921,79211724,288467645,"['Comedy', 'Romance']",1 hr 59 min,R
@@ -207,7 +207,7 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 205,Bad Boys for Life (2020),Sony Pictures Entertainment (SPE),15-Jan-20,206305244,220200000,426505244,"['Action', 'Comedy', 'Crime', 'Thriller']",2 hr 4 min,R
 206,Austin Powers: The Spy Who Shagged Me (1999),New Line Cinema,11-Jun-99,206040086,105976842,312016928,"['Action', 'Adventure', 'Comedy', 'Crime']",1 hr 35 min,PG-13
 207,Terminator 2: Judgment Day (1991),TriStar Pictures,3-Jul-91,205881154,312106698,520881154,"['Action', 'Sci-Fi']",2 hr 17 min,R
-208,The Amazing Spider-Man 2 (2014),Sony Pictures Entertainment (SPE),NA,202853933,506128390,708982323,"['Action', 'Adventure', 'Sci-Fi']",2 hr 22 min,NA
+208,The Amazing Spider-Man 2 (2014),Sony Pictures Entertainment (SPE),NA,202853933,506128390,708982323,"['Action', 'Adventure', 'Sci-Fi']",2 hr 22 min,PG-13
 209,World War Z (2013),Paramount Pictures,19-Jun-13,202807711,337648165,540455876,"['Action', 'Adventure', 'Horror', 'Sci-Fi']",1 hr 56 min,PG-13
 210,The Mummy Returns (2001),Universal Pictures,4-May-01,202019785,241261119,443280904,"['Action', 'Adventure', 'Fantasy', 'Thriller']",2 hr 10 min,PG-13
 211,Armageddon (1998),Walt Disney Studios Motion Pictures,1-Jul-98,201578182,352131606,553709788,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",2 hr 31 min,PG-13
@@ -226,7 +226,7 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 224,Mission: Impossible - Rogue Nation (2015),Paramount Pictures,24-Jul-15,195042377,487674259,682716636,"['Action', 'Adventure', 'Thriller']",2 hr 11 min,PG-13
 225,Twilight (2008),Summit Entertainment,20-Nov-08,193962473,214467942,408430415,"['Drama', 'Fantasy', 'Romance']",2 hr 2 min,PG-13
 226,Men in Black II (2002),Sony Pictures Entertainment (SPE),3-Jul-02,193735288,251400000,445135288,"['Action', 'Adventure', 'Comedy', 'Mystery', 'Sci-Fi']",1 hr 28 min,PG-13
-227,Madagascar (2005),DreamWorks Distribution,NA,193595521,348468325,542063846,"['Adventure', 'Animation', 'Comedy', 'Family']",1 hr 26 min,NA
+227,Madagascar (2005),DreamWorks Distribution,NA,193595521,348468325,542063846,"['Adventure', 'Animation', 'Comedy', 'Family']",1 hr 26 min,PG
 228,22 Jump Street (2014),Sony Pictures Entertainment (SPE),5-Jun-14,191719337,139614539,331333876,"['Action', 'Comedy', 'Crime']",1 hr 52 min,R
 229,Cars 2 (2011),Walt Disney Studios Motion Pictures,22-Jun-11,191452396,368400000,559852396,"['Adventure', 'Animation', 'Comedy', 'Family', 'Sport']",1 hr 46 min,G
 230,Teenage Mutant Ninja Turtles (2014),Paramount Pictures,7-Aug-14,191204754,293800000,485004754,"['Action', 'Adventure', 'Animation', 'Comedy', 'Sci-Fi']",1 hr 41 min,PG-13
@@ -236,25 +236,25 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 234,Wreck-It Ralph (2012),Walt Disney Studios Motion Pictures,1-Nov-12,189422889,281800000,471222889,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 41 min,PG
 235,A Quiet Place (2018),Paramount Pictures,4-Apr-18,188024361,152928610,340952971,"['Drama', 'Horror', 'Sci-Fi']",1 hr 30 min,PG-13
 236,Interstellar (2014),Paramount Pictures,5-Nov-14,188020017,513709189,701729206,"['Adventure', 'Drama', 'Sci-Fi']",2 hr 49 min,PG-13
-237,The Polar Express (2004),Warner Bros.,10-Nov-04,187935490,126279964,314215454,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical']",1 hr 40 min,NA
+237,The Polar Express (2004),Warner Bros.,10-Nov-04,187935490,126279964,314215454,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical']",1 hr 40 min,G
 238,Gladiator (2000),DreamWorks Distribution,4-May-00,187705427,277675375,465380802,"['Action', 'Adventure', 'Drama']",2 hr 35 min,R
 239,The Croods (2013),Twentieth Century Fox,15-Mar-13,187168425,400067558,587235983,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 38 min,PG
-240,Sherlock Holmes: A Game of Shadows (2011),Warner Bros.,NA,186848418,357000000,543848418,"['Action', 'Adventure', 'Mystery']",2 hr 9 min,NA
+240,Sherlock Holmes: A Game of Shadows (2011),Warner Bros.,NA,186848418,357000000,543848418,"['Action', 'Adventure', 'Mystery']",2 hr 9 min,PG-13
 241,The Day After Tomorrow (2004),Twentieth Century Fox,26-May-04,186740799,365898772,552639571,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",2 hr 4 min,PG-13
 242,Mr. & Mrs. Smith (2005),Twentieth Century Fox,8-Jun-05,186336279,300951367,487287646,"['Action', 'Comedy', 'Crime', 'Thriller']",2 hr,PG-13
-243,Snow White and the Seven Dwarfs (1937),Walt Disney Studios Motion Pictures,NA,184925486,184925486,184925486,"['Adventure', 'Animation', 'Family', 'Fantasy', 'Musical', 'Romance']",1 hr 23 min,NA
+243,Snow White and the Seven Dwarfs (1937),Walt Disney Studios Motion Pictures,NA,184925486,184925486,184925486,"['Adventure', 'Animation', 'Family', 'Fantasy', 'Musical', 'Romance']",1 hr 23 min,G
 244,Pitch Perfect 2 (2015),Universal Pictures,7-May-15,184296230,102847849,287144079,"['Comedy', 'Music']",1 hr 55 min,PG-13
-245,Dances with Wolves (1990),Orion Pictures,9-Nov-90,184208848,240000000,424208848,"['Adventure', 'Drama', 'Western']",3 hr 1 min,NA
+245,Dances with Wolves (1990),Orion Pictures,9-Nov-90,184208848,240000000,424208848,"['Adventure', 'Drama', 'Western']",3 hr 1 min,PG-13
 246,Batman Forever (1995),Warner Bros.,16-Jun-95,184069126,152498032,336567158,"['Action', 'Adventure']",2 hr 1 min,PG-13
-247,The Fugitive (1993),Warner Bros.,NA,183875760,185000000,368875760,"['Action', 'Crime', 'Drama', 'Mystery', 'Thriller']",2 hr 10 min,NA
-248,Black Widow (2021),Walt Disney Studios Motion Pictures,NA,183651655,195979696,379631351,"['Action', 'Adventure', 'Sci-Fi']",2 hr 14 min,NA
+247,The Fugitive (1993),Warner Bros.,NA,183875760,185000000,368875760,"['Action', 'Crime', 'Drama', 'Mystery', 'Thriller']",2 hr 10 min,PG-13
+248,Black Widow (2021),Walt Disney Studios Motion Pictures,NA,183651655,195979696,379631351,"['Action', 'Adventure', 'Sci-Fi']",2 hr 14 min,PG-13
 249,The Revenant (2015),Twentieth Century Fox,25-Dec-15,183637894,349312609,532950503,"['Action', 'Adventure', 'Drama', 'History', 'Western']",2 hr 36 min,R
 250,Ocean's Eleven (2001),Warner Bros.,7-Dec-01,183417150,267300000,450717150,"['Crime', 'Thriller']",1 hr 56 min,PG-13
 251,The Simpsons Movie (2007),Twentieth Century Fox,25-Jul-07,183135014,353279279,536414293,"['Adventure', 'Animation', 'Comedy']",1 hr 27 min,PG-13
 252,What Women Want (2000),Paramount Pictures,15-Dec-00,182811707,191300000,374111707,"['Comedy', 'Fantasy', 'Romance']",2 hr 7 min,PG-13
 253,The Perfect Storm (2000),Warner Bros.,30-Jun-00,182618434,146100000,328718434,"['Action', 'Adventure', 'Drama', 'Thriller']",2 hr 10 min,PG-13
 254,Lincoln (2012),Walt Disney Studios Motion Pictures,9-Nov-12,182207973,93085477,275293450,"['Biography', 'Drama', 'History', 'War']",2 hr 30 min,PG-13
-255,Liar Liar (1997),Universal Pictures,NA,181410615,121300000,302710615,"['Comedy', 'Fantasy']",1 hr 26 min,NA
+255,Liar Liar (1997),Universal Pictures,NA,181410615,121300000,302710615,"['Comedy', 'Fantasy']",1 hr 26 min,PG-13
 256,Jurassic Park III (2001),Universal Pictures,5-Jul-01,181171875,187608934,368780809,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",1 hr 32 min,PG-13
 257,Thor (2011),Paramount Pictures,21-Apr-11,181030624,268295994,449326618,"['Action', 'Adventure', 'Fantasy']",1 hr 55 min,PG-13
 258,Mission: Impossible (1996),Paramount Pictures,22-May-96,180981856,276714535,457696391,"['Action', 'Adventure', 'Thriller']",1 hr 50 min,PG-13
@@ -262,13 +262,13 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 260,Planet of the Apes (2001),Twentieth Century Fox,27-Jul-01,180011740,182200000,362211740,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",1 hr 59 min,PG-13
 261,Madagascar: Escape 2 Africa (2008),DreamWorks,30-Oct-08,180010950,423889404,603900354,"['Adventure', 'Animation', 'Comedy', 'Family']",1 hr 29 min,PG
 262,X-Men Origins: Wolverine (2009),Twentieth Century Fox,29-Apr-09,179883157,193179707,373062864,"['Action', 'Sci-Fi']",1 hr 47 min,PG-13
-263,Indiana Jones and the Temple of Doom (1984),Paramount Pictures,23-May-84,179870271,153237000,333107271,"['Action', 'Adventure']",1 hr 58 min,NA
+263,Indiana Jones and the Temple of Doom (1984),Paramount Pictures,23-May-84,179870271,153237000,333107271,"['Action', 'Adventure']",1 hr 58 min,PG
 264,Hitch (2005),Sony Pictures Entertainment (SPE),11-Feb-05,179495555,192098655,371594210,"['Comedy', 'Romance']",1 hr 58 min,PG-13
 265,Men in Black 3 (2012),Sony Pictures Entertainment (SPE),23-May-12,179020854,445005922,624026776,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",1 hr 46 min,PG-13
 266,Pretty Woman (1990),Walt Disney Studios Motion Pictures,23-Mar-90,178406268,285000000,463406268,"['Comedy', 'Romance']",1 hr 59 min,R
 267,Home (2015),Twentieth Century Fox,19-Mar-15,177397510,208644097,386041607,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 34 min,PG
 268,Night at the Museum: Battle of the Smithsonian (2009),Twentieth Century Fox,20-May-09,177243721,235862449,413106170,"['Adventure', 'Comedy', 'Family', 'Fantasy']",1 hr 45 min,PG
-269,Tootsie (1982),Columbia Pictures,17-Dec-82,177200000,177200000,177200000,"['Comedy', 'Drama', 'Romance']",1 hr 56 min,NA
+269,Tootsie (1982),Columbia Pictures,17-Dec-82,177200000,177200000,177200000,"['Comedy', 'Drama', 'Romance']",1 hr 56 min,PG
 270,How to Train Your Dragon 2 (2014),Twentieth Century Fox,5-Jun-14,177002924,444534595,621537519,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 42 min,PG
 271,Rise of the Planet of the Apes (2011),Twentieth Century Fox,3-Aug-11,176760185,305040688,481800873,"['Action', 'Drama', 'Sci-Fi', 'Thriller']",1 hr 45 min,PG-13
 272,Captain America: The First Avenger (2011),Paramount Pictures,22-Jul-11,176654505,193915269,370569774,"['Action', 'Adventure', 'Sci-Fi']",2 hr 4 min,PG-13
@@ -279,16 +279,16 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 277,The Bourne Supremacy (2004),Universal Pictures,23-Jul-04,176241941,114593328,290835269,"['Action', 'Mystery', 'Thriller']",1 hr 48 min,PG-13
 278,The Lego Batman Movie (2017),Warner Bros.,2-Feb-17,175750384,136200000,311950384,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 44 min,PG
 279,Us (2019),Universal Pictures,20-Mar-19,175084580,80100902,255185482,"['Horror', 'Mystery', 'Thriller']",1 hr 56 min,R
-280,The Boss Baby (2017),Twentieth Century Fox,NA,175003033,352962903,527965936,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 37 min,NA
+280,The Boss Baby (2017),Twentieth Century Fox,NA,175003033,352962903,527965936,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 37 min,PG
 281,Crazy Rich Asians (2018),Warner Bros.,15-Aug-18,174532921,64006277,238539198,"['Comedy', 'Drama', 'Romance']",2 hr,PG-13
 282,The Greatest Showman (2017),Twentieth Century Fox,20-Dec-17,174340174,262609460,436949634,"['Biography', 'Drama', 'Musical']",1 hr 45 min,PG
-283,Fast & Furious Presents: Hobbs & Shaw (2019),Universal Pictures,1-Jul-19,173956935,585100000,759056935,"['Action', 'Adventure', 'Thriller']",2 hr 17 min,NA
-284,Apollo 13 (1995),Universal Pictures,NA,173837933,181077570,355237933,"['Adventure', 'Drama', 'History']",2 hr 20 min,NA
-285,Home Alone 2: Lost in New York (1992),Twentieth Century Fox,NA,173585516,185409334,358994850,"['Adventure', 'Comedy', 'Crime', 'Family']",2 hr,NA
+283,Fast & Furious Presents: Hobbs & Shaw (2019),Universal Pictures,1-Jul-19,173956935,585100000,759056935,"['Action', 'Adventure', 'Thriller']",2 hr 17 min,PG-13
+284,Apollo 13 (1995),Universal Pictures,NA,173837933,181077570,355237933,"['Adventure', 'Drama', 'History']",2 hr 20 min,PG
+285,Home Alone 2: Lost in New York (1992),Twentieth Century Fox,NA,173585516,185409334,358994850,"['Adventure', 'Comedy', 'Crime', 'Family']",2 hr,PG
 286,National Treasure (2004),Walt Disney Studios Motion Pictures,19-Nov-04,173008894,174503424,347512318,"['Action', 'Adventure', 'Mystery', 'Thriller']",2 hr 11 min,PG
-287,F9: The Fast Saga (2021),Universal Pictures,NA,173005945,553223556,726229501,"['Action', 'Crime', 'Thriller']",2 hr 23 min,NA
+287,F9: The Fast Saga (2021),Universal Pictures,NA,173005945,553223556,726229501,"['Action', 'Crime', 'Thriller']",2 hr 23 min,PG-13
 288,Air Force One (1997),Sony Pictures Entertainment (SPE),25-Jul-97,172956409,142200000,315156409,"['Action', 'Drama', 'Thriller']",2 hr 4 min,R
-289,Rain Man (1988),Metro-Goldwyn-Mayer (MGM),16-Dec-88,172825435,182000000,354825435,['Drama'],2 hr 13 min,NA
+289,Rain Man (1988),Metro-Goldwyn-Mayer (MGM),16-Dec-88,172825435,182000000,354825435,['Drama'],2 hr 13 min,R
 290,Pirates of the Caribbean: Dead Men Tell No Tales (2017),Walt Disney Studios Motion Pictures,24-May-17,172558876,622322566,794881442,"['Action', 'Adventure', 'Fantasy']",2 hr 9 min,PG-13
 291,TRON: Legacy (2010),Walt Disney Studios Motion Pictures,16-Dec-10,172062763,228001089,400063852,"['Action', 'Adventure', 'Sci-Fi']",2 hr 5 min,PG
 292,Mary Poppins Returns (2018),Walt Disney Studios Motion Pictures,19-Dec-18,171958438,177587704,349546142,"['Adventure', 'Comedy', 'Family', 'Fantasy', 'Musical']",2 hr 10 min,PG
@@ -303,20 +303,20 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 301,Hidden Figures (2016),Twentieth Century Fox,25-Dec-16,169607287,66349611,235956898,"['Biography', 'Drama', 'History']",2 hr 7 min,PG
 302,Bridesmaids (2011),Universal Pictures,12-May-11,169106725,119276798,288383523,"['Comedy', 'Romance']",2 hr 5 min,R
 303,Quantum of Solace (2008),Sony Pictures Entertainment (SPE),31-Oct-08,168368427,421212055,589580482,"['Action', 'Adventure', 'Thriller']",1 hr 46 min,PG-13
-304,Wild Hogs (2007),Walt Disney Studios Motion Pictures,NA,168273550,85351877,253625427,"['Action', 'Adventure', 'Comedy']",1 hr 40 min,NA
+304,Wild Hogs (2007),Walt Disney Studios Motion Pictures,NA,168273550,85351877,253625427,"['Action', 'Adventure', 'Comedy']",1 hr 40 min,PG-13
 305,Kong: Skull Island (2017),Warner Bros.,8-Mar-17,168052812,398600000,566652812,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",1 hr 58 min,PG-13
-306,Three Men and a Baby (1987),Walt Disney Studios Motion Pictures,25-Nov-87,167780960,167780960,167780960,"['Comedy', 'Drama', 'Family']",1 hr 42 min,NA
+306,Three Men and a Baby (1987),Walt Disney Studios Motion Pictures,25-Nov-87,167780960,167780960,167780960,"['Comedy', 'Drama', 'Family']",1 hr 42 min,PG
 307,Gone Girl (2014),Twentieth Century Fox,2-Oct-14,167767189,201563174,369330363,"['Drama', 'Mystery', 'Thriller']",2 hr 29 min,R
 308,Hotel Transylvania 3: Summer Vacation (2018),Sony Pictures Entertainment (SPE),28-Jun-18,167510016,361073758,528583774,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Horror']",1 hr 37 min,PG
 309,Casino Royale (2006),Sony Pictures Entertainment (SPE),15-Nov-06,167445960,449056952,616502912,"['Action', 'Adventure', 'Thriller']",2 hr 24 min,PG-13
 310,Meet the Parents (2000),Universal Pictures,6-Oct-00,166244045,164200000,330444045,"['Comedy', 'Romance']",1 hr 48 min,PG-13
 311,Fifty Shades of Grey (2015),Universal Pictures,11-Feb-15,166167230,403484237,569651467,"['Drama', 'Romance', 'Thriller']",2 hr 5 min,R
 312,2012 (2009),Sony Pictures Entertainment (SPE),11-Nov-09,166112167,625105659,791217826,"['Action', 'Adventure', 'Sci-Fi']",2 hr 38 min,PG-13
-313,Robin Hood: Prince of Thieves (1991),Warner Bros.,14-Jun-91,165493908,225000000,390493908,"['Action', 'Adventure', 'Drama', 'Romance']",2 hr 23 min,NA
+313,Robin Hood: Prince of Thieves (1991),Warner Bros.,14-Jun-91,165493908,225000000,390493908,"['Action', 'Adventure', 'Drama', 'Romance']",2 hr 23 min,PG-13
 314,Knives Out (2019),Lionsgate,21-Nov-19,165363234,146242347,311605581,"['Comedy', 'Crime', 'Drama', 'Mystery', 'Thriller']",2 hr 10 min,PG-13
 315,Kung Fu Panda 2 (2011),DreamWorks,26-May-11,165249063,500443218,665692281,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 30 min,PG
 316,Hannibal (2001),Metro-Goldwyn-Mayer (MGM),9-Feb-01,165092268,186600000,351692268,"['Crime', 'Drama', 'Thriller']",2 hr 11 min,R
-317,Eternals (2021),Walt Disney Studios Motion Pictures,NA,164819595,237027887,401847482,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",2 hr 36 min,NA
+317,Eternals (2021),Walt Disney Studios Motion Pictures,NA,164819595,237027887,401847482,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",2 hr 36 min,PG-13
 318,Catch Me If You Can (2002),DreamWorks Distribution,25-Dec-02,164615351,187498961,352114312,"['Biography', 'Crime', 'Drama']",2 hr 21 min,PG-13
 319,The Proposal (2009),Walt Disney Studios Motion Pictures,17-Jun-09,163958031,153417000,317375031,"['Comedy', 'Drama', 'Romance']",1 hr 48 min,PG-13
 320,The Pursuit of Happyness (2006),Sony Pictures Entertainment (SPE),15-Dec-06,163566459,143561166,307127625,"['Biography', 'Drama']",1 hr 57 min,PG-13
@@ -325,7 +325,7 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 323,The SpongeBob Movie: Sponge Out of Water (2015),Paramount Pictures,28-Jan-15,162994032,162192000,325186032,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 32 min,PG
 324,Batman Returns (1992),Warner Bros.,19-Jun-92,162902340,103990656,266892996,"['Action', 'Crime', 'Fantasy']",2 hr 6 min,PG-13
 325,Django Unchained (2012),The Weinstein Company,25-Dec-12,162805434,263268939,426074373,"['Drama', 'Western']",2 hr 45 min,R
-326,A Bug's Life (1998),Walt Disney Studios Motion Pictures,20-Nov-98,162798565,200460294,363258859,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 35 min,NA
+326,A Bug's Life (1998),Walt Disney Studios Motion Pictures,20-Nov-98,162798565,200460294,363258859,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 35 min,G
 327,Jason Bourne (2016),Universal Pictures,27-Jul-16,162434410,253050504,415484914,"['Action', 'Thriller']",2 hr 3 min,PG-13
 328,Grown Ups (2010),Sony Pictures Entertainment (SPE),24-Jun-10,162001186,109456115,271457301,['Comedy'],1 hr 42 min,PG-13
 329,The Waterboy (1998),Walt Disney Studios Motion Pictures,6-Nov-98,161491646,24500000,185991646,"['Comedy', 'Sport']",1 hr 30 min,PG-13
@@ -334,40 +334,40 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 332,Die Another Day (2002),Metro-Goldwyn-Mayer (MGM),20-Nov-02,160942139,271028977,431971116,"['Action', 'Adventure', 'Thriller']",2 hr 13 min,PG-13
 333,Shark Tale (2004),DreamWorks Distribution,23-Sep-04,160861908,213721971,374583879,"['Adventure', 'Animation', 'Comedy', 'Family', 'Thriller']",1 hr 30 min,PG
 334,How to Train Your Dragon: The Hidden World (2019),Universal Pictures,3-Jan-19,160799505,363589578,524389083,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 44 min,PG
-335,No Time to Die (2021),Metro-Goldwyn-Mayer (MGM),NA,160772007,613262000,774034007,"['Action', 'Adventure', 'Thriller']",2 hr 43 min,NA
-336,A Quiet Place Part II (2020),Paramount Pictures,NA,160072261,137300000,297372261,"['Drama', 'Horror', 'Sci-Fi', 'Thriller']",1 hr 37 min,NA
+335,No Time to Die (2021),Metro-Goldwyn-Mayer (MGM),NA,160772007,613262000,774034007,"['Action', 'Adventure', 'Thriller']",2 hr 43 min,PG-13
+336,A Quiet Place Part II (2020),Paramount Pictures,NA,160072261,137300000,297372261,"['Drama', 'Horror', 'Sci-Fi', 'Thriller']",1 hr 37 min,PG-13
 337,The Heat (2013),Twentieth Century Fox,22-Feb-96,159582188,70348583,229930771,"['Action', 'Comedy', 'Crime']",1 hr 57 min,R
 338,Fantastic Beasts: The Crimes of Grindelwald (2018),Warner Bros.,12-Oct-18,159555901,495300000,654855901,"['Adventure', 'Family', 'Fantasy']",2 hr 14 min,PG-13
 339,Halloween (2018),Universal Pictures,17-Oct-18,159342015,96272926,255614941,"['Crime', 'Horror', 'Thriller']",1 hr 46 min,R
 340,1917 (2019),Universal Pictures,25-Dec-19,159227644,225691745,384919389,"['Action', 'Drama', 'War']",1 hr 59 min,R
 341,The Secret Life of Pets 2 (2019),Universal Pictures,24-May-19,158874395,271176898,430051293,"['Adventure', 'Animation', 'Comedy', 'Family']",1 hr 26 min,PG
 342,Star Trek Beyond (2016),Paramount Pictures,20-Jul-16,158848340,184623476,343471816,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",2 hr 2 min,PG-13
-343,The Firm (1993),Paramount Pictures,NA,158348367,111900000,270248367,"['Drama', 'Mystery', 'Thriller']",2 hr 34 min,NA
+343,The Firm (1993),Paramount Pictures,NA,158348367,111900000,270248367,"['Drama', 'Mystery', 'Thriller']",2 hr 34 min,R
 344,The Longest Yard (2005),Paramount Pictures,27-May-05,158119460,33347096,191466556,"['Comedy', 'Crime', 'Sport']",1 hr 53 min,PG-13
 345,X-Men (2000),Twentieth Century Fox,13-Jul-00,157299718,139039810,296339528,"['Action', 'Adventure', 'Sci-Fi']",1 hr 44 min,PG-13
 346,Scary Movie (2000),Miramax,7-Jul-00,157019771,121000000,278019771,['Comedy'],1 hr 28 min,R
-347,Who Framed Roger Rabbit (1988),Walt Disney Studios Motion Pictures,24-Jun-88,156452370,173351588,329803958,"['Adventure', 'Animation', 'Comedy', 'Crime', 'Family', 'Fantasy', 'Mystery']",1 hr 44 min,NA
+347,Who Framed Roger Rabbit (1988),Walt Disney Studios Motion Pictures,24-Jun-88,156452370,173351588,329803958,"['Adventure', 'Animation', 'Comedy', 'Crime', 'Family', 'Fantasy', 'Mystery']",1 hr 44 min,PG
 348,What Lies Beneath (2000),DreamWorks Distribution,21-Jul-00,155464351,135956000,291420351,"['Drama', 'Horror', 'Mystery', 'Thriller']",2 hr 10 min,PG-13
 349,X-Men: Apocalypse (2016),Twentieth Century Fox,18-May-16,155442489,388491616,543934105,"['Action', 'Adventure', 'Sci-Fi']",2 hr 24 min,PG-13
 350,The Mummy (1999),Universal Pictures,7-May-99,155385488,260547918,415933406,"['Action', 'Adventure', 'Fantasy']",2 hr 4 min,PG-13
 351,Snow White and the Huntsman (2012),Universal Pictures,30-May-12,155332381,241260448,396592829,"['Action', 'Adventure', 'Drama', 'Fantasy']",2 hr 7 min,PG-13
 352,San Andreas (2015),Warner Bros.,22-May-15,155190832,318818322,474009154,"['Action', 'Adventure', 'Thriller']",1 hr 54 min,PG-13
 353,Fast & Furious (2009),Universal Pictures,2-Apr-09,155064265,205302605,360366870,"['Action', 'Crime', 'Thriller']",1 hr 47 min,PG-13
-354,Over the Hedge (2006),DreamWorks,NA,155019340,184776550,339795890,"['Adventure', 'Animation', 'Comedy', 'Family']",1 hr 23 min,NA
+354,Over the Hedge (2006),DreamWorks,NA,155019340,184776550,339795890,"['Adventure', 'Animation', 'Comedy', 'Family']",1 hr 23 min,PG
 355,Fantastic Four (2005),Twentieth Century Fox,6-Jul-05,154696080,178839854,333535934,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",1 hr 46 min,PG-13
-356,Horton Hears a Who! (2008),Twentieth Century Fox,12-Mar-08,154529439,144043360,298572799,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Music']",1 hr 26 min,NA
+356,Horton Hears a Who! (2008),Twentieth Century Fox,12-Mar-08,154529439,144043360,298572799,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Music']",1 hr 26 min,G
 357,Mad Max: Fury Road (2015),Warner Bros.,7-May-15,154058340,221600410,375658750,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",2 hr,R
 358,Jerry Maguire (1996),Sony Pictures Entertainment (SPE),13-Dec-96,153952592,119600000,273552592,"['Comedy', 'Drama', 'Romance', 'Sport']",2 hr 19 min,R
 359,Trolls (2016),Twentieth Century Fox,13-Oct-16,153707064,193157822,346864886,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical', 'Romance']",1 hr 32 min,PG
 360,Scooby-Doo (2002),Warner Bros.,14-Jun-02,153294164,122356539,275650703,"['Adventure', 'Comedy', 'Family', 'Fantasy', 'Mystery']",1 hr 29 min,PG
-361,Cars 3 (2017),Walt Disney Studios Motion Pictures,NA,152901115,231029541,383930656,"['Adventure', 'Animation', 'Comedy', 'Family', 'Sport']",1 hr 42 min,NA
+361,Cars 3 (2017),Walt Disney Studios Motion Pictures,NA,152901115,231029541,383930656,"['Adventure', 'Animation', 'Comedy', 'Family', 'Sport']",1 hr 42 min,G
 362,Sex and the City (2008),Warner Bros.,28-May-08,152647258,266118261,418765519,"['Comedy', 'Drama', 'Romance']",2 hr 25 min,R
 363,Runaway Bride (1999),Paramount Pictures,30-Jul-99,152257509,157202783,309460292,"['Comedy', 'Romance']",1 hr 56 min,PG
 364,La La Land (2016),Lionsgate,7-Dec-16,151101803,297805062,448906865,"['Comedy', 'Drama', 'Music', 'Musical', 'Romance']",2 hr 8 min,PG-13
 365,Divergent (2014),Lionsgate,20-Mar-14,150947895,137937923,288885818,"['Action', 'Adventure', 'Mystery', 'Sci-Fi']",2 hr 19 min,PG-13
 366,We're the Millers (2013),Warner Bros.,29-Aug-12,150394119,119600000,269994119,"['Comedy', 'Crime']",1 hr 50 min,R
 367,Terminator 3: Rise of the Machines (2003),Warner Bros.,2-Jul-03,150371112,283000000,433371112,"['Action', 'Sci-Fi']",1 hr 49 min,R
-368,Daddy's Home (2015),Paramount Pictures,NA,150357137,92429000,242786137,"['Comedy', 'Family']",1 hr 36 min,NA
+368,Daddy's Home (2015),Paramount Pictures,NA,150357137,92429000,242786137,"['Comedy', 'Family']",1 hr 36 min,PG-13
 369,G.I. Joe: The Rise of Cobra (2009),Paramount Pictures,5-Aug-09,150201498,152267519,302469017,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",1 hr 58 min,PG-13
 370,Neighbors (2014),Universal Pictures,8-May-14,150157400,120507734,270665134,['Comedy'],1 hr 37 min,R
 371,American Hustle (2013),Sony Pictures Entertainment (SPE),12-Dec-13,150117807,101054000,251171807,"['Crime', 'Drama']",2 hr 18 min,R
@@ -381,7 +381,7 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 379,Hotel Transylvania (2012),Sony Pictures Entertainment (SPE),20-Sep-12,148313048,210062555,358375603,"['Animation', 'Comedy', 'Family', 'Fantasy', 'Horror']",1 hr 31 min,PG
 380,Talladega Nights: The Ballad of Ricky Bobby (2006),Sony Pictures Entertainment (SPE),4-Aug-06,148213377,15148718,163362095,"['Comedy', 'Sport']",1 hr 48 min,PG-13
 381,Gran Torino (2008),Warner Bros.,12-Dec-08,148095302,121862926,269958228,['Drama'],1 hr 56 min,R
-382,Lethal Weapon 2 (1989),Warner Bros.,NA,147253986,80600000,227853986,"['Action', 'Crime', 'Thriller']",1 hr 54 min,NA
+382,Lethal Weapon 2 (1989),Warner Bros.,NA,147253986,80600000,227853986,"['Action', 'Crime', 'Thriller']",1 hr 54 min,R
 383,War for the Planet of the Apes (2017),Twentieth Century Fox,11-Jul-17,146880162,343839601,490719763,"['Action', 'Adventure', 'Drama', 'Sci-Fi', 'Thriller']",2 hr 20 min,PG-13
 384,X-Men: First Class (2011),Twentieth Century Fox,1-Jun-11,146408305,206208385,352616690,"['Action', 'Adventure', 'Sci-Fi']",2 hr 11 min,PG-13
 385,Paul Blart: Mall Cop (2009),Sony Pictures Entertainment (SPE),16-Jan-09,146336178,37012251,183348429,"['Action', 'Comedy', 'Crime', 'Family']",1 hr 31 min,PG
@@ -396,36 +396,36 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 394,Lethal Weapon 3 (1992),Warner Bros.,15-May-92,144731527,177000000,321731527,"['Action', 'Crime', 'Thriller']",1 hr 58 min,R
 395,The Fast and the Furious (2001),Universal Pictures,22-Jun-01,144533925,62771584,207305509,"['Action', 'Crime', 'Thriller']",1 hr 46 min,PG-13
 396,Mamma Mia! (2008),Universal Pictures,27-Jun-08,144169664,467088155,611257819,"['Comedy', 'Musical', 'Romance']",1 hr 48 min,PG-13
-397,Doctor Dolittle (1998),Twentieth Century Fox,NA,144156605,150300000,294456605,"['Comedy', 'Family', 'Fantasy']",1 hr 25 min,NA
+397,Doctor Dolittle (1998),Twentieth Century Fox,NA,144156605,150300000,294456605,"['Comedy', 'Family', 'Fantasy']",1 hr 25 min,PG-13
 398,Pokémon Detective Pikachu (2019),Warner Bros.,3-May-19,144105346,289409488,433514834,"['Action', 'Adventure', 'Comedy', 'Family', 'Mystery', 'Sci-Fi']",1 hr 44 min,PG
 399,Rio (2011),Twentieth Century Fox,4-Apr-11,143619809,340246709,483866518,"['Adventure', 'Animation', 'Comedy', 'Family', 'Music', 'Musical']",1 hr 36 min,PG
 400,Kung Fu Panda 3 (2016),Twentieth Century Fox,28-Jan-16,143528619,377642206,521170825,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 35 min,PG
 401,Juno (2007),Fox Searchlight Pictures,5-Dec-07,143495265,88877416,232372681,"['Comedy', 'Drama']",1 hr 36 min,PG-13
-402,Marley & Me (2008),Twentieth Century Fox,NA,143153751,112589342,255743093,"['Comedy', 'Drama', 'Family']",1 hr 51 min,NA
+402,Marley & Me (2008),Twentieth Century Fox,NA,143153751,112589342,255743093,"['Comedy', 'Drama', 'Family']",1 hr 51 min,PG
 403,The Smurfs (2011),Sony Pictures Entertainment (SPE),27-Jul-11,142614158,421135165,563749323,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 43 min,PG
 404,Once Upon a Time... In Hollywood (2019),Sony Pictures Entertainment (SPE),25-Jul-19,142502728,232063026,374565754,"['Comedy', 'Drama']",2 hr 41 min,R
 405,xXx (2002),Revolution Studios,9-Aug-02,142109382,135339000,277448382,"['Action', 'Adventure', 'Thriller']",2 hr 4 min,PG-13
 406,The Chronicles of Narnia: Prince Caspian (2008),Walt Disney Studios Motion Pictures,15-May-08,141621490,278044078,419665568,"['Action', 'Adventure', 'Family', 'Fantasy']",2 hr 30 min,PG
-407,Pocahontas (1995),Walt Disney Studios Motion Pictures,NA,141579773,204500000,346079773,"['Adventure', 'Animation', 'Drama', 'Family', 'Musical', 'Romance']",1 hr 21 min,NA
+407,Pocahontas (1995),Walt Disney Studios Motion Pictures,NA,141579773,204500000,346079773,"['Adventure', 'Animation', 'Drama', 'Family', 'Musical', 'Romance']",1 hr 21 min,G
 408,A Few Good Men (1992),Columbia Pictures,11-Dec-92,141340178,101900000,243240178,"['Drama', 'Thriller']",2 hr 18 min,R
 409,Slumdog Millionaire (2008),Fox Searchlight Pictures,12-Nov-08,141319928,237090614,378410542,"['Drama', 'Romance']",2 hr,R
 410,Rush Hour (1998),New Line Cinema,18-Sep-98,141186864,103534200,244721064,"['Action', 'Comedy', 'Crime', 'Thriller']",1 hr 38 min,PG-13
 411,The Blair Witch Project (1999),Artisan Entertainment,16-Jul-99,140539099,108100000,248639099,"['Horror', 'Mystery']",1 hr 21 min,R
-412,Deep Impact (1998),Paramount Pictures,NA,140464664,209000000,349464664,"['Action', 'Drama', 'Sci-Fi', 'Thriller']",2 hr,NA
+412,Deep Impact (1998),Paramount Pictures,NA,140464664,209000000,349464664,"['Action', 'Drama', 'Sci-Fi', 'Thriller']",2 hr,PG-13
 413,Shazam! (2019),Warner Bros.,3-Apr-19,140371656,225600000,365971656,"['Action', 'Adventure', 'Comedy', 'Fantasy']",2 hr 12 min,PG-13
 414,Ocean's Eight (2018),Warner Bros.,7-Jun-18,140218711,157500000,297718711,"['Action', 'Comedy', 'Crime', 'Thriller']",1 hr 50 min,PG-13
 415,Rush Hour 3 (2007),New Line Cinema,8-Aug-07,140125968,117971154,258097122,"['Action', 'Comedy', 'Crime', 'Thriller']",1 hr 31 min,PG-13
 416,Stuart Little (1999),Sony Pictures Entertainment (SPE),17-Dec-99,140035367,160100000,300135367,"['Adventure', 'Comedy', 'Family', 'Fantasy']",1 hr 24 min,PG
 417,Taken 2 (2012),Twentieth Century Fox,27-Sep-12,139854287,236298168,376152455,"['Action', 'Crime', 'Thriller']",1 hr 32 min,PG-13
-418,Sister Act (1992),Walt Disney Studios Motion Pictures,NA,139605150,92000000,231605150,"['Comedy', 'Family', 'Music']",1 hr 40 min,NA
+418,Sister Act (1992),Walt Disney Studios Motion Pictures,NA,139605150,92000000,231605150,"['Comedy', 'Family', 'Music']",1 hr 40 min,PG
 419,The Matrix Revolutions (2003),Warner Bros.,5-Nov-03,139313948,288030377,427344325,"['Action', 'Sci-Fi']",2 hr 9 min,R
-420,The Santa Clause 2 (2002),Walt Disney Studios Motion Pictures,1-Nov-02,139236327,33618738,172855065,"['Comedy', 'Family', 'Fantasy']",1 hr 44 min,NA
+420,The Santa Clause 2 (2002),Walt Disney Studios Motion Pictures,1-Nov-02,139236327,33618738,172855065,"['Comedy', 'Family', 'Fantasy']",1 hr 44 min,G
 421,The King's Speech (2010),The Weinstein Company,26-Nov-10,138797449,288576868,427374317,"['Biography', 'Drama', 'History']",1 hr 58 min,R
 422,Cheaper by the Dozen (2003),Twentieth Century Fox,25-Dec-03,138614544,51924086,190538630,"['Comedy', 'Family']",1 hr 38 min,PG
 423,Bad Boys II (2003),Sony Pictures Entertainment (SPE),18-Jul-03,138608444,134731112,273339556,"['Action', 'Comedy', 'Crime', 'Thriller']",2 hr 27 min,R
-424,Platoon (1986),Orion Pictures,19-Dec-86,138530565,15067,138545632,"['Drama', 'War']",2 hr,NA
+424,Platoon (1986),Orion Pictures,19-Dec-86,138530565,15067,138545632,"['Drama', 'War']",2 hr,R
 425,21 Jump Street (2012),Sony Pictures Entertainment (SPE),15-Mar-12,138447667,63137661,201585328,"['Action', 'Comedy', 'Crime']",1 hr 49 min,R
-426,Good Will Hunting (1997),Miramax,NA,138433435,87500000,225933435,"['Drama', 'Romance']",2 hr 6 min,NA
+426,Good Will Hunting (1997),Miramax,NA,138433435,87500000,225933435,"['Drama', 'Romance']",2 hr 6 min,R
 427,Split (2016),Universal Pictures,18-Jan-17,138291365,140163052,278454417,"['Horror', 'Thriller']",1 hr 57 min,PG-13
 428,A Christmas Carol (2009),Walt Disney Studios Motion Pictures,9-Sep-09,137855863,187430783,325286646,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy']",1 hr 36 min,PG
 429,Dinosaur (2000),Walt Disney Studios Motion Pictures,19-May-00,137748063,212074702,349822765,"['Adventure', 'Animation', 'Drama', 'Family', 'Fantasy']",1 hr 22 min,PG
@@ -433,14 +433,14 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 431,The Conjuring (2013),Warner Bros.,18-Jul-13,137400141,182890848,320290989,"['Horror', 'Mystery', 'Thriller']",1 hr 52 min,R
 432,Click (2006),Revolution Studios,22-Jun-06,137355633,103329693,240685326,"['Comedy', 'Drama', 'Fantasy', 'Romance']",1 hr 47 min,PG-13
 433,The Green Mile (1999),Warner Bros.,10-Dec-99,136801374,150000000,286801374,"['Crime', 'Drama', 'Fantasy', 'Mystery']",3 hr 9 min,R
-434,Ransom (1996),Walt Disney Studios Motion Pictures,NA,136492681,173000000,309492681,"['Action', 'Crime', 'Thriller']",2 hr 1 min,NA
+434,Ransom (1996),Walt Disney Studios Motion Pictures,NA,136492681,173000000,309492681,"['Action', 'Crime', 'Thriller']",2 hr 1 min,R
 435,Godzilla (1998),Sony Pictures Entertainment (SPE),20-May-98,136314294,242700000,379014294,"['Action', 'Sci-Fi', 'Thriller']",2 hr 19 min,PG-13
 436,Argo (2012),Warner Bros.,11-Oct-12,136025503,96300000,232325503,"['Biography', 'Drama', 'Thriller']",2 hr,R
 437,Anger Management (2003),Revolution Studios,11-Apr-03,135645823,60100000,195745823,['Comedy'],1 hr 46 min,PG-13
 438,Chicken Little (2005),Walt Disney Studios Motion Pictures,4-Nov-05,135386665,179046172,314432837,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 21 min,G
-439,Teenage Mutant Ninja Turtles (1990),New Line Cinema,30-Mar-90,135265915,66700000,201965915,"['Action', 'Adventure', 'Comedy', 'Family', 'Sci-Fi']",1 hr 33 min,NA
+439,Teenage Mutant Ninja Turtles (1990),New Line Cinema,30-Mar-90,135265915,66700000,201965915,"['Action', 'Adventure', 'Comedy', 'Family', 'Sci-Fi']",1 hr 33 min,PG
 440,Patch Adams (1998),Universal Pictures,25-Dec-98,135026902,67266000,202292902,"['Biography', 'Comedy', 'Drama', 'Romance']",1 hr 55 min,PG-13
-441,The Godfather (1972),Paramount Pictures,15-Mar-72,134966411,111154575,246120986,"['Crime', 'Drama']",2 hr 55 min,NA
+441,The Godfather (1972),Paramount Pictures,15-Mar-72,134966411,111154575,246120986,"['Crime', 'Drama']",2 hr 55 min,R
 442,Ride Along (2014),Universal Pictures,17-Jan-14,134938200,19530702,154468902,"['Action', 'Comedy', 'Crime']",1 hr 39 min,PG-13
 443,The Incredible Hulk (2008),Universal Pictures,11-Jun-08,134806913,129964083,264770996,"['Action', 'Adventure', 'Sci-Fi']",1 hr 52 min,PG-13
 444,Live Free or Die Hard (2007),Twentieth Century Fox,26-Jun-07,134529403,253626608,388156011,"['Action', 'Thriller']",2 hr 8 min,PG-13
@@ -455,7 +455,7 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 453,Alvin and the Chipmunks: Chipwrecked (2011),Twentieth Century Fox,14-Dec-11,133110742,209584693,342695435,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Music', 'Musical']",1 hr 27 min,G
 454,Bringing Down the House (2003),Walt Disney Studios Motion Pictures,7-Mar-03,132716677,32013002,164729679,['Comedy'],1 hr 45 min,PG-13
 455,The Wolverine (2013),Twentieth Century Fox,24-Jul-13,132556852,282271394,414828246,"['Action', 'Sci-Fi']",2 hr 6 min,PG-13
-456,Wonder (2017),Lionsgate,NA,132422809,173786480,306209289,"['Drama', 'Family']",1 hr 53 min,NA
+456,Wonder (2017),Lionsgate,NA,132422809,173786480,306209289,"['Drama', 'Family']",1 hr 53 min,PG
 457,The Departed (2006),Warner Bros.,5-Oct-06,132384315,159081058,291465373,"['Crime', 'Drama', 'Thriller']",2 hr 31 min,R
 458,Hulk (2003),Universal Pictures,19-Jun-03,132177234,113107931,245285165,"['Action', 'Sci-Fi']",2 hr 18 min,PG-13
 459,Silver Linings Playbook (2012),The Weinstein Company,16-Nov-12,132092958,104319495,236412453,"['Comedy', 'Drama', 'Romance']",2 hr 2 min,R
@@ -464,7 +464,7 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 462,The Last Airbender (2010),Paramount Pictures,1-Jul-10,131772187,187941694,319713881,"['Action', 'Adventure', 'Family', 'Fantasy']",1 hr 43 min,PG
 463,Rio 2 (2014),Twentieth Century Fox,20-Mar-14,131538435,367242682,498781117,"['Adventure', 'Animation', 'Comedy', 'Family', 'Music', 'Musical']",1 hr 41 min,G
 464,Lara Croft: Tomb Raider (2001),Paramount Pictures,15-Jun-01,131168070,143535270,274703340,"['Action', 'Adventure', 'Fantasy', 'Thriller']",1 hr 40 min,PG-13
-465,The Silence of the Lambs (1991),Orion Pictures,14-Feb-91,130742922,142000000,272742922,"['Crime', 'Drama', 'Horror', 'Thriller']",1 hr 58 min,NA
+465,The Silence of the Lambs (1991),Orion Pictures,14-Feb-91,130742922,142000000,272742922,"['Crime', 'Drama', 'Horror', 'Thriller']",1 hr 58 min,R
 466,The Flintstones (1994),Universal Pictures,27-May-94,130531208,211100000,341631208,"['Comedy', 'Family', 'Fantasy']",1 hr 31 min,PG
 467,Lethal Weapon 4 (1998),Warner Bros.,10-Jul-98,130444603,155000000,285444603,"['Action', 'Crime', 'Thriller']",2 hr 7 min,R
 468,Get Smart (2008),Warner Bros.,19-Jun-08,130319208,100366245,230685453,"['Action', 'Adventure', 'Comedy']",1 hr 50 min,PG-13
@@ -482,14 +482,14 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 480,"Crouching Tiger, Hidden Dragon (2000)",Sony Pictures Classics,8-Dec-00,128078872,85446864,213525736,"['Action', 'Adventure', 'Drama', 'Fantasy', 'Romance']",2 hr,PG-13
 481,Shutter Island (2010),Paramount Pictures,18-Feb-10,128012934,166792763,294805697,"['Mystery', 'Thriller']",2 hr 18 min,R
 482,Into the Woods (2014),Walt Disney Studios Motion Pictures,24-Dec-14,128002372,84900000,212902372,"['Adventure', 'Comedy', 'Drama', 'Fantasy', 'Musical']",2 hr 5 min,PG
-483,Rocky IV (1985),United Artists,NA,127873716,172600000,300473716,"['Drama', 'Sport']",1 hr 31 min,NA
+483,Rocky IV (1985),United Artists,NA,127873716,172600000,300473716,"['Drama', 'Sport']",1 hr 31 min,PG-13
 484,Enchanted (2007),Walt Disney Studios Motion Pictures,21-Nov-07,127807262,212680574,340487836,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical', 'Romance']",1 hr 47 min,PG
 485,The Curious Case of Benjamin Button (2008),Paramount Pictures,25-Dec-08,127509326,208293460,335802786,"['Drama', 'Fantasy', 'Romance']",2 hr 46 min,PG-13
 486,Central Intelligence (2016),Warner Bros.,15-Jun-16,127440871,89531672,216972543,"['Action', 'Comedy', 'Crime']",1 hr 47 min,PG-13
 487,Anchorman 2: The Legend Continues (2013),Paramount Pictures,18-Dec-13,127352707,46297224,173649931,['Comedy'],1 hr 59 min,PG-13
 488,Sweet Home Alabama (2002),Walt Disney Studios Motion Pictures,27-Sep-02,127223418,53399006,180622424,"['Comedy', 'Romance']",1 hr 48 min,PG-13
 489,Bumblebee (2018),Paramount Pictures,19-Dec-18,127195589,340794056,467989645,"['Action', 'Adventure', 'Sci-Fi']",1 hr 54 min,PG-13
-490,Dumb and Dumber (1994),New Line Cinema,16-Dec-94,127175374,120100000,247275374,['Comedy'],1 hr 47 min,NA
+490,Dumb and Dumber (1994),New Line Cinema,16-Dec-94,127175374,120100000,247275374,['Comedy'],1 hr 47 min,PG-13
 491,2 Fast 2 Furious (2003),Universal Pictures,5-Jun-03,127154901,109195760,236350661,"['Action', 'Crime', 'Thriller']",1 hr 47 min,PG-13
 492,My Best Friend's Wedding (1997),Sony Pictures Entertainment (SPE),20-Jun-97,127120029,172168576,299288605,"['Comedy', 'Drama', 'Romance']",1 hr 45 min,PG-13
 493,Super 8 (2011),Paramount Pictures,9-Jun-11,127004179,133091807,260095986,"['Action', 'Mystery', 'Sci-Fi', 'Thriller']",1 hr 52 min,PG-13
@@ -501,13 +501,13 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 499,Prometheus (2012),Twentieth Century Fox,30-May-12,126477084,276877385,403354469,"['Adventure', 'Mystery', 'Sci-Fi']",2 hr 4 min,R
 500,Safe House (2012),Universal Pictures,8-Feb-12,126373434,81702771,208076205,"['Action', 'Thriller']",1 hr 55 min,R
 501,Mr. Deeds (2002),Sony Pictures Entertainment (SPE),28-Jun-02,126293452,44976083,171269535,"['Comedy', 'Romance']",1 hr 36 min,PG-13
-502,The Truman Show (1998),Paramount Pictures,NA,125618201,138500000,264118201,"['Comedy', 'Drama']",1 hr 43 min,NA
+502,The Truman Show (1998),Paramount Pictures,NA,125618201,138500000,264118201,"['Comedy', 'Drama']",1 hr 43 min,PG
 503,Erin Brockovich (2000),Universal Pictures,17-Mar-00,125595205,130676081,256271286,"['Biography', 'Drama']",2 hr 11 min,R
 504,Ocean's Twelve (2004),Warner Bros.,9-Dec-04,125544280,237200000,362744280,"['Crime', 'Thriller']",2 hr 5 min,PG-13
 505,Terminator Salvation (2009),Warner Bros.,20-May-09,125322469,246030532,371353001,"['Action', 'Sci-Fi']",1 hr 55 min,PG-13
 506,Charlie's Angels (2000),Sony Pictures Entertainment (SPE),3-Nov-00,125305545,138800000,264105545,"['Action', 'Adventure', 'Comedy', 'Crime', 'Thriller']",1 hr 38 min,PG-13
-507,Tomorrow Never Dies (1997),Metro-Goldwyn-Mayer (MGM),NA,125304276,207706792,333011068,"['Action', 'Adventure', 'Thriller']",1 hr 59 min,NA
-508,Ghostbusters: Afterlife (2021),Sony Pictures Entertainment (SPE),NA,125278330,66100000,191378330,"['Adventure', 'Comedy', 'Fantasy', 'Sci-Fi']",2 hr 4 min,NA
+507,Tomorrow Never Dies (1997),Metro-Goldwyn-Mayer (MGM),NA,125304276,207706792,333011068,"['Action', 'Adventure', 'Thriller']",1 hr 59 min,PG-13
+508,Ghostbusters: Afterlife (2021),Sony Pictures Entertainment (SPE),NA,125278330,66100000,191378330,"['Adventure', 'Comedy', 'Fantasy', 'Sci-Fi']",2 hr 4 min,PG-13
 509,Lone Survivor (2013),Universal Pictures,25-Dec-13,125095601,29707311,154802912,"['Action', 'Biography', 'Drama', 'War']",2 hr 1 min,R
 510,Sully (2016),Warner Bros.,8-Sep-16,125070033,115727590,240797623,"['Biography', 'Drama']",1 hr 36 min,PG-13
 511,The Vow (2012),Screen Gems,9-Feb-12,125014030,71100540,196114570,"['Drama', 'Romance']",1 hr 44 min,PG-13
@@ -516,19 +516,19 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 514,Cloudy with a Chance of Meatballs (2009),Sony Pictures Entertainment (SPE),16-Sep-09,124870275,118135851,243006126,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 30 min,PG
 515,The Devil Wears Prada (2006),Twentieth Century Fox,30-Jun-06,124740460,201965655,326706115,"['Comedy', 'Drama']",1 hr 49 min,PG-13
 516,Something's Gotta Give (2003),Sony Pictures Entertainment (SPE),12-Dec-03,124728738,140600000,265328738,"['Comedy', 'Drama', 'Romance']",2 hr 8 min,PG-13
-517,Traffic (2000),USA Films,NA,124115725,83400000,207515725,"['Crime', 'Drama', 'Thriller']",2 hr 27 min,NA
-518,The Birdcage (1996),Metro-Goldwyn-Mayer (MGM),NA,124060553,61200000,185260553,['Comedy'],1 hr 57 min,NA
-519,City Slickers (1991),Columbia Pictures,7-Jun-91,124033791,55000000,179033791,"['Comedy', 'Western']",1 hr 53 min,NA
+517,Traffic (2000),USA Films,NA,124115725,83400000,207515725,"['Crime', 'Drama', 'Thriller']",2 hr 27 min,R
+518,The Birdcage (1996),Metro-Goldwyn-Mayer (MGM),NA,124060553,61200000,185260553,['Comedy'],1 hr 57 min,R
+519,City Slickers (1991),Columbia Pictures,7-Jun-91,124033791,55000000,179033791,"['Comedy', 'Western']",1 hr 53 min,PG-13
 520,Rango (2011),Paramount Pictures,2-Mar-11,123477607,122246996,245724603,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Western']",1 hr 47 min,PG
 521,Nutty Professor II: The Klumps (2000),Universal Pictures,28-Jul-00,123309890,43030000,166339890,"['Comedy', 'Romance', 'Sci-Fi']",1 hr 46 min,PG-13
-522,The Good Dinosaur (2015),Walt Disney Studios Motion Pictures,NA,123087120,209120551,332207671,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family']",1 hr 33 min,NA
+522,The Good Dinosaur (2015),Walt Disney Studios Motion Pictures,NA,123087120,209120551,332207671,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family']",1 hr 33 min,PG
 523,G.I. Joe: Retaliation (2013),Paramount Pictures,27-Mar-13,122523060,253217645,375740705,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",1 hr 50 min,PG-13
 524,Clear and Present Danger (1994),Paramount Pictures,5-Aug-94,122187717,93700000,215887717,"['Action', 'Crime', 'Drama', 'Thriller']",2 hr 21 min,PG-13
-525,The Hunt for Red October (1990),Paramount Pictures,2-Mar-90,122012643,78500000,200512643,"['Action', 'Adventure', 'Thriller']",2 hr 15 min,NA
-526,The Bodyguard (1992),Warner Bros.,NA,122006740,289000000,411006740,"['Action', 'Drama', 'Music', 'Romance', 'Thriller']",2 hr 9 min,NA
+525,The Hunt for Red October (1990),Paramount Pictures,2-Mar-90,122012643,78500000,200512643,"['Action', 'Adventure', 'Thriller']",2 hr 15 min,PG
+526,The Bodyguard (1992),Warner Bros.,NA,122006740,289000000,411006740,"['Action', 'Drama', 'Music', 'Romance', 'Thriller']",2 hr 9 min,R
 527,Wayne's World (1992),Paramount Pictures,14-Feb-92,121697323,61400000,183097323,"['Comedy', 'Music']",1 hr 34 min,PG-13
 528,The Bourne Identity (2002),Universal Pictures,14-Jun-02,121661683,92372541,214034224,"['Action', 'Mystery', 'Thriller']",1 hr 59 min,PG-13
-529,Free Guy (2021),20th Century Studios,NA,121626598,209877159,331503757,"['Action', 'Adventure', 'Comedy', 'Fantasy', 'Sci-Fi']",1 hr 55 min,NA
+529,Free Guy (2021),20th Century Studios,NA,121626598,209877159,331503757,"['Action', 'Adventure', 'Comedy', 'Fantasy', 'Sci-Fi']",1 hr 55 min,PG-13
 530,Superbad (2007),Sony Pictures Entertainment (SPE),17-Aug-07,121463226,49349300,170812526,['Comedy'],1 hr 53 min,R
 531,Speed (1994),Twentieth Century Fox,10-Jun-94,121248145,229200000,350448145,"['Action', 'Adventure', 'Thriller']",1 hr 56 min,R
 532,50 First Dates (2004),Sony Pictures Entertainment (SPE),13-Feb-04,120908074,77612860,198520934,"['Comedy', 'Drama', 'Romance']",1 hr 39 min,PG-13
@@ -540,15 +540,15 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 538,I Now Pronounce You Chuck & Larry (2007),Universal Pictures,20-Jul-07,120059556,67074561,187134117,"['Comedy', 'Romance']",1 hr 55 min,PG-13
 539,The Mask (1994),New Line Cinema,29-Jul-94,119938730,231644677,351583407,"['Action', 'Comedy', 'Crime', 'Fantasy']",1 hr 41 min,PG-13
 540,Cloudy with a Chance of Meatballs 2 (2013),Sony Pictures Entertainment (SPE),26-Sep-13,119793567,154532382,274325949,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 35 min,PG
-541,Hook (1991),TriStar Pictures,11-Dec-91,119654823,181200000,300854823,"['Adventure', 'Comedy', 'Family', 'Fantasy']",2 hr 22 min,NA
+541,Hook (1991),TriStar Pictures,11-Dec-91,119654823,181200000,300854823,"['Adventure', 'Comedy', 'Family', 'Fantasy']",2 hr 22 min,PG
 542,Walk the Line (2005),Twentieth Century Fox,2-Feb-05,119519402,67278584,186797986,"['Biography', 'Drama', 'Music', 'Romance']",2 hr 16 min,PG-13
 543,G-Force (2009),Walt Disney Studios Motion Pictures,23-Jul-09,119436770,173381128,292817898,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 28 min,PG
-544,Total Recall (1990),Sony Pictures Entertainment (SPE),1-Jun-90,119412921,141905000,261317921,"['Action', 'Adventure', 'Sci-Fi']",1 hr 53 min,NA
+544,Total Recall (1990),Sony Pictures Entertainment (SPE),1-Jun-90,119412921,141905000,261317921,"['Action', 'Adventure', 'Sci-Fi']",1 hr 53 min,R
 545,The Other Guys (2010),Sony Pictures Entertainment (SPE),6-Aug-10,119219978,51238944,170458922,"['Action', 'Comedy', 'Crime']",1 hr 47 min,PG-13
 546,Fahrenheit 9/11 (2004),Lionsgate,23-Jun-04,119194771,103252111,222446882,"['Documentary', 'Drama', 'War']",2 hr 2 min,R
-547,Back to the Future Part II (1989),Universal Pictures,22-Nov-89,119000002,213500000,332500002,"['Adventure', 'Comedy', 'Sci-Fi']",1 hr 48 min,NA
+547,Back to the Future Part II (1989),Universal Pictures,22-Nov-89,119000002,213500000,332500002,"['Adventure', 'Comedy', 'Sci-Fi']",1 hr 48 min,PG
 548,The Sum of All Fears (2002),Paramount Pictures,31-May-02,118907036,75014336,193921372,"['Action', 'Drama', 'Thriller', 'War']",2 hr 4 min,PG-13
-549,Hairspray (2007),New Line Cinema,NA,118871849,84681462,203553311,"['Comedy', 'Drama', 'Musical', 'Romance']",1 hr 57 min,NA
+549,Hairspray (2007),New Line Cinema,NA,118871849,84681462,203553311,"['Comedy', 'Drama', 'Musical', 'Romance']",1 hr 57 min,PG
 550,The Break-Up (2006),Universal Pictures,2-Jun-06,118703275,86964935,205668210,"['Comedy', 'Drama', 'Romance']",1 hr 46 min,PG-13
 551,A Series of Unfortunate Events (2004),Paramount Pictures,16-Dec-04,118634549,92833686,211468235,"['Adventure', 'Comedy', 'Family', 'Fantasy']",1 hr 48 min,PG
 552,Blades of Glory (2007),DreamWorks,30-Mar-07,118594548,27115799,145710347,"['Comedy', 'Sport']",1 hr 33 min,PG-13
@@ -557,12 +557,12 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 555,Now You See Me (2013),Lionsgate,29-May-13,117723989,234000000,351723989,"['Crime', 'Mystery', 'Thriller']",1 hr 55 min,PG-13
 556,Ford v Ferrari (2019),Twentieth Century Fox,13-Nov-19,117624357,107883853,225508210,"['Action', 'Biography', 'Drama', 'Sport']",2 hr 32 min,PG-13
 557,Big Momma's House (2000),Twentieth Century Fox,2-Jun-00,117559438,56400000,173959438,"['Action', 'Comedy', 'Crime']",1 hr 39 min,PG-13
-558,Die Hard 2 (1990),Twentieth Century Fox,6-Jul-90,117540947,122490327,240031274,"['Action', 'Thriller']",2 hr 4 min,NA
+558,Die Hard 2 (1990),Twentieth Century Fox,6-Jul-90,117540947,122490327,240031274,"['Action', 'Thriller']",2 hr 4 min,R
 559,Horrible Bosses (2011),Warner Bros.,7-Jul-11,117538559,92300000,209838559,"['Comedy', 'Crime']",1 hr 38 min,R
 560,The Nun (2018),Warner Bros.,5-Sep-18,117450119,248101575,365551694,"['Horror', 'Mystery', 'Thriller']",1 hr 36 min,R
 561,Jackass 3D (2010),Paramount Pictures,15-Oct-10,117229692,54456100,171685792,"['Action', 'Comedy', 'Documentary']",1 hr 35 min,R
-562,Ocean's Thirteen (2007),Warner Bros.,NA,117154724,194157900,311312624,"['Crime', 'Thriller']",2 hr 2 min,NA
-563,Jungle Cruise (2021),Walt Disney Studios Motion Pictures,NA,116987516,103901930,220889446,"['Action', 'Adventure', 'Comedy', 'Fantasy']",2 hr 7 min,NA
+562,Ocean's Thirteen (2007),Warner Bros.,NA,117154724,194157900,311312624,"['Crime', 'Thriller']",2 hr 2 min,PG-13
+563,Jungle Cruise (2021),Walt Disney Studios Motion Pictures,NA,116987516,103901930,220889446,"['Action', 'Adventure', 'Comedy', 'Fantasy']",2 hr 7 min,PG-13
 564,S.W.A.T. (2003),Sony Pictures Entertainment (SPE),8-Aug-03,116934650,90790989,207725639,"['Action', 'Adventure', 'Crime', 'Thriller']",1 hr 57 min,PG-13
 565,The Wolf of Wall Street (2013),Paramount Pictures,25-Dec-13,116900694,275100000,392000694,"['Biography', 'Comedy', 'Crime', 'Drama']",3 hr,R
 566,8 Mile (2002),Universal Pictures,8-Nov-02,116750901,126124177,242875078,"['Drama', 'Music']",1 hr 50 min,R
@@ -587,7 +587,7 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 585,Wild Wild West (1999),Warner Bros.,30-Jun-99,113804681,108300000,222104681,"['Action', 'Comedy', 'Sci-Fi', 'Western']",1 hr 46 min,PG-13
 586,Night at the Museum: Secret of the Tomb (2014),Twentieth Century Fox,17-Dec-14,113746621,249458014,363204635,"['Adventure', 'Comedy', 'Family', 'Fantasy']",1 hr 38 min,PG
 587,Magic Mike (2012),Warner Bros.,28-Jun-12,113721571,54018390,167739961,"['Comedy', 'Drama']",1 hr 50 min,R
-588,The Addams Family (1991),Paramount Pictures,22-Nov-91,113502426,78000000,191502426,"['Comedy', 'Fantasy']",1 hr 39 min,NA
+588,The Addams Family (1991),Paramount Pictures,22-Nov-91,113502426,78000000,191502426,"['Comedy', 'Fantasy']",1 hr 39 min,PG-13
 589,The Patriot (2000),Sony Pictures Entertainment (SPE),28-Jun-00,113330342,101964000,215294342,"['Action', 'Drama', 'History', 'War']",2 hr 45 min,R
 590,Bad Moms (2016),STX Entertainment,28-Jul-16,113257297,70678777,183936074,['Comedy'],1 hr 40 min,R
 591,The Bourne Legacy (2012),Universal Pictures,8-Aug-12,113203870,162940880,276144750,"['Action', 'Adventure', 'Thriller']",2 hr 15 min,PG-13
@@ -597,14 +597,14 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 595,Spy Kids (2001),Miramax,30-Mar-01,112719001,35215179,147934180,"['Action', 'Adventure', 'Comedy', 'Family', 'Sci-Fi']",1 hr 28 min,PG
 596,Face/Off (1997),Paramount Pictures,27-Jun-97,112276146,133400000,245676146,"['Action', 'Crime', 'Sci-Fi', 'Thriller']",2 hr 18 min,R
 597,The Hangover Part III (2013),Warner Bros.,23-May-13,112200072,249800000,362000072,"['Comedy', 'Crime']",1 hr 40 min,R
-598,Twins (1988),Universal Pictures,9-Dec-88,111938388,104676000,216614388,"['Comedy', 'Crime']",1 hr 47 min,NA
+598,Twins (1988),Universal Pictures,9-Dec-88,111938388,104676000,216614388,"['Comedy', 'Crime']",1 hr 47 min,PG
 599,Spy Kids 3-D: Game Over (2003),Dimension Films,25-Jul-03,111761982,85339696,197101678,"['Action', 'Adventure', 'Comedy', 'Family', 'Sci-Fi']",1 hr 24 min,PG
 600,Enemy of the State (1998),Walt Disney Studios Motion Pictures,20-Nov-98,111549836,139299953,250849789,"['Action', 'Thriller']",2 hr 12 min,R
 601,Mr. Peabody & Sherman (2014),Twentieth Century Fox,7-Feb-14,111506430,164191609,275698039,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'History', 'Sci-Fi']",1 hr 32 min,PG
 602,The Last Samurai (2003),Warner Bros.,5-Dec-03,111127263,343500000,454627263,"['Action', 'Drama']",2 hr 34 min,R
 603,Glass (2019),Universal Pictures,16-Jan-19,111048468,135950571,246999039,"['Drama', 'Sci-Fi', 'Thriller']",2 hr 9 min,PG-13
 604,Spy (2015),Twentieth Century Fox,21-May-15,110825712,124840507,235666219,"['Action', 'Comedy']",2 hr,R
-605,Sing 2 (2021),Universal Pictures,NA,110540715,82129000,192669715,"['Adventure', 'Animation', 'Comedy', 'Family', 'Music', 'Musical']",1 hr 50 min,NA
+605,Sing 2 (2021),Universal Pictures,NA,110540715,82129000,192669715,"['Adventure', 'Animation', 'Comedy', 'Family', 'Music', 'Musical']",1 hr 50 min,PG
 606,Tropic Thunder (2008),DreamWorks,13-Aug-08,110515313,85187650,195702963,"['Action', 'Comedy', 'War']",1 hr 47 min,R
 607,Godzilla: King of the Monsters (2019),Warner Bros.,29-May-19,110500138,276100000,386600138,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",2 hr 12 min,PG-13
 608,Valentine's Day (2010),Warner Bros.,10-Feb-10,110485654,106000000,216485654,"['Comedy', 'Romance']",2 hr 5 min,PG-13
@@ -615,13 +615,13 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 613,Bedtime Stories (2008),Walt Disney Studios Motion Pictures,24-Dec-08,110101975,102772889,212874864,"['Adventure', 'Comedy', 'Family', 'Fantasy', 'Romance', 'Sci-Fi']",1 hr 39 min,PG
 614,Scary Movie 3 (2003),Dimension Films,24-Oct-03,110003217,110670000,220673217,['Comedy'],1 hr 24 min,PG-13
 615,Creed (2015),Warner Bros.,25-Nov-15,109767581,63800000,173567581,"['Action', 'Drama', 'Sport']",2 hr 13 min,PG-13
-616,Star Trek IV: The Voyage Home (1986),Paramount Pictures,NA,109713132,109713132,109713132,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",1 hr 59 min,NA
+616,Star Trek IV: The Voyage Home (1986),Paramount Pictures,NA,109713132,109713132,109713132,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",1 hr 59 min,PG
 617,The 40-Year-Old Virgin (2005),Universal Pictures,19-Aug-05,109449237,67929408,177378645,"['Comedy', 'Romance']",1 hr 56 min,R
 618,Couples Retreat (2009),Universal Pictures,8-Oct-09,109204945,62639895,171844840,['Comedy'],1 hr 53 min,PG-13
-619,A Time to Kill (1996),Warner Bros.,NA,108766007,43500000,152266007,"['Crime', 'Drama', 'Thriller']",2 hr 29 min,NA
+619,A Time to Kill (1996),Warner Bros.,NA,108766007,43500000,152266007,"['Crime', 'Drama', 'Thriller']",2 hr 29 min,R
 620,Black Hawk Down (2001),Revolution Studios,28-Dec-01,108638745,64350906,172989651,"['Action', 'Drama', 'History', 'War']",2 hr 24 min,R
-621,Terms of Endearment (1983),Paramount Pictures,23-Nov-83,108423489,260,108423749,"['Comedy', 'Drama']",2 hr 12 min,NA
-622,Ace Ventura: When Nature Calls (1995),Warner Bros.,NA,108385533,104000000,212385533,"['Adventure', 'Comedy', 'Crime']",1 hr 30 min,NA
+621,Terms of Endearment (1983),Paramount Pictures,23-Nov-83,108423489,260,108423749,"['Comedy', 'Drama']",2 hr 12 min,PG
+622,Ace Ventura: When Nature Calls (1995),Warner Bros.,NA,108385533,104000000,212385533,"['Adventure', 'Comedy', 'Crime']",1 hr 30 min,PG-13
 623,The Upside (2017),STX Entertainment,10-Jan-19,108252517,17603663,125856180,"['Comedy', 'Drama']",2 hr 6 min,PG-13
 624,The Princess Diaries (2001),Walt Disney Studios Motion Pictures,3-Aug-01,108248956,57086197,165335153,"['Comedy', 'Family', 'Romance']",1 hr 55 min,G
 625,Superman II (1980),Warner Bros.,19-Jun-81,108185706,108185706,108185706,"['Action', 'Adventure', 'Sci-Fi']",2 hr 7 min,PG
@@ -635,37 +635,37 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 633,Watchmen (2009),Warner Bros.,4-Mar-09,107509799,77873014,185382813,"['Action', 'Drama', 'Mystery', 'Sci-Fi']",2 hr 42 min,R
 634,The Angry Birds Movie (2016),Sony Pictures Entertainment (SPE),11-May-16,107509366,244824563,352333929,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family']",1 hr 37 min,PG
 635,Batman & Robin (1997),Warner Bros.,20-Jun-97,107353792,130881927,238235719,"['Action', 'Sci-Fi']",2 hr 5 min,PG-13
-636,Dune (2021),Warner Bros.,NA,107344390,289700000,397044390,"['Action', 'Adventure', 'Drama', 'Sci-Fi']",2 hr 35 min,NA
+636,Dune (2021),Warner Bros.,NA,107344390,289700000,397044390,"['Action', 'Adventure', 'Drama', 'Sci-Fi']",2 hr 35 min,PG-13
 637,Captain Phillips (2013),Sony Pictures Entertainment (SPE),11-Oct-13,107100855,111690956,218791811,"['Action', 'Biography', 'Crime', 'Drama', 'Thriller']",2 hr 14 min,PG-13
 638,Black Swan (2010),Fox Searchlight Pictures,3-Dec-10,106954678,222443368,329398046,"['Drama', 'Thriller']",1 hr 48 min,R
 639,Analyze This (1999),Warner Bros.,5-Mar-99,106885658,70000000,176885658,"['Comedy', 'Crime']",1 hr 43 min,R
-640,Chicken Run (2000),DreamWorks Distribution,23-Jun-00,106834564,118000000,224834564,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family']",1 hr 24 min,NA
+640,Chicken Run (2000),DreamWorks Distribution,23-Jun-00,106834564,118000000,224834564,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family']",1 hr 24 min,G
 641,Miss Congeniality (2000),Warner Bros.,22-Dec-00,106807667,105935053,212742720,"['Action', 'Comedy', 'Crime', 'Romance']",1 hr 49 min,PG-13
-642,Indecent Proposal (1993),Paramount Pictures,NA,106614059,160000000,266614059,"['Drama', 'Romance']",1 hr 57 min,NA
+642,Indecent Proposal (1993),Paramount Pictures,NA,106614059,160000000,266614059,"['Drama', 'Romance']",1 hr 57 min,R
 643,300: Rise of an Empire (2014),Warner Bros.,5-Mar-14,106580051,231000000,337580051,"['Action', 'Drama']",1 hr 42 min,R
-644,GoldenEye (1995),Metro-Goldwyn-Mayer (MGM),NA,106429941,245764093,352194034,"['Action', 'Adventure', 'Thriller']",2 hr 10 min,NA
+644,GoldenEye (1995),Metro-Goldwyn-Mayer (MGM),NA,106429941,245764093,352194034,"['Action', 'Adventure', 'Thriller']",2 hr 10 min,PG-13
 645,The Italian Job (2003),Paramount Pictures,30-May-03,106128601,69941570,176070171,"['Action', 'Crime', 'Thriller']",1 hr 51 min,PG-13
-646,How to Lose a Guy in 10 Days (2003),Paramount Pictures,NA,105813373,71689014,177502387,"['Comedy', 'Romance']",1 hr 56 min,NA
+646,How to Lose a Guy in 10 Days (2003),Paramount Pictures,NA,105813373,71689014,177502387,"['Comedy', 'Romance']",1 hr 56 min,PG-13
 647,The Lego Movie 2: The Second Part (2019),Warner Bros.,6-Feb-19,105806508,86500000,192306508,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 47 min,PG
-648,The First Wives Club (1996),Paramount Pictures,NA,105489203,76000000,181489203,['Comedy'],1 hr 43 min,NA
+648,The First Wives Club (1996),Paramount Pictures,NA,105489203,76000000,181489203,['Comedy'],1 hr 43 min,PG
 649,Robin Hood (2010),Universal Pictures,12-May-10,105269730,216400011,321669741,"['Action', 'Adventure', 'Drama', 'History']",2 hr 20 min,PG-13
 650,Interview with the Vampire: The Vampire Chronicles (1994),Warner Bros.,11-Nov-94,105264608,118400000,223664608,"['Drama', 'Fantasy', 'Horror']",2 hr 3 min,R
 651,George of the Jungle (1997),Walt Disney Studios Motion Pictures,18-Jul-97,105263257,69200000,174463257,"['Action', 'Adventure', 'Comedy', 'Family', 'Romance']",1 hr 32 min,PG
 652,Hustlers (2019),STX Entertainment,12-Sep-19,104963598,52600000,157563598,"['Comedy', 'Crime', 'Drama']",1 hr 50 min,R
 653,Pitch Perfect 3 (2017),Universal Pictures,21-Dec-17,104897530,80502815,185400345,"['Comedy', 'Music']",1 hr 33 min,PG-13
-654,Phenomenon (1996),Walt Disney Studios Motion Pictures,NA,104636382,47400000,152036382,"['Drama', 'Fantasy', 'Romance', 'Sci-Fi']",2 hr 3 min,NA
+654,Phenomenon (1996),Walt Disney Studios Motion Pictures,NA,104636382,47400000,152036382,"['Drama', 'Fantasy', 'Romance', 'Sci-Fi']",2 hr 3 min,PG
 655,American Wedding (2003),Universal Pictures,1-Aug-03,104565114,128157821,232722935,['Comedy'],1 hr 36 min,R
 656,Road to Perdition (2002),DreamWorks Distribution,12-Jul-02,104454762,76546716,181001478,"['Crime', 'Drama', 'Thriller']",1 hr 57 min,R
-657,The Princess and the Frog (2009),Walt Disney Studios Motion Pictures,25-Nov-09,104400899,162644866,267045765,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical', 'Romance']",1 hr 37 min,NA
+657,The Princess and the Frog (2009),Walt Disney Studios Motion Pictures,25-Nov-09,104400899,162644866,267045765,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical', 'Romance']",1 hr 37 min,G
 658,The Chronicles of Narnia: The Voyage of the Dawn Treader (2010),Twentieth Century Fox,2-Dec-10,104386950,311299267,415686217,"['Adventure', 'Family', 'Fantasy']",1 hr 53 min,PG
 659,Daddy Day Care (2003),Revolution Studios,9-May-03,104297061,60136806,164433867,"['Comedy', 'Family']",1 hr 32 min,PG
 660,Daddy's Home 2 (2017),Paramount Pictures,9-Nov-17,104029443,76584381,180613824,['Comedy'],1 hr 40 min,PG-13
 661,Paranormal Activity 3 (2011),Paramount Pictures,19-Oct-11,104028807,103011037,207039844,"['Horror', 'Mystery']",1 hr 23 min,R
 662,Journey 2: The Mysterious Island (2012),Warner Bros.,19-Jan-12,103860290,231400000,335260290,"['Action', 'Adventure', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 34 min,PG
 663,The Mule (2018),Warner Bros.,14-Dec-18,103804407,71000000,174804407,"['Crime', 'Drama', 'Thriller']",1 hr 56 min,R
-664,Dick Tracy (1990),Walt Disney Studios Motion Pictures,15-Jun-90,103738726,59000000,162738726,"['Action', 'Comedy', 'Crime', 'Music', 'Romance', 'Thriller']",1 hr 45 min,NA
+664,Dick Tracy (1990),Walt Disney Studios Motion Pictures,15-Jun-90,103738726,59000000,162738726,"['Action', 'Comedy', 'Crime', 'Music', 'Romance', 'Thriller']",1 hr 45 min,PG
 665,Rise of the Guardians (2012),DreamWorks,21-Nov-12,103412758,203528912,306941670,"['Action', 'Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy']",1 hr 37 min,PG
-666,Dreamgirls (2006),DreamWorks,NA,103365956,52064379,155430335,"['Drama', 'Music', 'Musical']",2 hr 10 min,NA
+666,Dreamgirls (2006),DreamWorks,NA,103365956,52064379,155430335,"['Drama', 'Music', 'Musical']",2 hr 10 min,PG
 667,Independence Day: Resurgence (2016),Twentieth Century Fox,22-Jun-16,103144286,286537649,389681935,"['Action', 'Adventure', 'Sci-Fi']",2 hr,PG-13
 668,The Expendables (2010),Lionsgate,12-Aug-10,103068524,171401870,274470394,"['Action', 'Adventure', 'Thriller']",1 hr 43 min,R
 669,Scream (1996),Dimension Films,20-Dec-96,103046663,70000000,173046663,"['Horror', 'Mystery']",1 hr 51 min,R
@@ -686,7 +686,7 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 684,Pacific Rim (2013),Warner Bros.,11-Jul-13,101802906,309200000,411002906,"['Action', 'Adventure', 'Sci-Fi']",2 hr 11 min,PG-13
 685,Journey to the Center of the Earth (2008),Warner Bros.,10-Jul-08,101704370,142528318,244232688,"['Action', 'Adventure', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 33 min,PG
 686,Gone in 60 Seconds (2000),Walt Disney Studios Motion Pictures,9-Jun-00,101648571,135553728,237202299,"['Action', 'Crime', 'Thriller']",1 hr 58 min,PG-13
-687,Maverick (1994),Warner Bros.,NA,101631272,81400000,183031272,"['Action', 'Adventure', 'Comedy', 'Thriller', 'Western']",2 hr 7 min,NA
+687,Maverick (1994),Warner Bros.,NA,101631272,81400000,183031272,"['Action', 'Adventure', 'Comedy', 'Thriller', 'Western']",2 hr 7 min,PG
 688,Sleeping with the Enemy (1991),Twentieth Century Fox,8-Feb-91,101599005,73400000,174999005,"['Drama', 'Thriller']",1 hr 39 min,R
 689,The Equalizer (2014),Sony Pictures Entertainment (SPE),24-Sep-14,101530738,90800000,192330738,"['Action', 'Crime', 'Thriller']",2 hr 12 min,R
 690,This Is the End (2013),Sony Pictures Entertainment (SPE),12-Jun-13,101470202,24571120,126041322,['Comedy'],1 hr 47 min,R
@@ -695,7 +695,7 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 693,Scream 2 (1997),Dimension Films,12-Dec-97,101363301,71000000,172363301,"['Horror', 'Mystery']",2 hr,R
 694,Eraser (1996),Warner Bros.,21-Jun-96,101295562,141000000,242295562,"['Action', 'Crime', 'Thriller']",1 hr 55 min,R
 695,Noah (2014),Paramount Pictures,20-Mar-14,101200044,258000000,359200044,"['Action', 'Adventure', 'Drama']",2 hr 18 min,PG-13
-696,Unforgiven (1992),Warner Bros.,NA,101157447,58000000,159157447,"['Drama', 'Western']",2 hr 10 min,NA
+696,Unforgiven (1992),Warner Bros.,NA,101157447,58000000,159157447,"['Drama', 'Western']",2 hr 10 min,R
 697,The Cat in the Hat (2003),Universal Pictures,21-Nov-03,101149285,32811256,133960541,"['Adventure', 'Comedy', 'Family', 'Fantasy']",1 hr 22 min,PG
 698,Con Air (1997),Walt Disney Studios Motion Pictures,6-Jun-97,101117573,122894661,224012234,"['Action', 'Crime', 'Thriller']",1 hr 55 min,R
 699,Sleepy Hollow (1999),Paramount Pictures,19-Nov-99,101071502,105000000,206071502,"['Fantasy', 'Horror', 'Mystery']",1 hr 45 min,R
@@ -703,37 +703,37 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 701,Collateral (2004),DreamWorks Distribution,5-Aug-04,101005703,119234222,220239925,"['Action', 'Crime', 'Drama', 'Thriller']",2 hr,R
 702,Contact (1997),Warner Bros.,11-Jul-97,100920329,70200000,171120329,"['Drama', 'Mystery', 'Sci-Fi', 'Thriller']",2 hr 30 min,PG
 703,Charlie's Angels: Full Throttle (2003),Sony Pictures Entertainment (SPE),26-Jun-03,100830111,158345677,259175788,"['Action', 'Adventure', 'Comedy', 'Crime']",1 hr 46 min,PG-13
-704,The Pelican Brief (1993),Warner Bros.,NA,100768056,94500000,195268056,"['Crime', 'Drama', 'Mystery', 'Thriller']",2 hr 21 min,NA
+704,The Pelican Brief (1993),Warner Bros.,NA,100768056,94500000,195268056,"['Crime', 'Drama', 'Mystery', 'Thriller']",2 hr 21 min,PG-13
 705,The Addams Family (2019),United Artists Releasing,11-Oct-19,100723831,103060014,203783845,"['Animation', 'Comedy', 'Family', 'Fantasy', 'Horror']",1 hr 26 min,PG
 706,Vanilla Sky (2001),Paramount Pictures,14-Dec-01,100618344,102769997,203388341,"['Fantasy', 'Mystery', 'Romance', 'Sci-Fi', 'Thriller']",2 hr 16 min,R
-707,Godzilla vs. Kong (2021),Warner Bros.,NA,100563133,367300000,467863133,"['Action', 'Sci-Fi', 'Thriller']",1 hr 53 min,NA
+707,Godzilla vs. Kong (2021),Warner Bros.,NA,100563133,367300000,467863133,"['Action', 'Sci-Fi', 'Thriller']",1 hr 53 min,PG-13
 708,Arrival (2016),Paramount Pictures,10-Nov-16,100546139,102842047,203388186,"['Drama', 'Sci-Fi']",1 hr 56 min,PG-13
 709,Due Date (2010),Warner Bros.,3-Nov-10,100539043,111241781,211780824,"['Comedy', 'Drama']",1 hr 35 min,R
 710,Jumanji (1995),Sony Pictures Entertainment (SPE),15-Dec-95,100499940,162322000,262821940,"['Adventure', 'Comedy', 'Family', 'Fantasy']",1 hr 44 min,PG
-711,The Rugrats Movie (1998),Paramount Pictures,20-Nov-98,100494675,40400000,140894675,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Musical']",1 hr 19 min,NA
+711,The Rugrats Movie (1998),Paramount Pictures,20-Nov-98,100494675,40400000,140894675,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Musical']",1 hr 19 min,G
 712,Million Dollar Baby (2004),Warner Bros.,15-Dec-04,100492203,116271443,216763646,"['Drama', 'Sport']",2 hr 12 min,PG-13
-713,A Wrinkle in Time (2018),Walt Disney Studios Motion Pictures,NA,100478608,32197256,132675864,"['Adventure', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 49 min,NA
+713,A Wrinkle in Time (2018),Walt Disney Studios Motion Pictures,NA,100478608,32197256,132675864,"['Adventure', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 49 min,PG
 714,Step Brothers (2008),Sony Pictures Entertainment (SPE),25-Jul-08,100468793,27639418,128108211,['Comedy'],1 hr 38 min,R
 715,Evan Almighty (2007),Universal Pictures,21-Jun-07,100462298,73978426,174440724,"['Comedy', 'Family', 'Fantasy']",1 hr 36 min,PG
 716,Fifty Shades Freed (2018),Universal Pictures,7-Feb-18,100407760,271580078,371987838,"['Drama', 'Romance', 'Thriller']",1 hr 45 min,R
-717,Casper (1995),Universal Pictures,NA,100328194,187600000,287928194,"['Comedy', 'Family', 'Fantasy']",1 hr 40 min,NA
+717,Casper (1995),Universal Pictures,NA,100328194,187600000,287928194,"['Comedy', 'Family', 'Fantasy']",1 hr 40 min,PG
 718,Shakespeare in Love (1998),Miramax,11-Dec-98,100317794,189000000,289317794,"['Comedy', 'Drama', 'History', 'Romance']",2 hr 3 min,R
 719,Bad Teacher (2011),Sony Pictures Entertainment (SPE),17-Jun-11,100292856,115904636,216197492,"['Comedy', 'Romance']",1 hr 32 min,R
 720,Yogi Bear (2010),Warner Bros.,17-Dec-10,100246011,103263363,203509374,"['Adventure', 'Animation', 'Comedy', 'Family']",1 hr 21 min,PG
 721,Cowboys & Aliens (2011),Universal Pictures,29-Jul-11,100240551,74581774,174822325,"['Action', 'Sci-Fi', 'Thriller', 'Western']",1 hr 59 min,PG-13
 722,Kingsman: The Golden Circle (2017),Twentieth Century Fox,20-Sep-17,100234838,310667824,410902662,"['Action', 'Adventure', 'Comedy', 'Crime', 'Thriller']",2 hr 21 min,R
 723,Edge of Tomorrow (2014),Warner Bros.,28-May-14,100206256,270335000,370541256,"['Action', 'Adventure', 'Sci-Fi']",1 hr 53 min,PG-13
-724,The Hunchback of Notre Dame (1996),Walt Disney Studios Motion Pictures,21-Jun-96,100138851,225200000,325338851,"['Animation', 'Drama', 'Family', 'Musical', 'Romance']",1 hr 31 min,NA
+724,The Hunchback of Notre Dame (1996),Walt Disney Studios Motion Pictures,21-Jun-96,100138851,225200000,325338851,"['Animation', 'Drama', 'Family', 'Musical', 'Romance']",1 hr 31 min,G
 725,Se7en (1995),New Line Cinema,22-Sep-95,100125643,227207916,327333559,"['Crime', 'Drama', 'Mystery', 'Thriller']",2 hr 7 min,R
 726,You Don't Mess with the Zohan (2008),Sony Pictures Entertainment (SPE),5-Jun-08,100018837,104294563,204313400,['Comedy'],1 hr 53 min,PG-13
 727,Passengers (2016),Sony Pictures Entertainment (SPE),21-Dec-16,100014699,203129453,303144152,"['Drama', 'Romance', 'Sci-Fi', 'Thriller']",1 hr 56 min,PG-13
 728,Die Hard with a Vengeance (1995),Twentieth Century Fox,19-May-95,100012499,266089167,366101666,"['Action', 'Adventure', 'Thriller']",2 hr 8 min,R
 729,Christopher Robin (2018),Walt Disney Studios Motion Pictures,1-Aug-18,99215042,98529335,197744377,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy']",1 hr 44 min,PG
-730,Hercules (1997),Walt Disney Studios Motion Pictures,15-Jun-97,99112101,153600000,252712101,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical', 'Romance']",1 hr 33 min,NA
+730,Hercules (1997),Walt Disney Studios Motion Pictures,15-Jun-97,99112101,153600000,252712101,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical', 'Romance']",1 hr 33 min,G
 731,Olympus Has Fallen (2013),FilmDistrict,20-Mar-13,98925640,71344561,170270201,"['Action', 'Thriller']",1 hr 59 min,R
 732,The Green Hornet (2011),Sony Pictures Entertainment (SPE),12-Jan-11,98780042,129037206,227817248,"['Action', 'Comedy', 'Crime']",1 hr 59 min,PG-13
 733,Date Night (2010),Twentieth Century Fox,8-Apr-10,98711404,53552476,152263880,"['Comedy', 'Crime', 'Romance', 'Thriller']",1 hr 28 min,PG-13
-734,Meet the Robinsons (2007),Walt Disney Studios Motion Pictures,NA,97822171,71510863,169333034,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 35 min,NA
+734,Meet the Robinsons (2007),Walt Disney Studios Motion Pictures,NA,97822171,71510863,169333034,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 35 min,G
 735,Yes Man (2008),Warner Bros.,18-Dec-08,97690976,125550661,223241637,"['Comedy', 'Romance']",1 hr 44 min,PG-13
 736,Sausage Party (2016),Sony Pictures Entertainment (SPE),11-Aug-16,97685686,43019636,140705322,"['Adventure', 'Animation', 'Comedy', 'Fantasy']",1 hr 29 min,R
 737,Inspector Gadget (1999),Walt Disney Studios Motion Pictures,23-Jul-99,97403112,37000000,134403112,"['Action', 'Adventure', 'Comedy', 'Crime', 'Family', 'Sci-Fi']",1 hr 18 min,PG
@@ -742,30 +742,30 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 740,Schindler's List (1993),Universal Pictures,15-Dec-93,96898818,225262427,322161245,"['Biography', 'Drama', 'History']",3 hr 15 min,R
 741,Downton Abbey (2019),Focus Features,12-Sep-19,96854135,96941361,237860050,"['Drama', 'Romance']",2 hr 2 min,PG
 742,The Others (2001),Miramax,10-Aug-01,96522687,113424350,209947037,"['Horror', 'Mystery', 'Thriller']",1 hr 41 min,PG-13
-743,Legally Blonde (2001),Metro-Goldwyn-Mayer (MGM),13-Jul-01,96520674,45254005,141774679,"['Comedy', 'Romance']",1 hr 36 min,NA
+743,Legally Blonde (2001),Metro-Goldwyn-Mayer (MGM),13-Jul-01,96520674,45254005,141774679,"['Comedy', 'Romance']",1 hr 36 min,PG-13
 744,Panic Room (2002),Sony Pictures Entertainment (SPE),29-Mar-02,96397334,100682212,197079546,"['Crime', 'Drama', 'Thriller']",1 hr 52 min,R
 745,Rocketman (2019),Paramount Pictures,24-May-19,96368160,98952240,195320400,"['Biography', 'Drama', 'Musical']",2 hr 1 min,R
 746,Zero Dark Thirty (2012),Sony Pictures Entertainment (SPE),19-Dec-12,95720716,37100000,132820716,"['Drama', 'History', 'Thriller', 'War']",2 hr 37 min,R
 747,Norbit (2007),DreamWorks,9-Feb-07,95673607,64140883,159814490,"['Comedy', 'Romance']",1 hr 43 min,PG-13
 748,Cold Mountain (2003),Miramax,25-Dec-03,95636509,77377000,173013509,"['Adventure', 'Drama', 'History', 'Romance', 'War']",2 hr 34 min,R
 749,Sex and the City 2 (2010),Warner Bros.,27-May-10,95347692,195397363,290745055,"['Comedy', 'Drama', 'Romance']",2 hr 26 min,R
-750,Michael (1996),New Line Cinema,NA,95318203,24400000,119718203,"['Comedy', 'Drama', 'Fantasy']",1 hr 45 min,NA
-751,The Princess Diaries 2: Royal Engagement (2004),Walt Disney Studios Motion Pictures,11-Aug-04,95170481,39564000,134734481,"['Comedy', 'Family', 'Romance']",1 hr 53 min,NA
+750,Michael (1996),New Line Cinema,NA,95318203,24400000,119718203,"['Comedy', 'Drama', 'Fantasy']",1 hr 45 min,PG
+751,The Princess Diaries 2: Royal Engagement (2004),Walt Disney Studios Motion Pictures,11-Aug-04,95170481,39564000,134734481,"['Comedy', 'Family', 'Romance']",1 hr 53 min,G
 752,42 (2013),Warner Bros.,12-Apr-13,95020213,2450488,97470701,"['Biography', 'Drama', 'Sport']",2 hr 8 min,PG-13
 753,Unbreakable (2000),Walt Disney Studios Motion Pictures,22-Nov-00,95011339,153106782,248118121,"['Drama', 'Mystery', 'Sci-Fi', 'Thriller']",1 hr 46 min,PG-13
 754,The Book of Eli (2010),Warner Bros.,14-Jan-10,94835059,62272696,157107755,"['Action', 'Adventure', 'Drama', 'Thriller']",1 hr 58 min,R
 755,"10,000 BC (2008)",Warner Bros.,5-Mar-08,94784201,175000000,269784201,"['Action', 'Adventure', 'Drama', 'Fantasy', 'History']",1 hr 49 min,PG-13
-756,Beverly Hills Chihuahua (2008),Walt Disney Studios Motion Pictures,NA,94514402,54778086,149292488,"['Adventure', 'Comedy', 'Drama', 'Family', 'Romance']",1 hr 31 min,NA
-757,Saturday Night Fever (1977),Paramount Pictures,NA,94213184,142900000,237113184,"['Drama', 'Music']",1 hr 58 min,NA
+756,Beverly Hills Chihuahua (2008),Walt Disney Studios Motion Pictures,NA,94514402,54778086,149292488,"['Adventure', 'Comedy', 'Drama', 'Family', 'Romance']",1 hr 31 min,PG
+757,Saturday Night Fever (1977),Paramount Pictures,NA,94213184,142900000,237113184,"['Drama', 'Music']",1 hr 58 min,R
 758,Julie & Julia (2009),Sony Pictures Entertainment (SPE),6-Aug-09,94125426,35415096,129540522,"['Biography', 'Drama', 'Romance']",2 hr 3 min,PG-13
 759,The Mask of Zorro (1998),Sony Pictures Entertainment (SPE),17-Jul-98,94095523,156193000,250288523,"['Action', 'Adventure', 'Comedy', 'Romance', 'Thriller', 'Western']",2 hr 16 min,PG-13
 760,Maid in Manhattan (2002),Revolution Studios,13-Dec-02,94011225,60895468,154906693,"['Comedy', 'Drama', 'Romance']",1 hr 45 min,PG-13
-761,He's Just Not That Into You (2009),Warner Bros.,NA,93953653,84912505,178866158,"['Comedy', 'Drama', 'Romance']",2 hr 9 min,NA
+761,He's Just Not That Into You (2009),Warner Bros.,NA,93953653,84912505,178866158,"['Comedy', 'Drama', 'Romance']",2 hr 9 min,PG-13
 762,Master and Commander: The Far Side of the World (2003),Twentieth Century Fox,14-Nov-03,93927920,117694615,211622535,"['Action', 'Adventure', 'Drama', 'War']",2 hr 18 min,PG-13
 763,Flight (2012),Paramount Pictures,2-Nov-12,93772375,68000000,161772375,"['Drama', 'Thriller']",2 hr 18 min,R
 764,The Fighter (2010),Paramount Pictures,20-Nov-09,93617009,35573860,129190869,"['Action', 'Biography', 'Drama', 'Sport']",1 hr 56 min,R
 765,America's Sweethearts (2001),Revolution Studios,20-Jul-01,93607673,44700000,138307673,"['Comedy', 'Romance']",1 hr 42 min,PG-13
-766,Lady and the Tramp (1955),Walt Disney Studios Motion Pictures,NA,93602326,331068,93933394,"['Adventure', 'Animation', 'Comedy', 'Family', 'Musical', 'Romance']",1 hr 16 min,NA
+766,Lady and the Tramp (1955),Walt Disney Studios Motion Pictures,NA,93602326,331068,93933394,"['Adventure', 'Animation', 'Comedy', 'Family', 'Musical', 'Romance']",1 hr 16 min,G
 767,The Bucket List (2007),Warner Bros.,25-Dec-07,93466502,81906000,175372502,"['Adventure', 'Comedy', 'Drama']",1 hr 37 min,PG-13
 768,Tomorrowland (2015),Walt Disney Studios Motion Pictures,20-May-15,93436322,115599346,209035668,"['Action', 'Adventure', 'Family', 'Fantasy', 'Mystery', 'Sci-Fi']",2 hr 10 min,PG
 769,The Magnificent Seven (2016),Sony Pictures Entertainment (SPE),14-Sep-16,93432655,68927981,162360636,"['Action', 'Adventure', 'Western']",2 hr 12 min,PG-13
@@ -773,42 +773,42 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 771,Two Weeks Notice (2002),Warner Bros.,20-Dec-02,93354851,105688620,199043471,"['Comedy', 'Romance']",1 hr 41 min,PG-13
 772,Red Dragon (2002),Universal Pictures,4-Oct-02,93149898,116046400,209196298,"['Crime', 'Drama', 'Thriller']",2 hr 4 min,R
 773,Elysium (2013),TriStar Pictures,8-Aug-13,93050117,193090583,286140700,"['Action', 'Drama', 'Sci-Fi']",1 hr 49 min,R
-774,Flubber (1997),Walt Disney Studios Motion Pictures,NA,92977226,85000000,177977226,"['Comedy', 'Family', 'Sci-Fi']",1 hr 33 min,NA
-775,Encanto (2021),Walt Disney Studios Motion Pictures,NA,92661715,123560300,216222015,"['Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Musical']",1 hr 42 min,NA
+774,Flubber (1997),Walt Disney Studios Motion Pictures,NA,92977226,85000000,177977226,"['Comedy', 'Family', 'Sci-Fi']",1 hr 33 min,PG
+775,Encanto (2021),Walt Disney Studios Motion Pictures,NA,92661715,123560300,216222015,"['Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Musical']",1 hr 42 min,PG
 776,The Town (2010),Warner Bros.,15-Sep-10,92186262,61839874,154026136,"['Crime', 'Drama', 'Thriller']",2 hr 5 min,R
 777,Non-Stop (2014),Universal Pictures,19-Feb-14,92168600,130641000,222809600,"['Action', 'Mystery', 'Thriller']",1 hr 46 min,PG-13
-778,The Client (1994),Warner Bros.,NA,92115211,25500000,117615211,"['Crime', 'Drama', 'Mystery', 'Thriller']",1 hr 59 min,NA
+778,The Client (1994),Warner Bros.,NA,92115211,25500000,117615211,"['Crime', 'Drama', 'Mystery', 'Thriller']",1 hr 59 min,PG-13
 779,Blade Runner 2049 (2017),Warner Bros.,4-Oct-17,92054159,167280389,259334548,"['Action', 'Drama', 'Mystery', 'Sci-Fi', 'Thriller']",2 hr 44 min,R
-780,John Wick: Chapter 2 (2017),Lionsgate,NA,92029184,79518618,171547802,"['Action', 'Crime', 'Thriller']",2 hr 2 min,NA
-781,Star Trek: First Contact (1996),Paramount Pictures,NA,92027888,54000000,146027888,"['Action', 'Adventure', 'Drama', 'Sci-Fi', 'Thriller']",1 hr 51 min,NA
+780,John Wick: Chapter 2 (2017),Lionsgate,NA,92029184,79518618,171547802,"['Action', 'Crime', 'Thriller']",2 hr 2 min,R
+781,Star Trek: First Contact (1996),Paramount Pictures,NA,92027888,54000000,146027888,"['Action', 'Adventure', 'Drama', 'Sci-Fi', 'Thriller']",1 hr 51 min,PG-13
 782,Halloween Kills (2021),Universal Pictures,13-Oct-21,92002155,39645000,131647155,"['Horror', 'Thriller']",1 hr 45 min,R
 783,Think Like a Man (2012),Screen Gems,20-Apr-12,91547205,4523302,96070507,"['Comedy', 'Romance']",2 hr 3 min,PG-13
-784,Kindergarten Cop (1990),Universal Pictures,22-Dec-90,91457688,110500000,201957688,"['Action', 'Comedy', 'Crime']",1 hr 51 min,NA
+784,Kindergarten Cop (1990),Universal Pictures,22-Dec-90,91457688,110500000,201957688,"['Action', 'Comedy', 'Crime']",1 hr 51 min,PG-13
 785,Heaven Is for Real (2014),TriStar Pictures,16-Apr-14,91443253,10539459,101982712,"['Biography', 'Drama', 'Family']",1 hr 39 min,PG
 786,The Haunting (1999),DreamWorks Distribution,23-Jul-99,91411151,85900000,177311151,"['Fantasy', 'Horror', 'Mystery', 'Thriller']",1 hr 53 min,PG-13
-787,Crimson Tide (1995),Walt Disney Studios Motion Pictures,NA,91387195,66000000,157387195,"['Action', 'Drama', 'Thriller', 'War']",1 hr 56 min,NA
+787,Crimson Tide (1995),Walt Disney Studios Motion Pictures,NA,91387195,66000000,157387195,"['Action', 'Drama', 'Thriller', 'War']",1 hr 56 min,R
 788,Ride Along 2 (2016),Universal Pictures,15-Jan-15,91221830,33386608,124608438,"['Action', 'Comedy', 'Crime']",1 hr 42 min,PG-13
 789,Stepmom (1998),Sony Pictures Entertainment (SPE),25-Dec-98,91137662,68573131,159710793,"['Comedy', 'Drama']",2 hr 5 min,PG-13
-790,The Imitation Game (2014),The Weinstein Company,NA,91125683,142430025,233555708,"['Biography', 'Drama', 'Thriller', 'War']",1 hr 54 min,NA
-791,Save the Last Dance (2001),Paramount Pictures,NA,91057006,40649803,131706809,"['Drama', 'Music', 'Romance']",1 hr 52 min,NA
+790,The Imitation Game (2014),The Weinstein Company,NA,91125683,142430025,233555708,"['Biography', 'Drama', 'Thriller', 'War']",1 hr 54 min,PG-13
+791,Save the Last Dance (2001),Paramount Pictures,NA,91057006,40649803,131706809,"['Drama', 'Music', 'Romance']",1 hr 52 min,PG-13
 792,The Scorpion King (2002),Universal Pictures,18-Apr-02,91047077,89583830,180630907,"['Action', 'Adventure', 'Fantasy']",1 hr 32 min,PG-13
 793,Prince of Persia: The Sands of Time (2010),Walt Disney Studios Motion Pictures,16-Jul-09,90759676,245606000,336365676,"['Action', 'Adventure', 'Fantasy']",1 hr 56 min,PG-13
 794,Antz (1998),DreamWorks Distribution,2-Oct-98,90757863,81000000,171757863,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 23 min,PG
 795,Scary Movie 4 (2006),Dimension Films,12-Apr-06,90710620,87552000,178262620,['Comedy'],1 hr 23 min,PG-13
-796,The Game Plan (2007),Walt Disney Studios Motion Pictures,NA,90648202,57232341,147880543,"['Comedy', 'Family', 'Sport']",1 hr 50 min,NA
+796,The Game Plan (2007),Walt Disney Studios Motion Pictures,NA,90648202,57232341,147880543,"['Comedy', 'Family', 'Sport']",1 hr 50 min,PG
 797,"Me, Myself & Irene (2000)",Twentieth Century Fox,23-Jun-00,90570999,58700000,149270999,['Comedy'],1 hr 56 min,R
 798,High School Musical 3: Senior Year (2008),Walt Disney Studios Motion Pictures,22-Oct-08,90559416,162349761,252909177,"['Comedy', 'Drama', 'Family', 'Music', 'Musical', 'Romance']",1 hr 52 min,G
-799,Madea Goes to Jail (2009),Lionsgate,NA,90508336,90508336,90508336,"['Comedy', 'Crime', 'Drama']",1 hr 43 min,NA
+799,Madea Goes to Jail (2009),Lionsgate,NA,90508336,90508336,90508336,"['Comedy', 'Crime', 'Drama']",1 hr 43 min,PG-13
 800,Space Cowboys (2000),Warner Bros.,4-Aug-00,90464773,38419359,128884132,"['Action', 'Adventure', 'Thriller']",2 hr 10 min,PG-13
-801,Space Jam (1996),Warner Bros.,NA,90418342,140000000,230418342,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi', 'Sport']",1 hr 28 min,NA
+801,Space Jam (1996),Warner Bros.,NA,90418342,140000000,230418342,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi', 'Sport']",1 hr 28 min,PG
 802,Get Hard (2015),Warner Bros.,26-Mar-15,90411453,21300000,111711453,"['Comedy', 'Crime']",1 hr 40 min,R
 803,RED (2010),Summit Entertainment,14-Oct-10,90380162,108626225,199006387,"['Action', 'Comedy', 'Crime', 'Thriller']",1 hr 51 min,PG-13
 804,Planes (2013),Walt Disney Studios Motion Pictures,9-Aug-13,90288712,148970000,239258712,"['Adventure', 'Animation', 'Comedy', 'Family', 'Sport']",1 hr 31 min,PG
 805,"Legally Blonde 2: Red, White & Blonde (2003)",Metro-Goldwyn-Mayer (MGM),2-Jul-03,90186328,34728514,124914842,['Comedy'],1 hr 35 min,PG-13
 806,Mystic River (2003),Warner Bros.,8-Oct-03,90135191,66460000,156595191,"['Crime', 'Drama', 'Mystery', 'Thriller']",2 hr 18 min,R
 807,Terminator Genisys (2015),Paramount Pictures,25-Jun-15,89760956,350842581,440603537,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",2 hr 6 min,PG-13
-808,Flightplan (2005),Walt Disney Studios Motion Pictures,NA,89707299,133680000,223387299,"['Drama', 'Mystery', 'Thriller']",1 hr 38 min,NA
-809,The Emperor's New Groove (2000),Walt Disney Studios Motion Pictures,15-Dec-00,89636687,80025000,169661687,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 18 min,NA
+808,Flightplan (2005),Walt Disney Studios Motion Pictures,NA,89707299,133680000,223387299,"['Drama', 'Mystery', 'Thriller']",1 hr 38 min,PG-13
+809,The Emperor's New Groove (2000),Walt Disney Studios Motion Pictures,15-Dec-00,89636687,80025000,169661687,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 18 min,G
 810,The Lone Ranger (2013),Walt Disney Studios Motion Pictures,3-Jul-13,89302115,171200000,260502115,"['Action', 'Adventure', 'Western']",2 hr 30 min,PG-13
 811,Taken 3 (2014),Twentieth Century Fox,1-Jan-15,89256424,237222717,326479141,"['Action', 'Crime', 'Thriller']",1 hr 48 min,PG-13
 812,Don't Breathe (2016),Screen Gems,25-Aug-16,89217875,68543127,157761002,"['Crime', 'Horror', 'Thriller']",1 hr 28 min,R
@@ -819,65 +819,65 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 817,Failure to Launch (2006),Paramount Pictures,9-Mar-06,88715192,41508966,130224158,"['Comedy', 'Romance']",1 hr 37 min,PG-13
 818,The Muppets (2011),Walt Disney Studios Motion Pictures,23-Nov-11,88631237,76553000,165184237,"['Adventure', 'Comedy', 'Family', 'Musical']",2 hr,PG
 819,Inside Man (2006),Universal Pictures,23-Mar-06,88513495,97490096,186003591,"['Crime', 'Drama', 'Mystery', 'Thriller']",2 hr 9 min,R
-820,Back to the Future Part III (1990),Universal Pictures,25-May-90,88277583,156800000,245077583,"['Adventure', 'Comedy', 'Sci-Fi', 'Western']",1 hr 58 min,NA
+820,Back to the Future Part III (1990),Universal Pictures,25-May-90,88277583,156800000,245077583,"['Adventure', 'Comedy', 'Sci-Fi', 'Western']",1 hr 58 min,PG
 821,Waterworld (1995),Universal Pictures,28-Jul-95,88246220,175972000,264218220,"['Action', 'Adventure', 'Sci-Fi']",2 hr 15 min,PG-13
 822,Starsky & Hutch (2004),Warner Bros.,5-Mar-04,88237754,82030996,170268750,"['Comedy', 'Crime']",1 hr 41 min,PG-13
 823,Along Came Polly (2004),Universal Pictures,16-Jan-04,88097164,90214565,178311729,"['Comedy', 'Romance']",1 hr 30 min,PG-13
-824,The Hand that Rocks the Cradle (1992),Walt Disney Studios Motion Pictures,NA,88036683,88036683,88036683,"['Drama', 'Thriller']",1 hr 50 min,NA
+824,The Hand that Rocks the Cradle (1992),Walt Disney Studios Motion Pictures,NA,88036683,88036683,88036683,"['Drama', 'Thriller']",1 hr 50 min,R
 825,Entrapment (1999),Twentieth Century Fox,30-Apr-99,87704396,124700000,212404396,"['Action', 'Crime', 'Romance', 'Thriller']",1 hr 53 min,PG-13
-826,Peter Pan (1953),Walt Disney Studios Motion Pictures,NA,87404651,87404651,87404651,"['Adventure', 'Animation', 'Family', 'Fantasy', 'Musical']",1 hr 17 min,NA
+826,Peter Pan (1953),Walt Disney Studios Motion Pictures,NA,87404651,87404651,87404651,"['Adventure', 'Animation', 'Family', 'Fantasy', 'Musical']",1 hr 17 min,G
 827,Pineapple Express (2008),Sony Pictures Entertainment (SPE),6-Aug-08,87341380,14283463,101624843,"['Action', 'Comedy', 'Crime']",1 hr 51 min,R
 828,Miss Peregrine's Home for Peculiar Children (2016),Twentieth Century Fox,28-Sep-16,87242834,209239612,296482446,"['Adventure', 'Drama', 'Family', 'Fantasy', 'Thriller']",2 hr 7 min,PG-13
 829,Sisters (2015),Universal Pictures,18-Dec-15,87044645,17966408,105011053,['Comedy'],1 hr 58 min,R
 830,Saw II (2005),Lionsgate,28-Oct-05,87039965,60708540,147748505,"['Horror', 'Mystery']",1 hr 33 min,R
-831,The Naked Gun 2½: The Smell of Fear (1991),Paramount Pictures,28-Jun-91,86930411,86930411,86930411,"['Comedy', 'Crime']",1 hr 25 min,NA
-832,The Campaign (2012),Warner Bros.,NA,86907746,18000000,104907746,['Comedy'],1 hr 25 min,NA
+831,The Naked Gun 2½: The Smell of Fear (1991),Paramount Pictures,28-Jun-91,86930411,86930411,86930411,"['Comedy', 'Crime']",1 hr 25 min,PG-13
+832,The Campaign (2012),Warner Bros.,NA,86907746,18000000,104907746,['Comedy'],1 hr 25 min,R
 833,The Accountant (2016),Warner Bros.,13-Oct-16,86260045,68900000,155160045,"['Action', 'Thriller']",2 hr 8 min,R
 834,Dumb and Dumber To (2014),Universal Pictures,12-Nov-14,86208010,83629000,169837010,['Comedy'],1 hr 49 min,PG-13
-835,Cruella (2021),Walt Disney Studios Motion Pictures,NA,86103234,147171578,233274812,"['Adventure', 'Comedy', 'Crime', 'Drama']",2 hr 14 min,NA
+835,Cruella (2021),Walt Disney Studios Motion Pictures,NA,86103234,147171578,233274812,"['Adventure', 'Comedy', 'Crime', 'Drama']",2 hr 14 min,PG-13
 836,The Emoji Movie (2017),Sony Pictures Entertainment (SPE),27-Jul-17,86089513,131687133,217776646,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 26 min,PG
 837,Mean Girls (2004),Paramount Pictures,30-Apr-04,86058055,44068222,130126277,['Comedy'],1 hr 37 min,PG-13
 838,Annie (2014),Sony Pictures Entertainment (SPE),17-Dec-14,85911262,50942244,136853506,"['Comedy', 'Drama', 'Family', 'Musical']",1 hr 58 min,PG
-839,Alvin and the Chipmunks: The Road Chip (2015),Twentieth Century Fox,NA,85886987,148911649,234798636,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Music', 'Musical']",1 hr 32 min,NA
+839,Alvin and the Chipmunks: The Road Chip (2015),Twentieth Century Fox,NA,85886987,148911649,234798636,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Music', 'Musical']",1 hr 32 min,PG
 840,Spy Kids 2: Island of Lost Dreams (2002),Dimension Films,7-Aug-02,85846429,33876929,119723358,"['Action', 'Adventure', 'Comedy', 'Family', 'Sci-Fi']",1 hr 40 min,PG
 841,Alita: Battle Angel (2019),Twentieth Century Fox,5-Feb-19,85838210,319142333,404980543,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",2 hr 2 min,PG-13
 842,Fury (2014),Sony Pictures Entertainment (SPE),17-Oct-14,85817906,126004791,211822697,"['Action', 'Drama', 'War']",2 hr 14 min,R
-843,Pokémon: The First Movie - Mewtwo Strikes Back (1998),Warner Bros.,10-Nov-99,85744662,77900000,163644662,"['Action', 'Adventure', 'Animation', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 36 min,NA
-844,Real Steel (2011),Walt Disney Studios Motion Pictures,NA,85468508,213800000,299268508,"['Action', 'Drama', 'Sci-Fi', 'Sport']",2 hr 7 min,NA
+843,Pokémon: The First Movie - Mewtwo Strikes Back (1998),Warner Bros.,10-Nov-99,85744662,77900000,163644662,"['Action', 'Adventure', 'Animation', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 36 min,G
+844,Real Steel (2011),Walt Disney Studios Motion Pictures,NA,85468508,213800000,299268508,"['Action', 'Drama', 'Sci-Fi', 'Sport']",2 hr 7 min,PG-13
 845,The SpongeBob SquarePants Movie (2004),Paramount Pictures,19-Nov-04,85417988,55649139,141067127,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 27 min,PG
 846,Power Rangers (2017),Lionsgate,22-Mar-17,85364450,56972790,142337240,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",2 hr 4 min,PG-13
-847,Stripes (1981),Columbia Pictures,NA,85297000,85297000,85297000,"['Comedy', 'War']",1 hr 46 min,NA
+847,Stripes (1981),Columbia Pictures,NA,85297000,85297000,85297000,"['Comedy', 'War']",1 hr 46 min,R
 848,Anchorman: The Legend of Ron Burgundy (2004),DreamWorks Distribution,9-Jul-04,85288303,5421064,90709367,['Comedy'],1 hr 34 min,PG-13
-849,Aliens (1986),Twentieth Century Fox,NA,85160248,45900000,131060248,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",2 hr 17 min,NA
+849,Aliens (1986),Twentieth Century Fox,NA,85160248,45900000,131060248,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",2 hr 17 min,R
 850,Open Season (2006),Sony Pictures Entertainment (SPE),29-Sep-06,85105259,115706430,200811689,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family']",1 hr 26 min,PG
 851,Green Book (2018),Universal Pictures,16-Nov-18,85080171,236672485,321752656,"['Biography', 'Comedy', 'Drama', 'Music']",2 hr 10 min,PG-13
 852,The Expendables 2 (2012),Lionsgate,15-Aug-12,85028192,229947763,314975955,"['Action', 'Adventure', 'Thriller']",1 hr 43 min,R
-853,Dangerous Minds (1995),Walt Disney Studios Motion Pictures,NA,84919401,94600000,179519401,"['Biography', 'Drama']",1 hr 39 min,NA
+853,Dangerous Minds (1995),Walt Disney Studios Motion Pictures,NA,84919401,94600000,179519401,"['Biography', 'Drama']",1 hr 39 min,R
 854,Paranormal Activity 2 (2010),Paramount Pictures,20-Oct-10,84752907,92759125,177512032,"['Horror', 'Mystery']",1 hr 31 min,R
 855,Tammy (2014),Warner Bros.,2-Jul-14,84525432,15850000,100375432,"['Comedy', 'Romance']",1 hr 37 min,R
-856,The Santa Clause 3: The Escape Clause (2006),Walt Disney Studios Motion Pictures,NA,84500122,26268000,110768122,"['Adventure', 'Comedy', 'Family', 'Fantasy']",1 hr 37 min,NA
+856,The Santa Clause 3: The Escape Clause (2006),Walt Disney Studios Motion Pictures,NA,84500122,26268000,110768122,"['Adventure', 'Comedy', 'Family', 'Fantasy']",1 hr 37 min,G
 857,Ferdinand (2017),Twentieth Century Fox,13-Dec-17,84410380,211658819,296069199,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family']",1 hr 48 min,PG
 858,"Crazy, Stupid, Love. (2011)",Warner Bros.,28-Jul-11,84351197,60700000,145051197,"['Comedy', 'Drama', 'Romance']",1 hr 58 min,PG-13
 859,Annabelle (2014),Warner Bros.,23-Sep-14,84273813,173305469,257579282,"['Horror', 'Mystery', 'Thriller']",1 hr 39 min,R
-860,Scooby-Doo 2: Monsters Unleashed (2004),Warner Bros.,NA,84216833,97000000,181216833,"['Adventure', 'Comedy', 'Family', 'Fantasy', 'Horror', 'Mystery', 'Sci-Fi']",1 hr 33 min,NA
+860,Scooby-Doo 2: Monsters Unleashed (2004),Warner Bros.,NA,84216833,97000000,181216833,"['Adventure', 'Comedy', 'Family', 'Fantasy', 'Horror', 'Mystery', 'Sci-Fi']",1 hr 33 min,PG
 861,Birds of Prey (2020),Warner Bros.,5-Feb-20,84158461,117700000,201858461,"['Action', 'Adventure', 'Comedy', 'Crime']",1 hr 49 min,R
 862,Atlantis: The Lost Empire (2001),Walt Disney Studios Motion Pictures,8-Jun-01,84056472,101997253,186053725,"['Action', 'Adventure', 'Animation', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 35 min,PG
 863,Cliffhanger (1993),TriStar Pictures,28-May-93,84049211,170951000,255000211,"['Action', 'Adventure', 'Thriller']",1 hr 53 min,R
 864,The Other Woman (2014),Twentieth Century Fox,17-Apr-14,83911193,112799203,196710396,"['Comedy', 'Romance']",1 hr 49 min,PG-13
-865,The X Files (1998),Twentieth Century Fox,NA,83898313,105278110,189176423,"['Drama', 'Mystery', 'Sci-Fi', 'Thriller']",2 hr 1 min,NA
+865,The X Files (1998),Twentieth Century Fox,NA,83898313,105278110,189176423,"['Drama', 'Mystery', 'Sci-Fi', 'Thriller']",2 hr 1 min,PG-13
 866,Penguins of Madagascar (2014),Twentieth Century Fox,14-Nov-14,83850911,289664710,373515621,"['Adventure', 'Animation', 'Comedy', 'Family', 'Sci-Fi']",1 hr 32 min,PG
-867,Die Hard (1988),Twentieth Century Fox,15-Jul-88,83844093,57759104,141603197,"['Action', 'Thriller']",2 hr 12 min,NA
+867,Die Hard (1988),Twentieth Century Fox,15-Jul-88,83844093,57759104,141603197,"['Action', 'Thriller']",2 hr 12 min,R
 868,Up in the Air (2009),Paramount Pictures,4-Dec-09,83823381,83019358,166842739,"['Comedy', 'Drama', 'Romance']",1 hr 49 min,R
 869,Wrath of the Titans (2012),Warner Bros.,28-Mar-12,83670083,218300000,301970083,"['Action', 'Adventure', 'Fantasy']",1 hr 39 min,PG-13
 870,Insidious: Chapter 2 (2013),FilmDistrict,13-Sep-13,83586447,78332871,161919318,"['Horror', 'Mystery', 'Thriller']",1 hr 46 min,PG-13
-871,Under Siege (1992),Warner Bros.,NA,83563139,73000000,156563139,"['Action', 'Thriller']",1 hr 43 min,NA
+871,Under Siege (1992),Warner Bros.,NA,83563139,73000000,156563139,"['Action', 'Thriller']",1 hr 43 min,R
 872,Battle Los Angeles (2011),Sony Pictures Entertainment (SPE),9-Mar-11,83552429,128266925,211819354,"['Action', 'Sci-Fi']",1 hr 56 min,PG-13
 873,Immortals (2011),Relativity Media,10-Nov-11,83504017,143400000,226904017,"['Action', 'Drama', 'Fantasy', 'Romance']",1 hr 50 min,R
 874,I Can Only Imagine (2018),Roadside Attractions,15-Mar-18,83482352,2604529,86086881,"['Biography', 'Drama', 'Family', 'Music']",1 hr 50 min,PG
-875,Apocalypse Now (1979),Metro-Goldwyn-Mayer (MGM),NA,83471511,8686553,92158064,"['Drama', 'Mystery', 'War']",2 hr 27 min,NA
+875,Apocalypse Now (1979),Metro-Goldwyn-Mayer (MGM),NA,83471511,8686553,92158064,"['Drama', 'Mystery', 'War']",2 hr 27 min,R
 876,Patriot Games (1992),Paramount Pictures,5-Jun-92,83351587,94700000,178051587,"['Action', 'Thriller']",1 hr 57 min,R
 877,Saving Mr. Banks (2013),Walt Disney Studios Motion Pictures,29-Nov-13,83301580,34566404,117867984,"['Biography', 'Comedy', 'Drama']",2 hr 5 min,PG-13
-878,Smallfoot (2018),Warner Bros.,NA,83240103,130800000,214040103,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Musical']",1 hr 36 min,NA
+878,Smallfoot (2018),Warner Bros.,NA,83240103,130800000,214040103,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Musical']",1 hr 36 min,PG
 879,Good Boys (2019),Universal Pictures,14-Aug-19,83140306,27896926,111037232,"['Adventure', 'Comedy']",1 hr 30 min,R
 880,Valkyrie (2008),United Artists,25-Dec-08,83077833,118467684,201545517,"['Drama', 'History', 'Thriller', 'War']",2 hr 1 min,PG-13
 881,Brokeback Mountain (2005),Focus Features,9-Dec-05,83043761,95018998,178062759,"['Drama', 'Romance']",2 hr 14 min,R
@@ -888,21 +888,21 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 886,Are We There Yet? (2005),Revolution Studios,21-Jan-05,82674398,15244265,97918663,"['Adventure', 'Comedy', 'Family', 'Fantasy', 'Romance']",1 hr 35 min,PG
 887,Freddy vs. Jason (2003),New Line Cinema,14-Aug-03,82622655,34009973,116632628,"['Action', 'Horror']",1 hr 37 min,R
 888,Star Trek: The Motion Picture (1979),Paramount Pictures,7-Dec-79,82604699,82604699,82604699,"['Adventure', 'Mystery', 'Sci-Fi']",2 hr 12 min,G
-889,The Descendants (2011),Fox Searchlight Pictures,NA,82584160,94659025,177243185,"['Comedy', 'Drama']",1 hr 55 min,NA
-890,Cheaper by the Dozen 2 (2005),Twentieth Century Fox,NA,82571173,47583395,130154568,"['Adventure', 'Comedy', 'Family']",1 hr 34 min,NA
-891,Mr. Holland's Opus (1995),Walt Disney Studios Motion Pictures,NA,82569971,23700000,106269971,"['Drama', 'Music']",2 hr 23 min,NA
+889,The Descendants (2011),Fox Searchlight Pictures,NA,82584160,94659025,177243185,"['Comedy', 'Drama']",1 hr 55 min,R
+890,Cheaper by the Dozen 2 (2005),Twentieth Century Fox,NA,82571173,47583395,130154568,"['Adventure', 'Comedy', 'Family']",1 hr 34 min,PG
+891,Mr. Holland's Opus (1995),Walt Disney Studios Motion Pictures,NA,82569971,23700000,106269971,"['Drama', 'Music']",2 hr 23 min,PG
 892,Bram Stoker's Dracula (1992),Columbia Pictures,13-Nov-92,82522790,133339902,215862692,"['Drama', 'Fantasy', 'Horror', 'Romance']",2 hr 8 min,R
 893,Let's Be Cops (2014),Twentieth Century Fox,13-Aug-14,82390774,55834177,138224951,"['Action', 'Comedy', 'Crime']",1 hr 44 min,R
 894,Blade II (2002),New Line Cinema,22-Mar-02,82348319,72661713,155010032,"['Action', 'Horror', 'Sci-Fi', 'Thriller']",1 hr 57 min,R
 895,Beowulf (2007),Paramount Pictures,14-Nov-07,82280579,114113166,196393745,"['Action', 'Adventure', 'Animation', 'Fantasy']",1 hr 55 min,PG-13
-896,Bridge to Terabithia (2007),Walt Disney Studios Motion Pictures,NA,82272442,55314621,137587063,"['Drama', 'Family', 'Fantasy']",1 hr 36 min,NA
+896,Bridge to Terabithia (2007),Walt Disney Studios Motion Pictures,NA,82272442,55314621,137587063,"['Drama', 'Family', 'Fantasy']",1 hr 36 min,PG
 897,The Pink Panther (2006),Sony Pictures Entertainment (SPE),9-Feb-06,82226474,81889423,164115897,"['Adventure', 'Comedy', 'Crime', 'Mystery']",1 hr 33 min,PG
 898,Teenage Mutant Ninja Turtles: Out of the Shadows (2016),Paramount Pictures,2-Jun-16,82051601,163572247,245623848,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",1 hr 52 min,PG-13
 899,The Post (2017),Twentieth Century Fox,22-Dec-17,81903458,98515818,180419276,['Drama'],1 hr 56 min,PG-13
 900,Alien (1979),Twentieth Century Fox,25-May-79,81900459,24385063,106285522,"['Horror', 'Sci-Fi']",1 hr 57 min,R
 901,Maze Runner: The Scorch Trials (2015),Twentieth Century Fox,9-Sep-15,81697192,230598864,312296056,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",2 hr 11 min,PG-13
 902,Eight Below (2006),Walt Disney Studios Motion Pictures,17-Feb-06,81612565,38843429,120455994,"['Adventure', 'Drama', 'Family']",2 hr,PG
-903,MASH (1970),Twentieth Century Fox,NA,81600000,81600000,81600000,"['Comedy', 'Drama', 'War']",1 hr 56 min,NA
+903,MASH (1970),Twentieth Century Fox,NA,81600000,81600000,81600000,"['Comedy', 'Drama', 'War']",1 hr 56 min,R
 904,Unstoppable (2010),Twentieth Century Fox,10-Nov-10,81562942,86242524,167805466,"['Action', 'Thriller']",1 hr 38 min,PG-13
 905,Payback (1999),Paramount Pictures,5-Feb-99,81526121,80100000,161626121,"['Action', 'Crime', 'Drama', 'Thriller']",1 hr 40 min,R
 906,Ted 2 (2015),Universal Pictures,19-Jun-15,81476385,134387221,215863606,['Comedy'],1 hr 55 min,R
@@ -911,9 +911,9 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 909,Snow Dogs (2002),Walt Disney Studios Motion Pictures,18-Jan-02,81172560,33862530,115035090,"['Adventure', 'Comedy', 'Family', 'Sport']",1 hr 39 min,PG
 910,21 (2008),Sony Pictures Entertainment (SPE),28-Mar-08,81159365,78649005,159808370,"['Crime', 'Drama', 'History', 'Thriller']",2 hr 3 min,PG-13
 911,While You Were Sleeping (1995),Walt Disney Studios Motion Pictures,21-Apr-95,81057016,101000000,182057016,"['Comedy', 'Drama', 'Romance']",1 hr 43 min,PG
-912,Congo (1995),Paramount Pictures,NA,81022101,71000000,152022101,"['Action', 'Adventure', 'Mystery', 'Sci-Fi']",1 hr 49 min,NA
+912,Congo (1995),Paramount Pictures,NA,81022101,71000000,152022101,"['Action', 'Adventure', 'Mystery', 'Sci-Fi']",1 hr 49 min,PG-13
 913,The Notebook (2004),New Line Cinema,25-Jun-04,81001787,36813370,117815157,"['Drama', 'Romance']",2 hr 3 min,PG-13
-914,Jimmy Neutron: Boy Genius (2001),Paramount Pictures,21-Dec-01,80936232,22056304,102992536,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Sci-Fi']",1 hr 22 min,NA
+914,Jimmy Neutron: Boy Genius (2001),Paramount Pictures,21-Dec-01,80936232,22056304,102992536,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Sci-Fi']",1 hr 22 min,G
 915,Eat Pray Love (2010),Sony Pictures Entertainment (SPE),13-Aug-10,80574010,124020006,204594016,"['Biography', 'Drama', 'Romance']",2 hr 13 min,PG-13
 916,The Texas Chainsaw Massacre (2003),New Line Cinema,17-Oct-03,80571655,26792250,107363905,"['Crime', 'Horror']",1 hr 38 min,R
 917,Zookeeper (2011),Sony Pictures Entertainment (SPE),6-Jul-11,80360843,89491916,169852759,"['Comedy', 'Family', 'Fantasy', 'Romance']",1 hr 42 min,PG
