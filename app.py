@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import csv
 
+from DataHelper import DataHelper
+
 app = Flask(__name__)
 
 # data source: https://www.kaggle.com/sanjeetsinghnaik/top-1000-highest-grossing-movies
@@ -21,6 +23,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def display_graphs():
+    # data_helper = DataHelper()
+    # movie_list = data_helper.retrieve_movies("movie_data.csv")
+    # return render_template('movie_data.html', data=movie_list)
+
     # generate data for each graph and save as .png
     generate_sales_by_genre_chart()
     generate_rank_by_genre_chart()
@@ -125,6 +131,7 @@ def generate_sales_by_month():
 # then run through predictive algorithm that outputs projected domestic/international sales
 # could put data through template rendering like:
 # return render_template("predictive_results.html", data=algorithm_data)
+# def predict_movie_success():
 
 
 if __name__ == '__main__':
