@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/main_page.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <div>
+        <img src="static/genre_sales.png" alt="genre_sales">
+        <img src="static/genre_ranks.png" alt="genre_rank">
+        <p align="center"> <strong> How Genre Rank Is Weighted </strong> </p>
+        <p align="center"> Points are given for each movie that contains a specific genre with more points given the higher a movie is ranked. </p>
+    </div>
+
+    <br> <br>
+
+    <div>
+        <img src="static/rating_sales.png" alt="rating_sales">
+        <img src="static/sales_months.png" alt="sales_months">
+    </div> <br>
+
+<!--  user input form for predictions  -->
+<!--  gets genre choices for movie  -->
+    <h1> User Input for Predictions </h1>
+    <div class="row">
+        <form class="prediction_form" action="/prediction_results" method="POST">
+            <div class="column">
+                <input type="checkbox" id="action" name="action" value="Action">
+                <label for="action"> Action </label><br>
+                <input type="checkbox" id="adventure" name="adventure" value="Adventure">
+                <label for="adventure"> Adventure </label><br>
+                <input type="checkbox" id="animation" name="animation" value="Animation">
+                <label for="animation"> Animation </label><br>
+                <input type="checkbox" id="biography" name="biography" value="Biography">
+                <label for="biography"> Biography </label><br>
+                <input type="checkbox" id="comedy" name="comedy" value="Comedy">
+                <label for="comedy"> Comedy </label><br>
+                <input type="checkbox" id="crime" name="crime" value="Crime">
+                <label for="crime"> Crime </label><br>
+                <input type="checkbox" id="documentary" name="documentary" value="Documentary">
+                <label for="documentary"> Documentary </label><br>
+                <input type="checkbox" id="drama" name="drama" value="Drama">
+                <label for="drama"> Drama </label><br>
+                <input type="checkbox" id="family" name="family" value="Family">
+                <label for="family"> Family </label><br>
+                <input type="checkbox" id="fantasy" name="fantasy" value="Fantasy">
+                <label for="fantasy"> Fantasy </label><br>
+                <input type="checkbox" id="history" name="history" value="History">
+                <label for="history"> History </label><br>
+                <input type="checkbox" id="horror" name="horror" value="Horror">
+                <label for="horror"> Horror </label><br>
+                <input type="checkbox" id="music" name="music" value="Music">
+                <label for="music"> Music </label><br>
+                <input type="checkbox" id="musical" name="musical" value="Musical">
+                <label for="musical"> Musical </label><br>
+                <input type="checkbox" id="mystery" name="mystery" value="Mystery">
+                <label for="mystery"> Mystery </label><br>
+                <input type="checkbox" id="romance" name="romance" value="Romance">
+                <label for="romance"> Romance </label><br>
+                <input type="checkbox" id="scifi" name="scifi" value="Sci-Fi">
+                <label for="scifi"> Sci-Fi </label><br>
+                <input type="checkbox" id="sport" name="sport" value="Sport">
+                <label for="sport"> Sport </label><br>
+                <input type="checkbox" id="thriller" name="thriller" value="Thriller">
+                <label for="thriller"> Thriller </label><br>
+                <input type="checkbox" id="war" name="war" value="War">
+                <label for="war"> War </label><br>
+                <input type="checkbox" id="western" name="western" value="Western">
+                <label for="western"> Western </label><br>
+            </div>
+    <!--  get rating for movie  -->
+            <div class="column">
+                <label for="ratings">Choose a rating:</label>
+                <select id="ratings" name="ratings">
+                    <option value="G">G</option>
+                    <option value="PG">PG</option>
+                    <option value="PG-13">PG-13</option>
+                    <option value="R">R</option>
+                </select>
+            </div>
+    <!--  get release month for movie  -->
+            <div class="column">
+                <label for="months">Choose a release month:</label>
+                <select id="months" name="months">
+                    <option value="Jan"> January </option>
+                    <option value="Feb"> February </option>
+                    <option value="Mar"> March </option>
+                    <option value="Apr"> April </option>
+                    <option value="May"> May </option>
+                    <option value="Jun"> June </option>
+                    <option value="Jul"> July </option>
+                    <option value="Aug"> August </option>
+                    <option value="Sep"> September </option>
+                    <option value="Oct"> October </option>
+                    <option value="Nov"> November </option>
+                    <option value="Dec"> December </option>
+                </select>
+            </div>
+
+            <div class="column">
+                <label for="series"> Choose existing series if applicable </label>
+                <select id="series" name="series">
+                    <option value="None"> None </option>
+                    <option value="Batman"> Batman </option>
+                    <option value="The Fast and the Furious"> The Fast and the Furious </option>
+                    <option value="Harry Potter"> Harry Potter </option>
+                    <option value="Skyfall"> James Bond </option>
+                    <option value="Jurassic Park"> Jurassic Park </option>
+                    <option value="Lord of the Rings"> Lord of the Rings </option>
+                    <option value="Avengers"> Marvel Avengers </option>
+                    <option value="Spider-Man"> Spider-Man </option>
+                    <option value="Star Wars"> Star Wars </option>
+                    <option value="Transformers"> Transformers </option>
+                    <option value="X-Men"> X-Men </option>
+                </select>
+            </div> <br>
+
+            <input type="submit" id="btnSubmit" value="Generate Prediction">
+        </form>
+    </div>
+
+    <!--  source for this jquery validation function for the genre checkboxes  -->
+    <!--  https://stackoverflow.com/a/43320650  -->
+    <script>
+    $('#btnSubmit').click(function(){
+        var chkSelected = $('input:checked').length;
+        if(chkSelected <= 0){
+            alert("You must select at least 1 movie genre");
+            return false;
+        }
+    })
+    </script>
+
+</body>
+</html>

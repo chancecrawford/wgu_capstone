@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    align: center;
+    background-color: #D3D3D3;
+}
+
+label {
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33%;
+    padding: 5px;
+}

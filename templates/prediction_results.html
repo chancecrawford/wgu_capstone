@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Movie Success Prediction </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/main_page.css') }}">
+</head>
+<body>
+
+    <h1> Movie Prediction Results </h1>
+
+    <div class="row">
+        <div class="column">
+            <h3> <strong> Projected Domestic Sales </strong> </h3>
+            <p> {{ data[0] }} </p> <br>
+        </div>
+
+        <div class="column">
+            <h3> <strong> Projected International Sales </strong> </h3>
+            <p> {{ data[1] }} </p> <br>
+        </div>
+
+        <div class="column">
+            <h3> <strong> Projected World Sales </strong> </h3>
+            <p> {{ data[2] }} </p> <br>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <h3> <strong> Genres </strong> </h3>
+            {% for line in data[3] %}
+            <p>{{line}}</p>
+            {% endfor %} <br>
+        </div>
+
+        <div class="column">
+            <h3> <strong> Amount of Genres </strong> </h3>
+            <p> {{ data[4] }} </p> <br>
+        </div>
+
+        <div class="column">
+            <h3> <strong> Month for Release </strong> </h3>
+            <p> {{ data[5] }} </p> <br>
+        </div>
+
+        <div class="column">
+            <h3> <strong> Motion Picture Association of America (MPAA) Rating </strong> </h3>
+            <p> {{ data[6] }} </p> <br>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <h3> <strong> Series Continuation </strong> </h3>
+            <p> {{ data[7] }} </p> <br>
+        </div>
+
+        <div class="column">
+            <h3> <strong> Similar Titles Based On Genre </strong> </h3>
+            {% for line in data[8] %}
+            <p>{{line}}</p>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
