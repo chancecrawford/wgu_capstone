@@ -216,7 +216,7 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 214,Tangled (2010),Walt Disney Studios Motion Pictures,24-Nov-10,200821936,391640880,592462816,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical', 'Romance']",1 hr 40 min,PG
 215,Godzilla (2014),Warner Bros.,14-May-14,200676069,324300000,524976069,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",2 hr 3 min,PG-13
 216,Superman Returns (2006),Warner Bros.,28-Jun-06,200081192,191000000,391081192,"['Action', 'Adventure', 'Sci-Fi']",2 hr 34 min,PG-13
-217,Spectre (2015),Sony Pictures Entertainment (SPE),26-Oct-15,200074609,680606910,880681519,"['Action', 'Adventure', 'Thriller']",2 hr 28 min,PG-13
+217,James Bond Spectre (2015),Sony Pictures Entertainment (SPE),26-Oct-15,200074609,680606910,880681519,"['Action', 'Adventure', 'Thriller']",2 hr 28 min,PG-13
 218,Pearl Harbor (2001),Walt Disney Studios Motion Pictures,25-May-01,198542554,250678391,449220945,"['Action', 'Drama', 'History', 'Romance', 'War']",3 hr 3 min,PG-13
 219,Monsters vs. Aliens (2009),DreamWorks,19-Mar-09,198351526,183158344,381509870,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 34 min,PG
 220,Happy Feet (2006),Warner Bros.,17-Nov-06,198000317,186335791,384336108,"['Adventure', 'Animation', 'Comedy', 'Family', 'Music', 'Musical', 'Romance']",1 hr 48 min,PG
@@ -282,7 +282,7 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 280,The Boss Baby (2017),Twentieth Century Fox,NA,175003033,352962903,527965936,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 37 min,PG
 281,Crazy Rich Asians (2018),Warner Bros.,15-Aug-18,174532921,64006277,238539198,"['Comedy', 'Drama', 'Romance']",2 hr,PG-13
 282,The Greatest Showman (2017),Twentieth Century Fox,20-Dec-17,174340174,262609460,436949634,"['Biography', 'Drama', 'Musical']",1 hr 45 min,PG
-283,Fast & Furious Presents: Hobbs & Shaw (2019),Universal Pictures,1-Jul-19,173956935,585100000,759056935,"['Action', 'Adventure', 'Thriller']",2 hr 17 min,PG-13
+283,Fast & Furious Hobbs & Shaw (2019),Universal Pictures,1-Jul-19,173956935,585100000,759056935,"['Action', 'Adventure', 'Thriller']",2 hr 17 min,PG-13
 284,Apollo 13 (1995),Universal Pictures,NA,173837933,181077570,355237933,"['Adventure', 'Drama', 'History']",2 hr 20 min,PG
 285,Home Alone 2: Lost in New York (1992),Twentieth Century Fox,NA,173585516,185409334,358994850,"['Adventure', 'Comedy', 'Crime', 'Family']",2 hr,PG
 286,National Treasure (2004),Walt Disney Studios Motion Pictures,19-Nov-04,173008894,174503424,347512318,"['Action', 'Adventure', 'Mystery', 'Thriller']",2 hr 11 min,PG
@@ -302,13 +302,13 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 300,Hotel Transylvania 2 (2015),Sony Pictures Entertainment (SPE),21-Sep-15,169700110,305486596,475186706,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Horror']",1 hr 29 min,PG
 301,Hidden Figures (2016),Twentieth Century Fox,25-Dec-16,169607287,66349611,235956898,"['Biography', 'Drama', 'History']",2 hr 7 min,PG
 302,Bridesmaids (2011),Universal Pictures,12-May-11,169106725,119276798,288383523,"['Comedy', 'Romance']",2 hr 5 min,R
-303,Quantum of Solace (2008),Sony Pictures Entertainment (SPE),31-Oct-08,168368427,421212055,589580482,"['Action', 'Adventure', 'Thriller']",1 hr 46 min,PG-13
+303,James Bond Quantum of Solace (2008),Sony Pictures Entertainment (SPE),31-Oct-08,168368427,421212055,589580482,"['Action', 'Adventure', 'Thriller']",1 hr 46 min,PG-13
 304,Wild Hogs (2007),Walt Disney Studios Motion Pictures,NA,168273550,85351877,253625427,"['Action', 'Adventure', 'Comedy']",1 hr 40 min,PG-13
 305,Kong: Skull Island (2017),Warner Bros.,8-Mar-17,168052812,398600000,566652812,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",1 hr 58 min,PG-13
 306,Three Men and a Baby (1987),Walt Disney Studios Motion Pictures,25-Nov-87,167780960,167780960,167780960,"['Comedy', 'Drama', 'Family']",1 hr 42 min,PG
 307,Gone Girl (2014),Twentieth Century Fox,2-Oct-14,167767189,201563174,369330363,"['Drama', 'Mystery', 'Thriller']",2 hr 29 min,R
 308,Hotel Transylvania 3: Summer Vacation (2018),Sony Pictures Entertainment (SPE),28-Jun-18,167510016,361073758,528583774,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Horror']",1 hr 37 min,PG
-309,Casino Royale (2006),Sony Pictures Entertainment (SPE),15-Nov-06,167445960,449056952,616502912,"['Action', 'Adventure', 'Thriller']",2 hr 24 min,PG-13
+309,James Bond Casino Royale (2006),Sony Pictures Entertainment (SPE),15-Nov-06,167445960,449056952,616502912,"['Action', 'Adventure', 'Thriller']",2 hr 24 min,PG-13
 310,Meet the Parents (2000),Universal Pictures,6-Oct-00,166244045,164200000,330444045,"['Comedy', 'Romance']",1 hr 48 min,PG-13
 311,Fifty Shades of Grey (2015),Universal Pictures,11-Feb-15,166167230,403484237,569651467,"['Drama', 'Romance', 'Thriller']",2 hr 5 min,R
 312,2012 (2009),Sony Pictures Entertainment (SPE),11-Nov-09,166112167,625105659,791217826,"['Action', 'Adventure', 'Sci-Fi']",2 hr 38 min,PG-13
@@ -331,10 +331,10 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 329,The Waterboy (1998),Walt Disney Studios Motion Pictures,6-Nov-98,161491646,24500000,185991646,"['Comedy', 'Sport']",1 hr 30 min,PG-13
 330,Ice Age: Continental Drift (2012),Twentieth Century Fox,27-Jun-12,161321843,715922939,877244782,"['Adventure', 'Animation', 'Comedy', 'Family']",1 hr 28 min,PG
 331,Straight Outta Compton (2015),Universal Pictures,14-Aug-15,161197785,40437206,201634991,"['Biography', 'Drama', 'History', 'Music']",2 hr 27 min,R
-332,Die Another Day (2002),Metro-Goldwyn-Mayer (MGM),20-Nov-02,160942139,271028977,431971116,"['Action', 'Adventure', 'Thriller']",2 hr 13 min,PG-13
+332,James Bond Die Another Day (2002),Metro-Goldwyn-Mayer (MGM),20-Nov-02,160942139,271028977,431971116,"['Action', 'Adventure', 'Thriller']",2 hr 13 min,PG-13
 333,Shark Tale (2004),DreamWorks Distribution,23-Sep-04,160861908,213721971,374583879,"['Adventure', 'Animation', 'Comedy', 'Family', 'Thriller']",1 hr 30 min,PG
 334,How to Train Your Dragon: The Hidden World (2019),Universal Pictures,3-Jan-19,160799505,363589578,524389083,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",1 hr 44 min,PG
-335,No Time to Die (2021),Metro-Goldwyn-Mayer (MGM),NA,160772007,613262000,774034007,"['Action', 'Adventure', 'Thriller']",2 hr 43 min,PG-13
+335,James Bond No Time to Die (2021),Metro-Goldwyn-Mayer (MGM),NA,160772007,613262000,774034007,"['Action', 'Adventure', 'Thriller']",2 hr 43 min,PG-13
 336,A Quiet Place Part II (2020),Paramount Pictures,NA,160072261,137300000,297372261,"['Drama', 'Horror', 'Sci-Fi', 'Thriller']",1 hr 37 min,PG-13
 337,The Heat (2013),Twentieth Century Fox,22-Feb-96,159582188,70348583,229930771,"['Action', 'Comedy', 'Crime']",1 hr 57 min,R
 338,Fantastic Beasts: The Crimes of Grindelwald (2018),Warner Bros.,12-Oct-18,159555901,495300000,654855901,"['Adventure', 'Family', 'Fantasy']",2 hr 14 min,PG-13
@@ -493,7 +493,7 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 491,2 Fast 2 Furious (2003),Universal Pictures,5-Jun-03,127154901,109195760,236350661,"['Action', 'Crime', 'Thriller']",1 hr 47 min,PG-13
 492,My Best Friend's Wedding (1997),Sony Pictures Entertainment (SPE),20-Jun-97,127120029,172168576,299288605,"['Comedy', 'Drama', 'Romance']",1 hr 45 min,PG-13
 493,Super 8 (2011),Paramount Pictures,9-Jun-11,127004179,133091807,260095986,"['Action', 'Mystery', 'Sci-Fi', 'Thriller']",1 hr 52 min,PG-13
-494,The World Is Not Enough (1999),Metro-Goldwyn-Mayer (MGM),19-Nov-99,126943684,234888716,361832400,"['Action', 'Adventure', 'Thriller']",2 hr 8 min,PG-13
+494,James Bond The World Is Not Enough (1999),Metro-Goldwyn-Mayer (MGM),19-Nov-99,126943684,234888716,361832400,"['Action', 'Adventure', 'Thriller']",2 hr 8 min,PG-13
 495,Sleepless in Seattle (1993),TriStar Pictures,25-Jun-93,126808165,101119000,227927165,"['Comedy', 'Drama', 'Romance']",1 hr 45 min,PG
 496,Lucy (2014),Universal Pictures,25-Jul-14,126663600,332200000,458863600,"['Action', 'Sci-Fi', 'Thriller']",1 hr 29 min,R
 497,The Legend of Tarzan (2016),Warner Bros.,29-Jun-16,126643061,230057296,356700357,"['Action', 'Adventure', 'Drama', 'Fantasy', 'Romance']",1 hr 50 min,PG-13
@@ -506,7 +506,7 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 504,Ocean's Twelve (2004),Warner Bros.,9-Dec-04,125544280,237200000,362744280,"['Crime', 'Thriller']",2 hr 5 min,PG-13
 505,Terminator Salvation (2009),Warner Bros.,20-May-09,125322469,246030532,371353001,"['Action', 'Sci-Fi']",1 hr 55 min,PG-13
 506,Charlie's Angels (2000),Sony Pictures Entertainment (SPE),3-Nov-00,125305545,138800000,264105545,"['Action', 'Adventure', 'Comedy', 'Crime', 'Thriller']",1 hr 38 min,PG-13
-507,Tomorrow Never Dies (1997),Metro-Goldwyn-Mayer (MGM),NA,125304276,207706792,333011068,"['Action', 'Adventure', 'Thriller']",1 hr 59 min,PG-13
+507,James Bond Tomorrow Never Dies (1997),Metro-Goldwyn-Mayer (MGM),NA,125304276,207706792,333011068,"['Action', 'Adventure', 'Thriller']",1 hr 59 min,PG-13
 508,Ghostbusters: Afterlife (2021),Sony Pictures Entertainment (SPE),NA,125278330,66100000,191378330,"['Adventure', 'Comedy', 'Fantasy', 'Sci-Fi']",2 hr 4 min,PG-13
 509,Lone Survivor (2013),Universal Pictures,25-Dec-13,125095601,29707311,154802912,"['Action', 'Biography', 'Drama', 'War']",2 hr 1 min,R
 510,Sully (2016),Warner Bros.,8-Sep-16,125070033,115727590,240797623,"['Biography', 'Drama']",1 hr 36 min,PG-13
@@ -643,7 +643,7 @@ Rank,Title,Distributor,ReleaseDate,DomesticSales,InternationalSales,WorldSales,G
 641,Miss Congeniality (2000),Warner Bros.,22-Dec-00,106807667,105935053,212742720,"['Action', 'Comedy', 'Crime', 'Romance']",1 hr 49 min,PG-13
 642,Indecent Proposal (1993),Paramount Pictures,NA,106614059,160000000,266614059,"['Drama', 'Romance']",1 hr 57 min,R
 643,300: Rise of an Empire (2014),Warner Bros.,5-Mar-14,106580051,231000000,337580051,"['Action', 'Drama']",1 hr 42 min,R
-644,GoldenEye (1995),Metro-Goldwyn-Mayer (MGM),NA,106429941,245764093,352194034,"['Action', 'Adventure', 'Thriller']",2 hr 10 min,PG-13
+644,James Bond GoldenEye (1995),Metro-Goldwyn-Mayer (MGM),NA,106429941,245764093,352194034,"['Action', 'Adventure', 'Thriller']",2 hr 10 min,PG-13
 645,The Italian Job (2003),Paramount Pictures,30-May-03,106128601,69941570,176070171,"['Action', 'Crime', 'Thriller']",1 hr 51 min,PG-13
 646,How to Lose a Guy in 10 Days (2003),Paramount Pictures,NA,105813373,71689014,177502387,"['Comedy', 'Romance']",1 hr 56 min,PG-13
 647,The Lego Movie 2: The Second Part (2019),Warner Bros.,6-Feb-19,105806508,86500000,192306508,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",1 hr 47 min,PG

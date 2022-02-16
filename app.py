@@ -3,10 +3,13 @@ from itertools import islice
 import matplotlib.pyplot as plt
 import numpy as np
 
+import utils
+
 from DataHelper import DataHelper
 
 app = Flask(__name__)
 app.secret_key = "&SuperSecretKey%!"
+
 
 # data source: https://www.kaggle.com/sanjeetsinghnaik/top-1000-highest-grossing-movies
 
@@ -29,9 +32,11 @@ def main_prediction_page():
     return render_template('main_page.html')
 
 
-# total sales by genre
+# create chart for total sales percentage by genre
 def generate_sales_by_genre_chart(dataset):
     # Pie chart, where the slices will be ordered and plotted counter-clockwise
+
+    # dictionary for holding genre count for movies in dataset
     genres = {
         'Action': 0,
         'Adventure': 0,
@@ -110,7 +115,7 @@ def generate_sales_by_genre_chart(dataset):
     plt.close()
 
 
-# genre by rank
+# create chart for genre by weighted rank
 def generate_rank_by_genre_chart(dataset):
     # use dictionary here for easier looping and tracking of weighted rank points
     labels = {
@@ -175,7 +180,7 @@ def generate_rank_by_genre_chart(dataset):
     plt.close()
 
 
-# top sales by rating
+# create chart for sales percentage by rating
 def generate_sales_by_rating(dataset):
     # Pie chart, where the slices will be ordered and plotted counter-clockwise
     # use a list here so that we only have to iterate through the dataset once
@@ -221,9 +226,9 @@ def generate_sales_by_rating(dataset):
     plt.close()
 
 
-# top sales by month release
+# create chart for total sales by month release
 def generate_sales_by_month(dataset):
-    # x-axis labels
+    # dictionary for search and tracking month sales
     months = {
         'Jan': 0,
         'Feb': 0,
@@ -269,11 +274,103 @@ def generate_sales_by_month(dataset):
     plt.close()
 
 
-# method to retrieve inputs from user for proposed movie types/release date/etc
-# then run through predictive algorithm that outputs projected domestic/international sales
+# creates chart displaying highest and lowest sales for selected genre(s) alongside the projected movie sales
+def generate_genre_highest_lowest_sales(prediction_data):
+    # create plot with data to visual comparisons
+    x = np.arange(len(prediction_data))  # label locations for high, low, and prediction
+    width = 0.5  # the width of the bars
+
+    fig, ax = plt.subplots()
+    comparison_bars = ax.bar(x - width / 2, prediction_data.values(), width)
+
+    # Add some text for labels, title and custom x-axis tick labels, etc.
+    ax.set_ylabel('Total Sales in Millions')
+    ax.set_title('Genre Highest vs Lowest vs Prediction')
+    ax.set_xticks(x, prediction_data.keys())
+
+    ax.bar_label(comparison_bars, padding=3)
+    fig.tight_layout()
+
+    # have to save image to static directory to be accessible in flask env
+    # it will update images with same name
+    plt.savefig('static/genre_high_low_comparison.png')
+    plt.close()
+
+
+# creates chart for highest/lowest/projected sales for chose release month
+def generate_month_highest_lowest_sales(prediction_data):
+    # create plot with data to visual comparisons
+    x = np.arange(len(prediction_data))  # label locations for high, low, and prediction
+    width = 0.3  # the width of the bars
+
+    fig, ax = plt.subplots()
+    comparison_bars = ax.bar(x - width / 2, prediction_data.values(), width)
+
+    # Add some text for labels, title and custom x-axis tick labels, etc.
+    ax.set_ylabel('Total Sales in Millions')
+    ax.set_title('Release Month Highest vs Lowest vs Prediction')
+    ax.set_xticks(x, prediction_data.keys())
+
+    ax.bar_label(comparison_bars, padding=3)
+    fig.tight_layout()
+
+    # have to save image to static directory to be accessible in flask env
+    # it will update images with same name
+    plt.savefig('static/month_high_low_comparison.png')
+    plt.close()
+
+
+# creates chart for sales of all movies in chosen series with projected sales for this movie
+def generate_series_sales(series_selection, prediction_data):
+    # create chart for series comparisons (horizontal bar chart)
+    plt.barh(list(prediction_data.keys()), prediction_data.values())
+    # invert y-axis to show genres in alphabetical order
+    plt.gca().invert_yaxis()
+    # set chart title/labels
+    if series_selection != 'None':
+        plt.title('Series Sales Comparisons')
+    else:
+        # chart will be blank if no series chosen
+        plt.title('No Series Data to Display')
+
+    plt.ylabel('Title')
+    plt.xlabel('World Sales in Millions')
+    # ensures graph is not cutoff when saved as .png
+    plt.tight_layout()
+    # have to save image to static directory to be accessible in flask env
+    # it will update images with same name
+    plt.savefig('static/series_sales_comparisons.png')
+    plt.close()
+
+
+# create chart for average sales of movies of each rating alongside projected sales of this movie
+def generate_rating_average_sales(prediction_data):
+    # horizontal chart for sales for each rating
+    # create plot with data to visual comparisons
+    x = np.arange(len(prediction_data))  # label locations for high, low, and prediction
+    width = 0.3  # the width of the bars
+
+    fig, ax = plt.subplots()
+    comparison_bars = ax.bar(x - width / 2, prediction_data.values(), width)
+
+    # Add some text for labels, title and custom x-axis tick labels, etc.
+    ax.set_ylabel('Average Sales in Millions')
+    ax.set_title('Average Sales By Rating')
+    ax.set_xticks(x, prediction_data.keys())
+
+    ax.bar_label(comparison_bars, padding=3)
+    fig.tight_layout()
+
+    # have to save image to static directory to be accessible in flask env
+    # it will update images with same name
+    plt.savefig('static/rating_sales_comparison.png')
+    plt.close()
+
+
+# method to retrieve inputs from user for proposed movie types/release date/rating/series
+# then run through predictive algorithm that outputs projected domestic/international/world sales
 @app.route('/prediction_results', methods=['POST'])
 def predict_movie_success():
-
     if request.method == 'POST':
         # retrieve dataset
         data_helper = DataHelper()
@@ -310,30 +407,65 @@ def predict_movie_success():
         selected_movie_rating = request.form.get('ratings')
         # get selected release month
         selected_release_month = request.form.get('months')
+        # get selected series (if any)
+        series_selection = request.form.get('series')
 
         # get domestic, international, and total sales of genres and track movies in genres
-        genres_domestic_sales = genres_international_sales = genres_world_sales = movies_with_genre = 0
-        for genre in selected_genres:
-            for movie in dataset:
+        genres_domestic_sales = genres_international_sales = genres_world_sales = movies_with_genre = genre_highest_sales = 0
+        genre_lowest_sales = 1000000000
+        # get sales numbers and amount for ratings for visualization later
+        g_rating_sales = pg_rating_sales = pg13_rating_sales = r_rating_sales = 0
+        g_rating_count = pg_rating_count = pg13_rating_count = r_rating_count = 0
+
+        for movie in dataset:
+            for genre in selected_genres:
                 if genre in movie.genre:
                     genres_domestic_sales += int(movie.domestic_sales)
                     genres_international_sales += int(movie.international_sales)
                     genres_world_sales += int(movie.world_sales)
                     movies_with_genre += 1
+            # add to rating sales for visualization in results
+            if 'G' == movie.rating:
+                g_rating_sales += int(movie.world_sales)
+                g_rating_count += 1
+            if 'PG' == movie.rating:
+                pg_rating_sales += int(movie.world_sales)
+                pg_rating_count += 1
+            if 'PG-13' == movie.rating:
+                pg13_rating_sales += int(movie.world_sales)
+                pg13_rating_count += 1
+            if 'R' == movie.rating:
+                r_rating_sales += int(movie.world_sales)
+                r_rating_count += 1
+
+        # want to try to get exact matches of genres selected first for better comparison
+        for movie in dataset:
+            if movie.genre == str(selected_genres):
+                if int(movie.world_sales) > genre_highest_sales:
+                    genre_highest_sales = int(movie.world_sales)
+                if int(movie.world_sales) < genre_lowest_sales:
+                    genre_lowest_sales = int(movie.world_sales)
+
+        # if no matches to exact genre then get movies with that genre in their list of genres
+        for movie in dataset:
+            movie_genre_list = movie.genre.strip('][').replace("'", "").split(', ')
+            # make sure original sales high/low is unchanged before doing this search
+            if genre_highest_sales == 0 or genre_lowest_sales == 1000000000:
+                if all(element in movie_genre_list for element in selected_genres):
+                    if int(movie.world_sales) > genre_highest_sales:
+                        genre_highest_sales = int(movie.world_sales)
+                    if int(movie.world_sales) < genre_lowest_sales:
+                        genre_lowest_sales = int(movie.world_sales)
 
         # divide by amount of selected genres since we iterate through the dataset that many times
         # divide by total movies in that genre divided by how many times we iterated through dataset as well
         genres_domestic_sales /= len(selected_genres) * (movies_with_genre / len(selected_genres))
         genres_international_sales /= len(selected_genres) * (movies_with_genre / len(selected_genres))
         genres_world_sales /= len(selected_genres) * (movies_with_genre / len(selected_genres))
-        # genres_world_sales = genres_domestic_sales + genres_international_sales
-
-        print('DOM SALES: ', str(round(genres_domestic_sales / 1000000, 2)))
-        print('INTL SALES: ', str(round(genres_international_sales / 1000000, 2)))
-        print('WRLD SALES: ', str(round(genres_world_sales / 1000000, 2)))
 
         # take total sales for movies released in selected month and divide by amount of movies released in month
-        month_total_sales = movies_released_in_month = 0
+        month_total_sales = movies_released_in_month = month_highest_sales = 0
+        month_lowest_sales = 1000000000
 
         # add up total sales for movies that were released in each month
         # and how many movies released in that month to determine averages sale for that month
@@ -341,38 +473,86 @@ def predict_movie_success():
             if selected_release_month in movie.release_date:
                 month_total_sales += int(movie.world_sales)
                 movies_released_in_month += 1
+                # track high/low world sales for this month
+                if int(movie.world_sales) > month_highest_sales:
+                    month_highest_sales = int(movie.world_sales)
+                if int(movie.world_sales) < month_lowest_sales:
+                    month_lowest_sales = int(movie.world_sales)
 
+        # total sales for that release month divided by total movies released in that month
         month_average_sales = month_total_sales / movies_released_in_month
 
-        # increase sales by above avg across all months
-        # cut amount in half for domestic and international to reflect same increase in world total sales
-        genres_domestic_sales += month_average_sales / 2
-        genres_international_sales += month_average_sales / 2
-        genres_world_sales += month_average_sales
-
-        print('DOM SALES: ', str(round(genres_domestic_sales / 1000000, 2)))
-        print('INTL SALES: ', str(round(genres_international_sales / 1000000, 2)))
-        print('WRLD SALES: ', str(round(genres_world_sales / 1000000, 2)))
+        # we want to get the mean of the monthly average and projected sales based on genre
+        genres_domestic_sales = (month_average_sales + genres_domestic_sales) / 3
+        genres_international_sales += (month_average_sales + genres_international_sales) / 3
+        genres_world_sales += (month_average_sales + genres_world_sales) / 3
 
         # movie rating modifier
         # get chosen rating then reduce by 5% if rated R
         # reference studies showing decrease in sales if movie is rate R or other than G/PG/PG-13
-        if request.form.get('ratings') == 'R':
+        if selected_movie_rating == 'R':
             genres_domestic_sales *= 0.95
             genres_international_sales *= 0.95
             genres_world_sales *= 0.95
 
-        # add something for continuations to successful series
-        series_selection = request.form.get('series')
-
+        # increase sales for continuations of popular series and
+        series_movies = {}
         if series_selection != 'None':
             for movie in dataset:
                 if series_selection in movie.title:
-                    genres_domestic_sales += (genres_domestic_sales * 0.1)
-                    genres_international_sales += (genres_international_sales * 0.1)
-                    genres_world_sales += (genres_world_sales * 0.1)
+                    genres_domestic_sales += (genres_domestic_sales * 0.2)
+                    genres_international_sales += (genres_international_sales * 0.2)
+                    genres_world_sales += (genres_world_sales * 0.2)
                     # first match found breaks loop to avoid duplicate additions
                     break
+
+            # get list of previous series movies for comparison chart
+            # also check series movie sales against high/low genre sales since we want to include that in chart generation
+            for movie in dataset:
+                if series_selection in movie.title:
+                    # add movie to series list
+                    series_movies[movie.title] = utils.round_number_millions(int(movie.world_sales))
+                    if int(movie.world_sales) > genre_highest_sales:
+                        genre_highest_sales = int(movie.world_sales)
+                    if int(movie.world_sales) < genre_lowest_sales:
+                        genre_lowest_sales = int(movie.world_sales)
+                # edge cases where selection box will not find all movies in series
+                elif series_selection == 'Batman':
+                    if 'Dark Knight' in movie.title:
+                        series_movies[movie.title] = utils.round_number_millions(int(movie.world_sales))
+                        if int(movie.world_sales) > genre_highest_sales:
+                            genre_highest_sales = int(movie.world_sales)
+                        if int(movie.world_sales) < genre_lowest_sales:
+                            genre_lowest_sales = int(movie.world_sales)
+                elif series_selection == 'Harry Potter':
+                    if 'Fantastic Beasts' in movie.title:
+                        series_movies[movie.title] = utils.round_number_millions(int(movie.world_sales))
+                        if int(movie.world_sales) > genre_highest_sales:
+                            genre_highest_sales = int(movie.world_sales)
+                        if int(movie.world_sales) < genre_lowest_sales:
+                            genre_lowest_sales = int(movie.world_sales)
+                elif series_selection == 'Lord of the Rings':
+                    if 'The Hobbit' in movie.title:
+                        series_movies[movie.title] = utils.round_number_millions(int(movie.world_sales))
+                        if int(movie.world_sales) > genre_highest_sales:
+                            genre_highest_sales = int(movie.world_sales)
+                        if int(movie.world_sales) < genre_lowest_sales:
+                            genre_lowest_sales = int(movie.world_sales)
+                elif series_selection == 'The Fast and the Furious':
+                    if '2 Fast 2 Furious' in movie.title or 'Fast Five' in movie.title or 'Fast & Furious' in movie.title \
+                            or 'Furious' in movie.title or 'Fate of the Furious' in movie.title or 'F9' in movie.title:
+                        series_movies[movie.title] = utils.round_number_millions(int(movie.world_sales))
+                        if int(movie.world_sales) > genre_highest_sales:
+                            genre_highest_sales = int(movie.world_sales)
+                        if int(movie.world_sales) < genre_lowest_sales:
+                            genre_lowest_sales = int(movie.world_sales)
+                elif series_selection == 'X-Men':
+                    if 'Wolverine' in movie.title:
+                        series_movies[movie.title] = utils.round_number_millions(int(movie.world_sales))
+                        if int(movie.world_sales) > genre_highest_sales:
+                            genre_highest_sales = int(movie.world_sales)
+                        if int(movie.world_sales) < genre_lowest_sales:
+                            genre_lowest_sales = int(movie.world_sales)
 
         # subtract from sales for having absurd amount of genres
         if len(selected_genres) > 8:
@@ -387,23 +567,69 @@ def predict_movie_success():
             movie_genre_list = movie.genre.strip('][').replace("'", "").split(', ')
             # check if all genres in selected genre appear in a movie genre list
             # and see if same rating because we don't want to recommend The Conjuring as a similar title to Scooby Doo
-            if all(element in movie_genre_list for element in selected_genres) and selected_movie_rating == movie.rating:
+            if all(element in movie_genre_list for element in
+                   selected_genres) and selected_movie_rating == movie.rating:
                 comparative_movies.append(movie.title)
 
         # trim list to just top 3
         if len(comparative_movies) > 3:
             comparative_movies = comparative_movies[0:3]
 
+        # create visualizations for projected data alongside historical data
+
+        # put genres sales data in dictionary to pass to function for plot generation
+        genre_sales_comparisons = {
+            "Lowest": utils.round_number_millions(genre_lowest_sales),
+            "Projected": utils.round_number_millions(genres_world_sales),
+            "Highest": utils.round_number_millions(genre_highest_sales)
+        }
+        # create highest/lowest/projected sales chart for genres with predictive data
+        generate_genre_highest_lowest_sales(genre_sales_comparisons)
+
+        # create highest/lowest/projected sales for chosen release month with predictive data
+
+        # add projected movie data to series movie list first
+        if series_selection != 'None':
+            series_movies['Projected Movie'] = utils.round_number_millions(genres_world_sales)
+        else:
+            series_movies[''] = 0
+        # create series sales chart for chosen series with predictive data
+        generate_series_sales(series_selection, series_movies)
+
+        # get highest and lowest selling movie in selected month for visualization
+        month_sales_comparisons = {
+            "Lowest": utils.round_number_millions(month_lowest_sales),
+            "Projected": utils.round_number_millions(genres_world_sales),
+            "Highest": utils.round_number_millions(month_highest_sales)
+        }
+        # generate chart for high/low/predicted sales for selected genre(s)
+        generate_month_highest_lowest_sales(month_sales_comparisons)
+
+        # get average sales for each MPAA rating to compare to projected sales of this one
+        # total sales have been counted as many times as selected genres so we have to divide by that amount
+        # and divide by all the movies with that rating counted divided by amount of genres as well
+        g_rating_average_sales = (g_rating_sales / len(selected_genres)) / (g_rating_count / len(selected_genres))
+        pg_rating_average_sales = (pg_rating_sales / len(selected_genres)) / (pg_rating_count / len(selected_genres))
+        pg13_rating_average_sales = (pg13_rating_sales / len(selected_genres)) / (pg13_rating_count / len(selected_genres))
+        r_rating_average_sales = (r_rating_sales / len(selected_genres)) / (r_rating_count / len(selected_genres))
+
+        rating_sales_comparison = {
+            'G': utils.round_number_millions(g_rating_average_sales),
+            'PG': utils.round_number_millions(pg_rating_average_sales),
+            'PG-13': utils.round_number_millions(pg13_rating_average_sales),
+            'R': utils.round_number_millions(r_rating_average_sales),
+            'Projected': utils.round_number_millions(genres_world_sales)
+        }
+        # generate chart for average sales for each rating alongside projected sales
+        generate_rating_average_sales(rating_sales_comparison)
+
         # convert sales numbers to more readable format (millions or billions)
         # domestic sales conversion
-        genres_domestic_sales = (str(round(genres_domestic_sales / 1000000, 2)) + ' Million') \
-            if genres_domestic_sales < 1000000000 else (str(round(genres_domestic_sales / 1000000000, 2)) + ' Billion')
+        genres_domestic_sales = utils.round_number_as_string(genres_domestic_sales)
         # international sales conversion
-        genres_international_sales = (str(round(genres_international_sales / 1000000, 2)) + ' Million') \
-            if genres_international_sales < 1000000000 else (str(round(genres_international_sales / 1000000000, 2)) + ' Billion')
+        genres_international_sales = utils.round_number_as_string(genres_international_sales)
         # world sales conversion
-        genres_world_sales = (str(round(genres_world_sales / 1000000, 2)) + ' Million') \
-            if genres_world_sales < 1000000000 else (str(round(genres_world_sales / 1000000000, 2)) + ' Billion')
+        genres_world_sales = utils.round_number_as_string(genres_world_sales)
 
         # pack all needed prediction data into list to pass to results page
         prediction_results = [
@@ -417,9 +643,11 @@ def predict_movie_success():
             series_selection,
             comparative_movies
         ]
+
         # render page with prediction data
         return render_template("prediction_results.html", data=prediction_results)
 
 
+# runs web app in flask environment
 if __name__ == '__main__':
     app.run()

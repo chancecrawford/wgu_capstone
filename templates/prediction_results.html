@@ -5,29 +5,25 @@
     <title> Movie Success Prediction </title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/main_page.css') }}">
 </head>
+<style>
+    <!--  just for centering button  -->
+    form {
+        margin: 0 auto;
+        width: 50px;
+        font-weight: bold;
+    }
+</style>
 <body>
 
     <h1> Movie Prediction Results </h1>
 
     <div class="row">
+        <img src="static/genre_high_low_comparison.png" alt="high_low_comparison">
+
         <div class="column">
-            <h3> <strong> Projected Domestic Sales </strong> </h3>
+            <h2> <strong> Projected Domestic Sales </strong> </h2>
             <p> {{ data[0] }} </p> <br>
-        </div>
 
-        <div class="column">
-            <h3> <strong> Projected International Sales </strong> </h3>
-            <p> {{ data[1] }} </p> <br>
-        </div>
-
-        <div class="column">
-            <h3> <strong> Projected World Sales </strong> </h3>
-            <p> {{ data[2] }} </p> <br>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column">
             <h3> <strong> Genres </strong> </h3>
             {% for line in data[3] %}
             <p>{{line}}</p>
@@ -35,14 +31,30 @@
         </div>
 
         <div class="column">
+            <h2> <strong> Projected International Sales </strong> </h2>
+            <p> {{ data[1] }} </p> <br>
+
             <h3> <strong> Amount of Genres </strong> </h3>
             <p> {{ data[4] }} </p> <br>
         </div>
 
         <div class="column">
+            <h2> <strong> Projected World Sales </strong> </h2>
+            <p> {{ data[2] }} </p> <br>
+        </div>
+    </div>
+
+    <div class="row">
+        <img src="static/month_high_low_comparison.png" alt="month_high_low_comparison">
+
+        <div class="column">
             <h3> <strong> Month for Release </strong> </h3>
             <p> {{ data[5] }} </p> <br>
         </div>
+    </div>
+
+    <div class="row">
+        <img src="static/rating_sales_comparison.png" alt="rating_sales_comparison">
 
         <div class="column">
             <h3> <strong> Motion Picture Association of America (MPAA) Rating </strong> </h3>
@@ -51,6 +63,8 @@
     </div>
 
     <div class="row">
+        <img src="static/series_sales_comparisons.png" alt="series_sales_comparison">
+
         <div class="column">
             <h3> <strong> Series Continuation </strong> </h3>
             <p> {{ data[7] }} </p> <br>
@@ -63,5 +77,10 @@
             {% endfor %}
         </div>
     </div>
+
+    <!--  navigates back to main page  -->
+    <form action="/">
+        <input type="submit" value="GO BACK" name="go_back_button">
+    </form>
 </body>
 </html>
