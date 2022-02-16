@@ -21,9 +21,78 @@
         <img src="static/sales_months.png" alt="sales_months">
     </div> <br>
 
+    <h1> Interactive Search </h1>
+        <div class="row">
+            <form class="search_form" action="/search_results" method="POST">
+
+                <label> Search for movies between certain sales amounts </label>
+                <div class="column">
+                    <label for="sales_type">Choose a sales type:</label>
+                    <select id="sales_type" name="sales_type">
+                        <option value="Domestic">Domestic</option>
+                        <option value="International">International</option>
+                        <option value="World">World</option>
+                    </select>
+                    <input type="number" id="min_input" name="min_input" min="1" max="10000000000">
+                    <input type="number" id="max_input" name="max_input" min="1" max="10000000000">
+                </div>
+                <span>&#9888;</span>
+                <label> Warning: broad searches will yield large lists of results.</label> <br> <br>
+
+                <label> Choose month to get movie with top world sales </label>
+                <div class="column">
+                    <label for="top_month_movie"> Choose release month: </label>
+                    <select id="top_month_movie" name="top_month_movie">
+                        <option value="Jan"> January </option>
+                        <option value="Feb"> February </option>
+                        <option value="Mar"> March </option>
+                        <option value="Apr"> April </option>
+                        <option value="May"> May </option>
+                        <option value="Jun"> June </option>
+                        <option value="Jul"> July </option>
+                        <option value="Aug"> August </option>
+                        <option value="Sep"> September </option>
+                        <option value="Oct"> October </option>
+                        <option value="Nov"> November </option>
+                        <option value="Dec"> December </option>
+                    </select>
+                </div> <br>
+
+                <label> Choose genre to get movie with top world sales </label>
+                <div class="column">
+                    <label for="top_genre_movie"> Choose genre: </label>
+                    <select id="top_genre_movie" name="top_genre_movie">
+                        <option value="Action"> Action </option>
+                        <option value="Adventure"> Adventure </option>
+                        <option value="Animation"> Animation </option>
+                        <option value="Biography"> Biography </option>
+                        <option value="Comedy"> Comedy </option>
+                        <option value="Crime"> Crime </option>
+                        <option value="Documentary"> Documentary </option>
+                        <option value="Drama"> Drama </option>
+                        <option value="Family"> Family </option>
+                        <option value="Fantasy"> Fantasy </option>
+                        <option value="History"> History </option>
+                        <option value="Horror"> Horror </option>
+                        <option value="Music"> Music </option>
+                        <option value="Musical"> Musical </option>
+                        <option value="Mystery"> Mystery </option>
+                        <option value="Romance"> Romance </option>
+                        <option value="Sci-Fi"> Sci-Fi </option>
+                        <option value="Sport"> Sport </option>
+                        <option value="Thriller"> Thriller </option>
+                        <option value="War"> War </option>
+                        <option value="Western"> Western </option>
+                    </select>
+                </div> <br>
+
+                <input type="submit" id="btnSearch" value="Search">
+            </form>
+        </div>
+
 <!--  user input form for predictions  -->
 <!--  gets genre choices for movie  -->
-    <h1> User Input for Predictions </h1>
+    <h1> User Input for Predictions </h1> <br>
     <div class="row">
         <form class="prediction_form" action="/prediction_results" method="POST">
             <div class="column">
@@ -117,14 +186,14 @@
                 </select>
             </div> <br>
 
-            <input type="submit" id="btnSubmit" value="Generate Prediction">
+            <input type="submit" id="btnPrediction" value="Generate Prediction">
         </form>
     </div>
 
     <!--  source for this jquery validation function for the genre checkboxes  -->
     <!--  https://stackoverflow.com/a/43320650  -->
     <script>
-    $('#btnSubmit').click(function(){
+    $('#btnPrediction').click(function(){
         var chkSelected = $('input:checked').length;
         if(chkSelected <= 0){
             alert("You must select at least 1 movie genre");

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Search Results </title>
+</head>
+<style>
+    <!--  just for centering button  -->
+    form {
+        margin: 0 auto;
+        width: 50px;
+        font-weight: bold;
+    }
+</style>
+<body>
+
+    <h1> Search Results </h1>
+
+    <h3> Movies with {{ data["SalesType"] }} Sales Between {{ data["SalesMinimum"] }} and {{ data["SalesMaximum"]  }} </h3>
+    {% for line in data["MovieList"] %}
+    <p>{{ line.title }}</p>
+    {% endfor %} <br>
+
+    <h3> Movie with Highest World Sales for {{ data["ReleaseMonth"] }} </h3>
+    <p> {{ data["TopMonthMovie"].title }} : {{ data["TopMonthMovie"].world_sales }} </p>
+
+    <h3> Movie with Highest World Sales for {{ data["SelectedGenre"] }} </h3>
+    <p> {{ data["TopGenreMovie"].title }} : {{ data["TopGenreMovie"].world_sales }} </p>
+
+    <!--  navigates back to main page  -->
+    <form action="/">
+        <input type="submit" value="GO BACK" name="go_back_button">
+    </form>
+</body>
+</html>

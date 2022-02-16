@@ -3,6 +3,7 @@ from itertools import islice
 import matplotlib.pyplot as plt
 import numpy as np
 
+from movie import Movie
 import utils
 
 from DataHelper import DataHelper
@@ -23,13 +24,147 @@ def main_prediction_page():
     # have to make our graphs look nice
     plt.style.use('ggplot')
 
-    # generate data for each graph and save as .png
+    # generate data for descriptive graphs and save as .png
     generate_sales_by_genre_chart(movie_list)
     generate_rank_by_genre_chart(movie_list)
     generate_sales_by_rating(movie_list)
     generate_sales_by_month(movie_list)
-    # render page that contains all generated graphs and input form for prediction
+    # render page that contains all generated graphs, interactive search, and input form for prediction
     return render_template('main_page.html')
+
+
+# retrieves list of movies with user specified sales type between a min and max value
+def search_movies_by_sales(sales_type, minimum_sales, maximum_sales):
+    # get dataset, convert each to Movie class to pass to chart generation functions
+    data_helper = DataHelper()
+    movie_list = data_helper.retrieve_movies("movie_data.csv")
+
+    matching_movies = []
+    for movie in movie_list:
+        if sales_type == 'Domestic':
+            # check min/max sales
+            if maximum_sales > int(movie.domestic_sales) > minimum_sales:
+                matching_movies.append(movie)
+        if sales_type == 'International':
+            # check min/max sales
+            if maximum_sales > int(movie.international_sales) > minimum_sales:
+                matching_movies.append(movie)
+        if sales_type == 'World':
+            # check min/max sales
+            if maximum_sales > int(movie.world_sales) > minimum_sales:
+                matching_movies.append(movie)
+
+    return matching_movies
+
+
+# retrieves movie with highest world sales released in user specified month
+def search_top_movie_in_month(release_month):
+    # get dataset, convert each to Movie class to pass to chart generation functions
+    data_helper = DataHelper()
+    movie_list = data_helper.retrieve_movies("movie_data.csv")
+
+    # create blank movie variable for initial comparison and then compare following movies to current top movie
+    top_movie = Movie("", "", "", "", 0, 0, 0, "", "", "")
+
+    # iterate through dataset to compare and find movie
+    for movie in movie_list:
+        if release_month in movie.release_date:
+            if int(movie.world_sales) > int(top_movie.world_sales):
+                top_movie = Movie(
+                    movie.rank,
+                    movie.title,
+                    movie.distributor,
+                    movie.release_date,
+                    movie.domestic_sales,
+                    movie.international_sales,
+                    movie.world_sales,
+                    movie.genre,
+                    movie.runtime,
+                    movie.rating
+                )
+
+    return top_movie
+
+
+# retrieves movie with highest world sales released in user specified genre
+def search_genre_top_sales(search_genre):
+    # get dataset, convert each to Movie class to pass to chart generation functions
+    data_helper = DataHelper()
+    movie_list = data_helper.retrieve_movies("movie_data.csv")
+
+    # create blank movie variable for initial comparison and then compare following movies to current top movie
+    top_movie = Movie("", "", "", "", 0, 0, 0, "", "", "")
+
+    # iterate through dataset to compare and find movie
+    for movie in movie_list:
+        if search_genre in movie.genre:
+            if int(movie.world_sales) > int(top_movie.world_sales):
+                top_movie = Movie(
+                    movie.rank,
+                    movie.title,
+                    movie.distributor,
+                    movie.release_date,
+                    movie.domestic_sales,
+                    movie.international_sales,
+                    movie.world_sales,
+                    movie.genre,
+                    movie.runtime,
+                    movie.rating
+                )
+
+    return top_movie
+
+
+# gets user inputs, searches dataset for needed data, navigates to search result display page
+# with search results as dictionary
+@app.route('/search_results', methods=['POST'])
+def get_search_results():
+    if request.method == 'POST':
+
+        # get user sales search inputs
+        sales_type = request.form.get('sales_type')
+        sales_minimum = int(request.form.get('min_input'))
+        sales_maximum = int(request.form.get('max_input'))
+        # get user top movie for month search input
+        release_month = request.form.get('top_month_movie')
+        # get user top movie for genre search input
+        selected_genre = request.form.get('top_genre_movie')
+
+        # list of movies within specified world sales amounts
+        if sales_minimum is not None and sales_maximum is not None:
+            movie_list = search_movies_by_sales(sales_type, sales_minimum, sales_maximum)
+        else:
+            # if missing search criteria, set list with blank movie but no results title to display
+            movie_list = Movie("No Results", "", "", "", 0, 0, 0, "", "", "")
+        # if search yields no results
+        if not movie_list:
+            movie_list.append(Movie("No Results", "", "", "", 0, 0, 0, "", "", ""))
+
+        # movie with top world sales for selected month
+        top_month_movie = search_top_movie_in_month(release_month)
+        # convert world sales to readable format
+        top_month_movie.world_sales = utils.round_number_as_string(int(top_month_movie.world_sales))
+        # movie with top world sales for selected genre
+        top_genre_movie = search_genre_top_sales(selected_genre)
+        # convert world sales to readable format
+        top_genre_movie.world_sales = utils.round_number_as_string(int(top_genre_movie.world_sales))
+
+        # combine search results into dictionary to pass to web page
+        search_results = {
+            "SalesType": sales_type,
+            "SalesMinimum": utils.round_number_as_string(sales_minimum),
+            "SalesMaximum": utils.round_number_as_string(sales_maximum),
+            "MovieList": movie_list,
+            "ReleaseMonth": release_month,
+            "TopMonthMovie": top_month_movie,
+            "SelectedGenre": selected_genre,
+            "TopGenreMovie": top_genre_movie
+        }
+    # just do nothing if a request isn't successfully made
+    else:
+        return
+    # render page that contains results from user search inputs
+    return render_template("search_results.html", data=search_results)
 
 
 # create chart for total sales percentage by genre
@@ -275,18 +410,18 @@ def generate_sales_by_month(dataset):
 
 
 # creates chart displaying highest and lowest sales for selected genre(s) alongside the projected movie sales
-def generate_genre_highest_lowest_sales(prediction_data):
+def generate_genre_highest_lowest_sales(projected_data):
     # create plot with data to visual comparisons
-    x = np.arange(len(prediction_data))  # label locations for high, low, and prediction
+    x = np.arange(len(projected_data))  # label locations for high, low, and prediction
     width = 0.5  # the width of the bars
 
     fig, ax = plt.subplots()
-    comparison_bars = ax.bar(x - width / 2, prediction_data.values(), width)
+    comparison_bars = ax.bar(x - width / 2, projected_data.values(), width)
 
     # Add some text for labels, title and custom x-axis tick labels, etc.
     ax.set_ylabel('Total Sales in Millions')
     ax.set_title('Genre Highest vs Lowest vs Prediction')
-    ax.set_xticks(x, prediction_data.keys())
+    ax.set_xticks(x, projected_data.keys())
 
     ax.bar_label(comparison_bars, padding=3)
     fig.tight_layout()
@@ -298,18 +433,18 @@ def generate_genre_highest_lowest_sales(prediction_data):
 
 
 # creates chart for highest/lowest/projected sales for chose release month
-def generate_month_highest_lowest_sales(prediction_data):
+def generate_month_highest_lowest_sales(projected_data):
     # create plot with data to visual comparisons
-    x = np.arange(len(prediction_data))  # label locations for high, low, and prediction
+    x = np.arange(len(projected_data))  # label locations for high, low, and prediction
     width = 0.3  # the width of the bars
 
     fig, ax = plt.subplots()
-    comparison_bars = ax.bar(x - width / 2, prediction_data.values(), width)
+    comparison_bars = ax.bar(x - width / 2, projected_data.values(), width)
 
     # Add some text for labels, title and custom x-axis tick labels, etc.
     ax.set_ylabel('Total Sales in Millions')
     ax.set_title('Release Month Highest vs Lowest vs Prediction')
-    ax.set_xticks(x, prediction_data.keys())
+    ax.set_xticks(x, projected_data.keys())
 
     ax.bar_label(comparison_bars, padding=3)
     fig.tight_layout()
@@ -321,9 +456,9 @@ def generate_month_highest_lowest_sales(prediction_data):
 
 
 # creates chart for sales of all movies in chosen series with projected sales for this movie
-def generate_series_sales(series_selection, prediction_data):
+def generate_series_sales(series_selection, projected_data):
     # create chart for series comparisons (horizontal bar chart)
-    plt.barh(list(prediction_data.keys()), prediction_data.values())
+    plt.barh(list(projected_data.keys()), projected_data.values())
     # invert y-axis to show genres in alphabetical order
     plt.gca().invert_yaxis()
     # set chart title/labels
@@ -344,19 +479,19 @@ def generate_series_sales(series_selection, prediction_data):
 
 
 # create chart for average sales of movies of each rating alongside projected sales of this movie
-def generate_rating_average_sales(prediction_data):
+def generate_rating_average_sales(projected_data):
     # horizontal chart for sales for each rating
     # create plot with data to visual comparisons
-    x = np.arange(len(prediction_data))  # label locations for high, low, and prediction
-    width = 0.3  # the width of the bars
+    x = np.arange(len(projected_data))  # label locations for high, low, and prediction
+    width = 0.4  # the width of the bars
 
     fig, ax = plt.subplots()
-    comparison_bars = ax.bar(x - width / 2, prediction_data.values(), width)
+    comparison_bars = ax.bar(x - width / 2, projected_data.values(), width)
 
     # Add some text for labels, title and custom x-axis tick labels, etc.
     ax.set_ylabel('Average Sales in Millions')
     ax.set_title('Average Sales By Rating')
-    ax.set_xticks(x, prediction_data.keys())
+    ax.set_xticks(x, projected_data.keys())
 
     ax.bar_label(comparison_bars, padding=3)
     fig.tight_layout()
