@@ -15,6 +15,8 @@ app.secret_key = "&SuperSecretKey%!"
 # data source: https://www.kaggle.com/sanjeetsinghnaik/top-1000-highest-grossing-movies
 
 
+# gets dataset from .csv, generates descriptive data charts, then loads the main page consisting of
+# static data, interactive search, and predictive algorithm inputs for the user
 @app.route('/')
 def main_prediction_page():
     # get dataset, convert each to Movie class to pass to chart generation functions
@@ -592,11 +594,11 @@ def predict_movie_success():
                     if int(movie.world_sales) < genre_lowest_sales:
                         genre_lowest_sales = int(movie.world_sales)
 
-        # divide by amount of selected genres since we iterate through the dataset that many times
-        # divide by total movies in that genre divided by how many times we iterated through dataset as well
-        genres_domestic_sales /= len(selected_genres) * (movies_with_genre / len(selected_genres))
-        genres_international_sales /= len(selected_genres) * (movies_with_genre / len(selected_genres))
-        genres_world_sales /= len(selected_genres) * (movies_with_genre / len(selected_genres))
+        # divide by amount of selected genres multiplied by amount of genres selected
+        # since we iterate through the dataset that many times
+        genres_domestic_sales /= (len(selected_genres) * movies_with_genre)
+        genres_international_sales /= (len(selected_genres) * movies_with_genre)
+        genres_world_sales /= (len(selected_genres) * movies_with_genre)
 
         # take total sales for movies released in selected month and divide by amount of movies released in month
         month_total_sales = movies_released_in_month = month_highest_sales = 0
@@ -618,9 +620,9 @@ def predict_movie_success():
         month_average_sales = month_total_sales / movies_released_in_month
 
         # we want to get the mean of the monthly average and projected sales based on genre
-        genres_domestic_sales = (month_average_sales + genres_domestic_sales) / 3
-        genres_international_sales += (month_average_sales + genres_international_sales) / 3
-        genres_world_sales += (month_average_sales + genres_world_sales) / 3
+        genres_domestic_sales = (month_average_sales + genres_domestic_sales) / 2
+        genres_international_sales += (month_average_sales + genres_international_sales) / 2
+        genres_world_sales += (month_average_sales + genres_world_sales) / 2
 
         # movie rating modifier
         # get chosen rating then reduce by 5% if rated R
