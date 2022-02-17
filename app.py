@@ -625,12 +625,12 @@ def predict_movie_success():
         genres_world_sales += (month_average_sales + genres_world_sales) / 2
 
         # movie rating modifier
-        # get chosen rating then reduce by 5% if rated R
-        # reference studies showing decrease in sales if movie is rate R or other than G/PG/PG-13
+        # get chosen rating then reduce by 20% if rated R
+        # sales data backs up this reduction (see rating_sales_comparison.png for reference)
         if selected_movie_rating == 'R':
-            genres_domestic_sales *= 0.95
-            genres_international_sales *= 0.95
-            genres_world_sales *= 0.95
+            genres_domestic_sales *= 0.7
+            genres_international_sales *= 0.7
+            genres_world_sales = genres_domestic_sales + genres_international_sales
 
         # increase sales for continuations of popular series and
         series_movies = {}
@@ -639,7 +639,7 @@ def predict_movie_success():
                 if series_selection in movie.title:
                     genres_domestic_sales += (genres_domestic_sales * 0.2)
                     genres_international_sales += (genres_international_sales * 0.2)
-                    genres_world_sales += (genres_world_sales * 0.2)
+                    genres_world_sales = genres_domestic_sales + genres_international_sales
                     # first match found breaks loop to avoid duplicate additions
                     break
 
@@ -695,7 +695,7 @@ def predict_movie_success():
         if len(selected_genres) > 8:
             genres_domestic_sales -= (genres_domestic_sales * (0.1 * (len(selected_genres) - 8)))
             genres_international_sales -= (genres_international_sales * (0.1 * (len(selected_genres) - 8)))
-            genres_world_sales -= (genres_world_sales * (0.1 * (len(selected_genres) - 8)))
+            genres_world_sales = genres_world_sales = genres_domestic_sales + genres_international_sales
 
         # find movies with exact  or very similar genres to show as comparisons
         comparative_movies = []
