@@ -626,7 +626,7 @@ def predict_movie_success():
 
         # movie rating modifier
         # get chosen rating then reduce by 20% if rated R
-        # sales data backs up this reduction (see rating_sales_comparison.png for reference)
+        # sales data backs up this reduction (see results from average ratings sales on prediction results page)
         if selected_movie_rating == 'R':
             genres_domestic_sales *= 0.7
             genres_international_sales *= 0.7
